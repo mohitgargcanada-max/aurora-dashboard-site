@@ -3,8 +3,6 @@ name: Deploy AURORA Dashboard Site
 on:
   push:
     branches: [main]
-    paths:
-      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:
@@ -24,38 +22,49 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Download completed India and Canada site
+      - name: Checkout published site
+        uses: actions/checkout@v5
+
+      - name: Detect deployable content
+        id: site
         run: |
           set -euo pipefail
-          mkdir -p site
-          curl --location --fail --show-error --retry 3 'https://sdmntprwestus3.oaiusercontent.com/files/00000000-c2c4-81fd-b7ba-286cf391082f/raw?se=2026-08-03T19:34:24Z&sp=r&sv=2026-02-06&sr=b&scid=098658f4-f884-5e0b-87e4-bd90ba8f855e&skoid=2757bbe4-5137-4324-975b-acedc0bad279&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-03T11:14:43Z&ske=2026-08-04T11:14:43Z&sks=b&skv=2026-02-06&sig=Pl/z8a%2BaPpXZYeA%2BcjHdbB7sRsFl0w2Jqcet3qFEI74%3D' -o site.zip
-          unzip -q site.zip -d site
-          test -s site/index.html
-          test -s site/deployment.json
-          test -s site/india/index.html
-          test -s site/canada/index.html
+          if test -s index.html && test -s deployment.json && test -s india/index.html && test -s canada/index.html; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "Published dashboard content has not reached this repository yet."
+          fi
 
       - name: Verify deployment receipt
+        if: steps.site.outputs.ready == 'true'
         run: |
           node --input-type=module <<'NODE'
           import fs from "node:fs";
-          const receipt = JSON.parse(fs.readFileSync("site/deployment.json", "utf8"));
-          if (receipt.deployment_run_id !== "30841161722") throw new Error(`Unexpected source run: ${receipt.deployment_run_id}`);
+          const receipt = JSON.parse(fs.readFileSync("deployment.json", "utf8"));
+          if (receipt.deployment_run_id !== "30841161722") {
+            throw new Error(`Unexpected source run: ${receipt.deployment_run_id}`);
+          }
           for (const market of ["india", "canada"]) {
-            if (receipt.markets?.[market]?.status !== "PUBLISHED") throw new Error(`${market} not published`);
+            if (receipt.markets?.[market]?.status !== "PUBLISHED") {
+              throw new Error(`${market} not published`);
+            }
           }
           NODE
 
       - name: Configure GitHub Pages
+        if: steps.site.outputs.ready == 'true'
         uses: actions/configure-pages@v5
         with:
           enablement: true
 
       - name: Upload published site
+        if: steps.site.outputs.ready == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: .
 
       - name: Deploy GitHub Pages
+        if: steps.site.outputs.ready == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
