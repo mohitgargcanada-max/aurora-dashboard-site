@@ -1,20 +1,12 @@
 name: Deploy AURORA Dashboard Site
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "deployment-source.json"
+      - ".github/workflows/pages.yml"
   workflow_dispatch:
-    inputs:
-      artifact_url:
-        description: Temporary signed URL for the validated private Actions artifact
-        required: true
-        type: string
-      artifact_sha256:
-        description: SHA-256 digest of the artifact ZIP
-        required: true
-        type: string
-      source_run_id:
-        description: Private source workflow run ID
-        required: true
-        type: string
 
 permissions:
   contents: read
@@ -33,15 +25,32 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Checkout deployment manifest
+        uses: actions/checkout@v5
+
+      - name: Read transfer manifest
+        id: transfer
+        run: |
+          set -euo pipefail
+          test -s deployment-source.json
+          node --input-type=module <<'NODE'
+          import fs from "node:fs";
+          const manifest = JSON.parse(fs.readFileSync("deployment-source.json", "utf8"));
+          for (const field of ["artifact_url", "artifact_sha256", "source_run_id"]) {
+            if (!manifest[field]) throw new Error(`Missing transfer field: ${field}`);
+          }
+          fs.appendFileSync(process.env.GITHUB_OUTPUT, `artifact_url=${manifest.artifact_url}\n`);
+          fs.appendFileSync(process.env.GITHUB_OUTPUT, `artifact_sha256=${manifest.artifact_sha256}\n`);
+          fs.appendFileSync(process.env.GITHUB_OUTPUT, `source_run_id=${manifest.source_run_id}\n`);
+          NODE
+
       - name: Download validated private artifact
         env:
-          ARTIFACT_URL: ${{ inputs.artifact_url }}
-          ARTIFACT_SHA256: ${{ inputs.artifact_sha256 }}
+          ARTIFACT_URL: ${{ steps.transfer.outputs.artifact_url }}
+          ARTIFACT_SHA256: ${{ steps.transfer.outputs.artifact_sha256 }}
         run: |
           set -euo pipefail
           echo "::add-mask::${ARTIFACT_URL}"
-          test -n "${ARTIFACT_URL}"
-          test -n "${ARTIFACT_SHA256}"
           mkdir -p site
           curl --location --fail --silent --show-error --retry 3 --retry-delay 2 \
             "${ARTIFACT_URL}" -o "$RUNNER_TEMP/aurora-public-site.zip"
@@ -54,7 +63,7 @@ jobs:
 
       - name: Verify deployment receipt
         env:
-          SOURCE_RUN_ID: ${{ inputs.source_run_id }}
+          SOURCE_RUN_ID: ${{ steps.transfer.outputs.source_run_id }}
         run: |
           set -euo pipefail
           node --input-type=module <<'NODE'
