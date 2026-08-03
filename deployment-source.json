@@ -1,0 +1,15 @@
+{
+  "schema_version": "aurora_public_transfer_v1",
+  "source_repository": "mohitgargcanada-max/aurora-dashboards",
+  "source_run_id": "30841161722",
+  "source_artifact": "aurora-public-site-30841161722-3",
+  "source_artifact_id": "8868252966",
+  "artifact_sha256": "0c756991bd9f2151890ef454795017957915231134ddf024b415a3293715f739",
+  "artifact_url": "https://productionresultssa9.blob.core.windows.net/actions-results/84f9a47f-d0a0-4446-b24f-087b94811c11/workflow-job-run-35e76566-9d79-5f17-a034-bb14360c4b63/artifacts/a15cee5788fd0adcc98698424eeae25b56c643651a8c411589492c92c2059bfd.zip?rscd=attachment%3B+filename%3D%22aurora-public-site-30841161722-3.zip%22&rsct=application%2Fzip&se=2026-08-03T21%3A33%3A19Z&sig=N8fLuNYdLnJZYXOXs2GZYNeajBl5AkhJD5g1GEeFbF0%3D&ske=2026-08-03T23%3A06%3A48Z&skoid=ca7593d4-ee42-46cd-af88-8b886a2f84eb&sks=b&skt=2026-08-03T19%3A06%3A48Z&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skv=2025-11-05&sp=r&spr=https&sr=b&st=2026-08-03T21%3A23%3A14Z&sv=2025-11-05",
+  "created_at": "2026-08-03T21:23:19.556Z",
+  "markets": [
+    "india",
+    "canada"
+  ],
+  "us_excluded": true
+}
