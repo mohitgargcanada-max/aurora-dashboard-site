@@ -30,7 +30,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p site
-          curl --location --fail --show-error --retry 3 'https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-2664-822f-8ee2-e198acd21709/raw?se=2026-08-03T19:24:05Z&sp=r&sv=2026-02-06&sr=b&scid=ca44901f-d4ea-54f7-960c-fb2322bc8056&skoid=2757bbe4-5137-4324-975b-acedc0bad279&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-03T11:24:20Z&ske=2026-08-04T11:24:20Z&sks=b&skv=2026-02-06&sig=Teovu4lB8JBz/oa07EWcnSeoG/%2ByH2Qz1iHkGnTcG0o%3D' -o site.zip
+          curl --location --fail --show-error --retry 3 'https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-1634-822f-bc33-4b063e02197e/raw?se=2026-08-03T19:30:00Z&sp=r&sv=2026-02-06&sr=b&scid=be66648c-adff-5899-92c4-ea911c9cf265&skoid=2757bbe4-5137-4324-975b-acedc0bad279&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-03T19:21:25Z&ske=2026-08-04T19:21:25Z&sks=b&skv=2026-02-06&sig=d%2BYyVz34d2VuaO%2B2xRFZdiN007Bh97j8fRnyStok0Mc%3D' -o site.zip
           unzip -q site.zip -d site
           test -s site/index.html
           test -s site/deployment.json
