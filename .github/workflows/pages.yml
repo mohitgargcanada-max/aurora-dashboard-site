@@ -2,10 +2,19 @@ name: Deploy AURORA Dashboard Site
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - ".github/workflows/pages.yml"
+    inputs:
+      artifact_url:
+        description: Temporary signed URL for the validated private Actions artifact
+        required: true
+        type: string
+      artifact_sha256:
+        description: SHA-256 digest of the artifact ZIP
+        required: true
+        type: string
+      source_run_id:
+        description: Private source workflow run ID
+        required: true
+        type: string
 
 permissions:
   contents: read
@@ -16,10 +25,6 @@ concurrency:
   group: github-pages
   cancel-in-progress: true
 
-env:
-  RELEASE_TAG: aurora-site-30841161722
-  RELEASE_ASSET: aurora-public-site.zip
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -28,25 +33,34 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Download stable published-site release asset
+      - name: Download validated private artifact
+        env:
+          ARTIFACT_URL: ${{ inputs.artifact_url }}
+          ARTIFACT_SHA256: ${{ inputs.artifact_sha256 }}
         run: |
           set -euo pipefail
+          echo "::add-mask::${ARTIFACT_URL}"
+          test -n "${ARTIFACT_URL}"
+          test -n "${ARTIFACT_SHA256}"
           mkdir -p site
-          asset_url="https://github.com/${GITHUB_REPOSITORY}/releases/download/${RELEASE_TAG}/${RELEASE_ASSET}"
-          curl --location --fail --show-error --retry 12 --retry-delay 10 --retry-all-errors \
-            "$asset_url" -o "$RUNNER_TEMP/${RELEASE_ASSET}"
-          unzip -q "$RUNNER_TEMP/${RELEASE_ASSET}" -d site
+          curl --location --fail --silent --show-error --retry 3 --retry-delay 2 \
+            "${ARTIFACT_URL}" -o "$RUNNER_TEMP/aurora-public-site.zip"
+          echo "${ARTIFACT_SHA256}  $RUNNER_TEMP/aurora-public-site.zip" | sha256sum -c -
+          unzip -q "$RUNNER_TEMP/aurora-public-site.zip" -d site
           test -s site/index.html
           test -s site/deployment.json
           test -s site/india/index.html
           test -s site/canada/index.html
 
       - name: Verify deployment receipt
+        env:
+          SOURCE_RUN_ID: ${{ inputs.source_run_id }}
         run: |
+          set -euo pipefail
           node --input-type=module <<'NODE'
           import fs from "node:fs";
           const receipt = JSON.parse(fs.readFileSync("site/deployment.json", "utf8"));
-          if (receipt.deployment_run_id !== "30841161722") {
+          if (receipt.deployment_run_id !== process.env.SOURCE_RUN_ID) {
             throw new Error(`Unexpected source run: ${receipt.deployment_run_id}`);
           }
           for (const market of ["india", "canada"]) {
