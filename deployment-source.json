@@ -5,8 +5,8 @@
   "source_artifact": "aurora-public-site-30841161722-3",
   "source_artifact_id": "8868252966",
   "artifact_sha256": "0c756991bd9f2151890ef454795017957915231134ddf024b415a3293715f739",
-  "artifact_url": "https://productionresultssa9.blob.core.windows.net/actions-results/84f9a47f-d0a0-4446-b24f-087b94811c11/workflow-job-run-35e76566-9d79-5f17-a034-bb14360c4b63/artifacts/a15cee5788fd0adcc98698424eeae25b56c643651a8c411589492c92c2059bfd.zip?rscd=attachment%3B+filename%3D%22aurora-public-site-30841161722-3.zip%22&rsct=application%2Fzip&se=2026-08-03T21%3A33%3A19Z&sig=N8fLuNYdLnJZYXOXs2GZYNeajBl5AkhJD5g1GEeFbF0%3D&ske=2026-08-03T23%3A06%3A48Z&skoid=ca7593d4-ee42-46cd-af88-8b886a2f84eb&sks=b&skt=2026-08-03T19%3A06%3A48Z&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skv=2025-11-05&sp=r&spr=https&sr=b&st=2026-08-03T21%3A23%3A14Z&sv=2025-11-05",
-  "created_at": "2026-08-03T21:23:19.556Z",
+  "artifact_url": "https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-1348-822f-b2cf-7c04967a0379/raw?se=2026-08-03T22:37:28Z&sp=r&sv=2026-02-06&sr=b&scid=b00e35b2-56b2-5263-8777-67e4ea7cafcd&skoid=fae15675-a81a-44b5-9d8c-d8445a7c26a2&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-03T21:56:56Z&ske=2026-08-04T21:56:56Z&sks=b&skv=2026-02-06&sig=WWXEUCqiLYq6rxk%2B0pYR7Qr1HLT5haYCmOh1Fw/R9W4%3D",
+  "created_at": "2026-08-03T22:32:30Z",
   "markets": [
     "india",
     "canada"

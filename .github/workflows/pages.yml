@@ -15,15 +15,12 @@ permissions:
 
 concurrency:
   group: github-pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout deployment manifest
         uses: actions/checkout@v5
@@ -82,15 +79,23 @@ jobs:
           }
           NODE
 
+      - name: Upload published site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
         with:
           enablement: true
-
-      - name: Upload published site
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
 
       - name: Deploy GitHub Pages
         id: deployment
