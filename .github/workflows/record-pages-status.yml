@@ -1,6 +1,10 @@
 name: Record AURORA Pages Status
 
 on:
+  pull_request:
+    branches: [main]
+    paths:
+      - ".github/workflows/record-pages-status.yml"
   push:
     branches: [main]
     paths:
@@ -20,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 8
     env:
-      TARGET_SHA: e3ebd06ef7aa83a5de29ba04f1ddd36f5f9ca393
+      TARGET_SHA: d10b957ec0fd20b2a62a0eba4f520fec6f07fc78
       SITE_URL: https://mohitgargcanada-max.github.io/aurora-dashboard-site/
     steps:
       - name: Checkout
@@ -121,9 +125,19 @@ jobs:
             },
           };
           fs.writeFileSync("ops/pages-deployment-status.json", `${JSON.stringify(status, null, 2)}\n`);
+          console.log(JSON.stringify(status, null, 2));
           NODE
 
+      - name: Upload observation
+        uses: actions/upload-artifact@v4
+        with:
+          name: aurora-pages-observation-${{ github.run_id }}
+          path: ops/pages-deployment-status.json
+          if-no-files-found: error
+          retention-days: 7
+
       - name: Record observation
+        if: github.event_name != 'pull_request'
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
