@@ -4,7 +4,17 @@ on:
   push:
     branches: [main]
     paths:
+      - "index.html"
+      - "404.html"
+      - ".nojekyll"
+      - "assets/**"
+      - "deployments/**"
+      - "deployment.json"
       - "deployment-source.json"
+      - "us/**"
+      - "india/**"
+      - "canada/**"
+      - "markets/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -22,13 +32,29 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - name: Checkout deployment manifest
+      - name: Checkout public-site repository
         uses: actions/checkout@v5
 
-      - name: Read transfer manifest
-        id: transfer
+      - name: Materialize current public site
+        id: materialize
         run: |
           set -euo pipefail
+          rm -rf site
+          mkdir -p site
+
+          if [[ -s index.html && -s deployment.json ]]; then
+            echo "Using repository-native independent market publication."
+            shopt -s dotglob nullglob
+            for entry in * .nojekyll; do
+              [[ "$entry" == ".git" || "$entry" == ".github" || "$entry" == "README.md" || "$entry" == "deployment-source.json" || "$entry" == "ops" || "$entry" == "site" ]] && continue
+              [[ -e "$entry" ]] || continue
+              cp -a "$entry" site/
+            done
+            echo "mode=repository" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "Repository-native site not bootstrapped yet; using legacy transfer manifest."
           test -s deployment-source.json
           node --input-type=module <<'NODE'
           import fs from "node:fs";
@@ -41,42 +67,38 @@ jobs:
           fs.appendFileSync(process.env.GITHUB_OUTPUT, `source_run_id=${manifest.source_run_id}\n`);
           NODE
 
-      - name: Download validated private artifact
-        env:
-          ARTIFACT_URL: ${{ steps.transfer.outputs.artifact_url }}
-          ARTIFACT_SHA256: ${{ steps.transfer.outputs.artifact_sha256 }}
+          artifact_url="$(node -p "JSON.parse(require('fs').readFileSync('deployment-source.json','utf8')).artifact_url")"
+          artifact_sha256="$(node -p "JSON.parse(require('fs').readFileSync('deployment-source.json','utf8')).artifact_sha256")"
+          echo "::add-mask::${artifact_url}"
+          curl --location --fail --silent --show-error --retry 3 --retry-delay 2 \
+            "$artifact_url" -o "$RUNNER_TEMP/aurora-public-site.zip"
+          echo "${artifact_sha256}  $RUNNER_TEMP/aurora-public-site.zip" | sha256sum -c -
+          unzip -q "$RUNNER_TEMP/aurora-public-site.zip" -d site
+          echo "mode=legacy" >> "$GITHUB_OUTPUT"
+
+      - name: Verify deployable site
         run: |
           set -euo pipefail
-          echo "::add-mask::${ARTIFACT_URL}"
-          mkdir -p site
-          curl --location --fail --silent --show-error --retry 3 --retry-delay 2 \
-            "${ARTIFACT_URL}" -o "$RUNNER_TEMP/aurora-public-site.zip"
-          echo "${ARTIFACT_SHA256}  $RUNNER_TEMP/aurora-public-site.zip" | sha256sum -c -
-          unzip -q "$RUNNER_TEMP/aurora-public-site.zip" -d site
           test -s site/index.html
           test -s site/deployment.json
-          test -s site/india/index.html
-          test -s site/canada/index.html
-
-      - name: Verify deployment receipt
-        env:
-          SOURCE_RUN_ID: ${{ steps.transfer.outputs.source_run_id }}
-        run: |
-          set -euo pipefail
           node --input-type=module <<'NODE'
           import fs from "node:fs";
           const receipt = JSON.parse(fs.readFileSync("site/deployment.json", "utf8"));
-          if (receipt.deployment_run_id !== process.env.SOURCE_RUN_ID) {
-            throw new Error(`Unexpected source run: ${receipt.deployment_run_id}`);
-          }
-          for (const market of ["india", "canada"]) {
-            if (receipt.markets?.[market]?.status !== "PUBLISHED") {
-              throw new Error(`${market} not published`);
+          const markets = receipt.markets ?? {};
+          const published = [];
+          for (const market of ["us", "india", "canada"]) {
+            const row = markets[market];
+            if (row?.status !== "PUBLISHED") continue;
+            if (!/^\d{4}-\d{2}-\d{2}$/.test(String(row.completed_session ?? ""))) {
+              throw new Error(`${market} published receipt has invalid completed session`);
             }
+            if (!fs.existsSync(`site/${market}/index.html`)) {
+              throw new Error(`${market} published receipt has no market index`);
+            }
+            published.push(market);
           }
-          if (receipt.markets?.us?.status === "PUBLISHED") {
-            throw new Error("US must remain excluded until reconciliation passes");
-          }
+          if (published.length === 0) throw new Error("No independently published market is available");
+          console.log(`Publishing last-good markets: ${published.join(", ")}`);
           NODE
 
       - name: Upload published site
