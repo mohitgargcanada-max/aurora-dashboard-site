@@ -31,6 +31,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    outputs:
+      ready: ${{ steps.materialize.outputs.ready }}
     steps:
       - name: Checkout public-site repository
         uses: actions/checkout@v5
@@ -50,33 +52,26 @@ jobs:
               [[ -e "$entry" ]] || continue
               cp -a "$entry" site/
             done
-            echo "mode=repository" >> "$GITHUB_OUTPUT"
+            {
+              echo "mode=repository"
+              echo "ready=true"
+            } >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          echo "Repository-native site not bootstrapped yet; using legacy transfer manifest."
-          test -s deployment-source.json
-          node --input-type=module <<'NODE'
-          import fs from "node:fs";
-          const manifest = JSON.parse(fs.readFileSync("deployment-source.json", "utf8"));
-          for (const field of ["artifact_url", "artifact_sha256", "source_run_id"]) {
-            if (!manifest[field]) throw new Error(`Missing transfer field: ${field}`);
-          }
-          fs.appendFileSync(process.env.GITHUB_OUTPUT, `artifact_url=${manifest.artifact_url}\n`);
-          fs.appendFileSync(process.env.GITHUB_OUTPUT, `artifact_sha256=${manifest.artifact_sha256}\n`);
-          fs.appendFileSync(process.env.GITHUB_OUTPUT, `source_run_id=${manifest.source_run_id}\n`);
-          NODE
-
-          artifact_url="$(node -p "JSON.parse(require('fs').readFileSync('deployment-source.json','utf8')).artifact_url")"
-          artifact_sha256="$(node -p "JSON.parse(require('fs').readFileSync('deployment-source.json','utf8')).artifact_sha256")"
-          echo "::add-mask::${artifact_url}"
-          curl --location --fail --silent --show-error --retry 3 --retry-delay 2 \
-            "$artifact_url" -o "$RUNNER_TEMP/aurora-public-site.zip"
-          echo "${artifact_sha256}  $RUNNER_TEMP/aurora-public-site.zip" | sha256sum -c -
-          unzip -q "$RUNNER_TEMP/aurora-public-site.zip" -d site
-          echo "mode=legacy" >> "$GITHUB_OUTPUT"
+          # The legacy transfer manifest used a short-lived artifact URL and may
+          # now be expired. During the cutover, absence of repository-native site
+          # content means there is simply nothing new to deploy. Exit cleanly and
+          # preserve the currently served Pages deployment until the first
+          # independent market publisher bootstraps this repository.
+          echo "Independent public site has not been bootstrapped yet; preserving current live Pages deployment."
+          {
+            echo "mode=bootstrap-pending"
+            echo "ready=false"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Verify deployable site
+        if: steps.materialize.outputs.ready == 'true'
         run: |
           set -euo pipefail
           test -s site/index.html
@@ -102,12 +97,18 @@ jobs:
           NODE
 
       - name: Upload published site
+        if: steps.materialize.outputs.ready == 'true'
         uses: actions/upload-pages-artifact@v4
         with:
           path: site
 
+      - name: Bootstrap status
+        if: steps.materialize.outputs.ready != 'true'
+        run: echo "No repository-native market payload yet; existing Pages deployment remains untouched."
+
   deploy:
     needs: build
+    if: needs.build.outputs.ready == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     environment:
