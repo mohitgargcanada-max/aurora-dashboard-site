@@ -1,0 +1,11 @@
+{
+  "schema_version": "aurora_public_deployment_v1",
+  "publication_mode": "bootstrap_route_recovery",
+  "generated_at": "2026-09-08T14:15:00Z",
+  "source_repository": "mohitgargcanada-max/aurora-dashboards",
+  "markets": {
+    "us": {"status": "BOOTSTRAP_ROUTE", "completed_session": null},
+    "india": {"status": "BOOTSTRAP_ROUTE", "completed_session": null},
+    "canada": {"status": "BOOTSTRAP_ROUTE", "completed_session": null}
+  }
+}

@@ -59,11 +59,6 @@ jobs:
             exit 0
           fi
 
-          # The legacy transfer manifest used a short-lived artifact URL and may
-          # now be expired. During the cutover, absence of repository-native site
-          # content means there is simply nothing new to deploy. Exit cleanly and
-          # preserve the currently served Pages deployment until the first
-          # independent market publisher bootstraps this repository.
           echo "Independent public site has not been bootstrapped yet; preserving current live Pages deployment."
           {
             echo "mode=bootstrap-pending"
@@ -81,19 +76,30 @@ jobs:
           const receipt = JSON.parse(fs.readFileSync("site/deployment.json", "utf8"));
           const markets = receipt.markets ?? {};
           const published = [];
+          const bootstrap = [];
           for (const market of ["us", "india", "canada"]) {
             const row = markets[market];
-            if (row?.status !== "PUBLISHED") continue;
-            if (!/^\d{4}-\d{2}-\d{2}$/.test(String(row.completed_session ?? ""))) {
-              throw new Error(`${market} published receipt has invalid completed session`);
+            if (row?.status === "PUBLISHED") {
+              if (!/^\d{4}-\d{2}-\d{2}$/.test(String(row.completed_session ?? ""))) {
+                throw new Error(`${market} published receipt has invalid completed session`);
+              }
+              if (!fs.existsSync(`site/${market}/index.html`)) {
+                throw new Error(`${market} published receipt has no market index`);
+              }
+              published.push(market);
+              continue;
             }
-            if (!fs.existsSync(`site/${market}/index.html`)) {
-              throw new Error(`${market} published receipt has no market index`);
+            if (row?.status === "BOOTSTRAP_ROUTE") {
+              if (!fs.existsSync(`site/${market}/index.html`)) {
+                throw new Error(`${market} bootstrap receipt has no market index`);
+              }
+              bootstrap.push(market);
             }
-            published.push(market);
           }
-          if (published.length === 0) throw new Error("No independently published market is available");
-          console.log(`Publishing last-good markets: ${published.join(", ")}`);
+          if (published.length === 0 && bootstrap.length === 0) {
+            throw new Error("No published or bootstrap market route is available");
+          }
+          console.log(`Publishing markets: ${published.join(", ") || "none"}; bootstrap routes: ${bootstrap.join(", ") || "none"}`);
           NODE
 
       - name: Upload published site
