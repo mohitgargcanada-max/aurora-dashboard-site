@@ -1,0 +1,48 @@
+{
+  "market": "CANADA",
+  "status": "INDEX_FRESHNESS_OK",
+  "context_status": "INDEX_CONTEXT_OK",
+  "expected_session": "2026-09-11",
+  "checked_symbols": 5,
+  "valid_symbols": 5,
+  "blocking_stale_symbols": [],
+  "optional_stale_symbols": [],
+  "stale_symbols": [],
+  "present_symbols": [
+    {
+      "symbol": "^GSPTSE",
+      "data_as_of": "2026-09-11",
+      "provider": "YAHOO_FINANCE",
+      "fallback_reason": "YAHOO_FREE_PRIMARY"
+    },
+    {
+      "symbol": "XIC.TO",
+      "data_as_of": "2026-09-11",
+      "provider": "YAHOO_FINANCE",
+      "fallback_reason": "YAHOO_FREE_PRIMARY"
+    },
+    {
+      "symbol": "XIU.TO",
+      "data_as_of": "2026-09-11",
+      "provider": "YAHOO_FINANCE",
+      "fallback_reason": "YAHOO_FREE_PRIMARY"
+    },
+    {
+      "symbol": "XIT.TO",
+      "data_as_of": "2026-09-11",
+      "provider": "YAHOO_FINANCE",
+      "fallback_reason": "YAHOO_FREE_PRIMARY"
+    },
+    {
+      "symbol": "XEG.TO",
+      "data_as_of": "2026-09-11",
+      "provider": "YAHOO_FINANCE",
+      "fallback_reason": "YAHOO_FREE_PRIMARY"
+    }
+  ],
+  "provider_route": [
+    "OFFICIAL_CANADA_LISTINGS",
+    "YAHOO_FINANCE",
+    "EODHD_FALLBACK"
+  ]
+}

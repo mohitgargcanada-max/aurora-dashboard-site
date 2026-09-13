@@ -1,0 +1,111 @@
+{
+  "market": "CANADA",
+  "status": "INDEX_REFRESH_ATTEMPTED",
+  "expected_completed_session": "2026-09-11",
+  "retrieved_at": "2026-09-13T14:06:57.620Z",
+  "provider_route": [
+    "YAHOO_FINANCE",
+    "EODHD_FALLBACK"
+  ],
+  "attempts": [
+    {
+      "symbol": "^GSPTSE",
+      "provider": "YAHOO_FINANCE",
+      "status": "OK",
+      "data_as_of": "2026-09-11",
+      "reason": "OK",
+      "type": "INDEX",
+      "completed_session_trim": null
+    },
+    {
+      "symbol": "XIT.TO",
+      "provider": "YAHOO_FINANCE",
+      "status": "OK",
+      "data_as_of": "2026-09-11",
+      "reason": "OK",
+      "type": "INDEX",
+      "completed_session_trim": null
+    },
+    {
+      "symbol": "XIC.TO",
+      "provider": "YAHOO_FINANCE",
+      "status": "OK",
+      "data_as_of": "2026-09-11",
+      "reason": "OK",
+      "type": "INDEX",
+      "completed_session_trim": null
+    },
+    {
+      "symbol": "XIU.TO",
+      "provider": "YAHOO_FINANCE",
+      "status": "OK",
+      "data_as_of": "2026-09-11",
+      "reason": "OK",
+      "type": "INDEX",
+      "completed_session_trim": null
+    },
+    {
+      "symbol": "XEG.TO",
+      "provider": "YAHOO_FINANCE",
+      "status": "OK",
+      "data_as_of": "2026-09-11",
+      "reason": "OK",
+      "type": "INDEX",
+      "completed_session_trim": null
+    },
+    {
+      "symbol": "SHOP.TO",
+      "provider": "YAHOO_FINANCE",
+      "status": "OK",
+      "data_as_of": "2026-09-11",
+      "reason": "OK",
+      "type": "INDEX",
+      "completed_session_trim": null
+    },
+    {
+      "symbol": "XFN.TO",
+      "provider": "YAHOO_FINANCE",
+      "status": "OK",
+      "data_as_of": "2026-09-11",
+      "reason": "OK",
+      "type": "INDEX",
+      "completed_session_trim": null
+    },
+    {
+      "symbol": "XMA.TO",
+      "provider": "YAHOO_FINANCE",
+      "status": "OK",
+      "data_as_of": "2026-09-11",
+      "reason": "OK",
+      "type": "INDEX",
+      "completed_session_trim": null
+    },
+    {
+      "symbol": "ZUT.TO",
+      "provider": "YAHOO_FINANCE",
+      "status": "OK",
+      "data_as_of": "2026-09-11",
+      "reason": "OK",
+      "type": "INDEX",
+      "completed_session_trim": null
+    },
+    {
+      "symbol": "XRE.TO",
+      "provider": "YAHOO_FINANCE",
+      "status": "OK",
+      "data_as_of": "2026-09-11",
+      "reason": "OK",
+      "type": "INDEX",
+      "completed_session_trim": null
+    },
+    {
+      "symbol": "ZIN.TO",
+      "provider": "YAHOO_FINANCE",
+      "status": "OK",
+      "data_as_of": "2026-09-11",
+      "reason": "OK",
+      "type": "INDEX",
+      "completed_session_trim": null
+    }
+  ]
+}

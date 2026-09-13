@@ -1,0 +1,46 @@
+{
+  "schema_version": "aurora_canada_result_event_ingestion_v0_1",
+  "market": "CANADA",
+  "generated_at": "2026-09-13T14:08:50.400Z",
+  "data_as_of": "2026-09-11",
+  "source_status": "NOT_AVAILABLE_NO_OFFICIAL_FILES",
+  "official_document_count": 0,
+  "parsed_row_count": 0,
+  "accepted_adapter_count": 0,
+  "rejected_adapter_count": 0,
+  "sedar_document_count": 0,
+  "issuer_release_count": 0,
+  "official_registry_count": 0,
+  "runtime_record_count": 0,
+  "parse_failure_count": 0,
+  "parse_failures": [],
+  "source_providers": [
+    "SEDAR_PLUS_OFFICIAL",
+    "CANADA_ISSUER_IR_OFFICIAL"
+  ],
+  "input_paths": {
+    "sedar": [
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/cache/canada/raw/events/sedar-plus-financial-documents.json",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/cache/canada/raw/events/sedar-plus-financial-documents.csv",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/canada-sedar-plus-financial-documents-prefetch.json",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/canada-sedar-plus-financial-documents-prefetch.csv"
+    ],
+    "issuer": [
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/cache/canada/raw/events/issuer-ir-result-releases.json",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/cache/canada/raw/events/issuer-ir-result-releases.csv",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/canada-issuer-ir-result-releases-prefetch.json",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/canada-issuer-ir-result-releases-prefetch.csv"
+    ]
+  },
+  "authority_guards": {
+    "context_only": true,
+    "decision_authority": false,
+    "candidate_membership_mutated": false,
+    "rank_or_score_mutated": false,
+    "final_bucket_mutated": false,
+    "market_permission_mutated": false,
+    "trigger_stop_risk_mutated": false,
+    "extra_ohlcv_fetch": false,
+    "provider_blending": false
+  }
+}

@@ -1,0 +1,851 @@
+{
+  "schemaVersion": "aurora_chart_payload_publish_report_v1",
+  "market": "CANADA",
+  "publisherVersion": "aurora_chart_compatibility_bridge_v1_0",
+  "generatedAt": "2026-09-13T14:08:54.804Z",
+  "completedSession": "2026-09-11",
+  "visibleSymbols": 104,
+  "publishedSymbols": 104,
+  "missingSymbols": 0,
+  "maximumSymbols": 500,
+  "authority": {
+    "decisionAuthority": false,
+    "extraOhlcvFetch": false,
+    "providerBlending": false
+  },
+  "published": [
+    {
+      "symbol": "FEC",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/FEC.json",
+      "dailyBars": 55,
+      "weeklyBars": 12,
+      "monthlyBars": 3
+    },
+    {
+      "symbol": "HMMC",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/HMMC.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "GRZ",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/GRZ.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "WDO",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/WDO.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "TWM",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/TWM.json",
+      "dailyBars": 825,
+      "weeklyBars": 172,
+      "monthlyBars": 49
+    },
+    {
+      "symbol": "RFA",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/RFA.json",
+      "dailyBars": 100,
+      "weeklyBars": 20,
+      "monthlyBars": 9
+    },
+    {
+      "symbol": "CEU",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/CEU.json",
+      "dailyBars": 277,
+      "weeklyBars": 54,
+      "monthlyBars": 35
+    },
+    {
+      "symbol": "VLE",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/VLE.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "MSA",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/MSA.json",
+      "dailyBars": 224,
+      "weeklyBars": 40,
+      "monthlyBars": 21
+    },
+    {
+      "symbol": "MATR",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/MATR.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "OBE",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/OBE.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "B",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/B.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "SME",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/SME.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "ROB",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/ROB.json",
+      "dailyBars": 624,
+      "weeklyBars": 129,
+      "monthlyBars": 39
+    },
+    {
+      "symbol": "NVX",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/NVX.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "YTY",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/YTY.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "ADZ",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/ADZ.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "BVA",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/BVA.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "CCMC",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/CCMC.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "CBR",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/CBR.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "COCO",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/COCO.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "TNZ",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/TNZ.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "UVC",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/UVC.json",
+      "dailyBars": 469,
+      "weeklyBars": 96,
+      "monthlyBars": 28
+    },
+    {
+      "symbol": "CCD",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/CCD.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "LGD",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/LGD.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "SOI",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/SOI.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "TOT",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/TOT.json",
+      "dailyBars": 191,
+      "weeklyBars": 45,
+      "monthlyBars": 19
+    },
+    {
+      "symbol": "SWP",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/SWP.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "NBVA",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/NBVA.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "AXO",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/AXO.json",
+      "dailyBars": 320,
+      "weeklyBars": 65,
+      "monthlyBars": 15
+    },
+    {
+      "symbol": "NICN",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/NICN.json",
+      "dailyBars": 1032,
+      "weeklyBars": 210,
+      "monthlyBars": 49
+    },
+    {
+      "symbol": "HOH",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/HOH.json",
+      "dailyBars": 519,
+      "weeklyBars": 105,
+      "monthlyBars": 25
+    },
+    {
+      "symbol": "GSP",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/GSP.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "STS",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/STS.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "GCV",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/GCV.json",
+      "dailyBars": 706,
+      "weeklyBars": 143,
+      "monthlyBars": 34
+    },
+    {
+      "symbol": "NAQ-P",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/NAQ-P.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "CGD",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/CGD.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "TLO",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/TLO.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "XLY",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/XLY.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "CWEB",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/CWEB.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "TTS",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/TTS.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "VRR",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/VRR.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "JEC",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/JEC.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "TTG",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/TTG.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "TBLL",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/TBLL.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "SII",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/SII.json",
+      "dailyBars": 224,
+      "weeklyBars": 43,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "EOX",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/EOX.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "LIB",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/LIB.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "EWK",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/EWK.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "ALT",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/ALT.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "PWER",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/PWER.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "HMMC",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/HMMC.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "ADZ",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/ADZ.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "B",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/B.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "CCD",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/CCD.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "COCO",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/COCO.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "EGM",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/EGM.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "JEC",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/JEC.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "KALM-P",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/KALM-P.json",
+      "dailyBars": 790,
+      "weeklyBars": 161,
+      "monthlyBars": 38
+    },
+    {
+      "symbol": "MAND-P",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/MAND-P.json",
+      "dailyBars": 1103,
+      "weeklyBars": 224,
+      "monthlyBars": 53
+    },
+    {
+      "symbol": "NVX",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/NVX.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "SME",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/SME.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "YOO",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/YOO.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "MDM",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/MDM.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "SOO-P",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/SOO-P.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "SWP",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/SWP.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "WDO",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/WDO.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "BIGT",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/BIGT.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "GFOR-P",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/GFOR-P.json",
+      "dailyBars": 1200,
+      "weeklyBars": 243,
+      "monthlyBars": 58
+    },
+    {
+      "symbol": "GVC",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/GVC.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "MTX",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/MTX.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "NSE",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/NSE.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "RJX-A",
+      "exchange": null,
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/RJX-A.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "LEGY",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/LEGY.json",
+      "dailyBars": 781,
+      "weeklyBars": 159,
+      "monthlyBars": 37
+    },
+    {
+      "symbol": "BZ",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/BZ.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "AROC-P",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/AROC-P.json",
+      "dailyBars": 747,
+      "weeklyBars": 152,
+      "monthlyBars": 36
+    },
+    {
+      "symbol": "TOTC",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/TOTC.json",
+      "dailyBars": 879,
+      "weeklyBars": 178,
+      "monthlyBars": 42
+    },
+    {
+      "symbol": "KALM-P",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/KALM-P.json",
+      "dailyBars": 790,
+      "weeklyBars": 161,
+      "monthlyBars": 38
+    },
+    {
+      "symbol": "CZZ",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/CZZ.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "GOK",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/GOK.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "LMR",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/LMR.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "AWE",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/AWE.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "EPRX",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/EPRX.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "CCM",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/CCM.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "TLC-P",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/TLC-P.json",
+      "dailyBars": 660,
+      "weeklyBars": 134,
+      "monthlyBars": 32
+    },
+    {
+      "symbol": "TVE",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/TVE.json",
+      "dailyBars": 227,
+      "weeklyBars": 42,
+      "monthlyBars": 23
+    },
+    {
+      "symbol": "MUN",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/MUN.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "HUT",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/HUT.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "COSA",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/COSA.json",
+      "dailyBars": 1124,
+      "weeklyBars": 227,
+      "monthlyBars": 54
+    },
+    {
+      "symbol": "CLS",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/CLS.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "BRM",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/BRM.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "SPA",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/SPA.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "AUGC",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/AUGC.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "PRQ",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/PRQ.json",
+      "dailyBars": 78,
+      "weeklyBars": 15,
+      "monthlyBars": 12
+    },
+    {
+      "symbol": "AE",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/AE.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "FM",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/FM.json",
+      "dailyBars": 1150,
+      "weeklyBars": 231,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "GEI",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/GEI.json",
+      "dailyBars": 69,
+      "weeklyBars": 14,
+      "monthlyBars": 6
+    },
+    {
+      "symbol": "AAAJ-P",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/AAAJ-P.json",
+      "dailyBars": 989,
+      "weeklyBars": 201,
+      "monthlyBars": 47
+    },
+    {
+      "symbol": "MNLX",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/MNLX.json",
+      "dailyBars": 1193,
+      "weeklyBars": 242,
+      "monthlyBars": 57
+    },
+    {
+      "symbol": "TVA-B",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/TVA-B.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "ICRS",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/ICRS.json",
+      "dailyBars": 1128,
+      "weeklyBars": 228,
+      "monthlyBars": 54
+    },
+    {
+      "symbol": "MDI",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/MDI.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "SKE",
+      "exchange": "TSX",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/SKE.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    },
+    {
+      "symbol": "LRA",
+      "exchange": "TSXV",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/charts/LRA.json",
+      "dailyBars": 1255,
+      "weeklyBars": 254,
+      "monthlyBars": 60
+    }
+  ],
+  "missing": []
+}

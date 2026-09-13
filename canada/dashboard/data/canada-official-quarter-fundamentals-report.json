@@ -1,0 +1,49 @@
+{
+  "schema_version": "aurora_canada_official_quarter_ingestion_v0_1",
+  "market": "CANADA",
+  "generated_at": "2026-09-13T14:08:51.089Z",
+  "data_as_of": "2026-09-11",
+  "source_status": "NOT_AVAILABLE_NO_OFFICIAL_FILES",
+  "sedar_source_status": "SEDAR_PLUS_NOT_AVAILABLE_NO_OFFICIAL_FILES",
+  "issuer_ir_source_status": "ISSUER_IR_NOT_AVAILABLE_NO_OFFICIAL_FILES",
+  "sedar_document_count": 0,
+  "issuer_document_count": 0,
+  "sedar_parsed_row_count": 0,
+  "issuer_parsed_row_count": 0,
+  "parse_failure_count": 0,
+  "rejected_adapter_count": 0,
+  "source_record_count": 0,
+  "canonical_quarter_count": 0,
+  "sedar_canonical_count": 0,
+  "issuer_ir_fallback_count": 0,
+  "input_paths": {
+    "sedar": [
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/cache/canada/raw/fundamentals/sedar-plus-quarterly-fundamentals.json",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/cache/canada/raw/fundamentals/sedar-plus-quarterly-fundamentals.csv",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/canada-sedar-plus-quarterly-fundamentals-prefetch.json",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/canada-sedar-plus-quarterly-fundamentals-prefetch.csv"
+    ],
+    "issuer": [
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/cache/canada/raw/fundamentals/issuer-ir-quarterly-fundamentals.json",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/cache/canada/raw/fundamentals/issuer-ir-quarterly-fundamentals.csv",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/canada-issuer-ir-quarterly-fundamentals-prefetch.json",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/canada/dashboard/data/canada-issuer-ir-quarterly-fundamentals-prefetch.csv"
+    ]
+  },
+  "source_providers": [
+    "SEDAR_PLUS_OFFICIAL",
+    "CANADA_ISSUER_IR_OFFICIAL"
+  ],
+  "authority_guards": {
+    "context_only": true,
+    "decision_authority": false,
+    "technical_rejection_authority": false,
+    "candidate_membership_mutated": false,
+    "rank_or_score_mutated": false,
+    "final_bucket_mutated": false,
+    "market_permission_mutated": false,
+    "trigger_stop_risk_mutated": false,
+    "extra_ohlcv_fetch": false,
+    "provider_blending": false
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "market": "CANADA",
+  "total_checked": 334,
+  "counts_by_status": {
+    "MAPPED_OFFICIAL": 89,
+    "MAPPED_PROVIDER_HIGH_CONFIDENCE": 0,
+    "MAPPED_INTERNAL_REVIEWED": 0,
+    "MAPPED_PROXY_LOW_CONFIDENCE": 0,
+    "UNMAPPED_REVIEW": 245,
+    "CONFLICT_REVIEW": 0,
+    "NON_COMMON_REFERENCE": 0
+  },
+  "examples": {
+    "conflicts": [],
+    "unmapped": [
+      {
+        "market": "CANADA",
+        "symbol": "MSA",
+        "company_name": "Mineros S.A.",
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "TMX_LISTED_COMPANY_DIRECTORY",
+        "classification_confidence": "MEDIUM",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED",
+          "NATIVE_NAICS_SUBSECTOR_MISSING",
+          "OFFICIAL_SUPPORTING_CONTEXT_NOT_NATIVE_TAXONOMY_EXCLUDED_FROM_RRG"
+        ]
+      },
+      {
+        "market": "CANADA",
+        "symbol": "MATR",
+        "company_name": "Mattr Corp.",
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "TMX_LISTED_COMPANY_DIRECTORY",
+        "classification_confidence": "MEDIUM",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED",
+          "NATIVE_NAICS_SUBSECTOR_MISSING",
+          "OFFICIAL_SUPPORTING_CONTEXT_NOT_NATIVE_TAXONOMY_EXCLUDED_FROM_RRG"
+        ]
+      },
+      {
+        "market": "CANADA",
+        "symbol": "TWM",
+        "company_name": "Tidewater Midstream and Infrastructure Ltd.",
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "TMX_LISTED_COMPANY_DIRECTORY",
+        "classification_confidence": "MEDIUM",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED",
+          "NATIVE_NAICS_SUBSECTOR_MISSING",
+          "OFFICIAL_SUPPORTING_CONTEXT_NOT_NATIVE_TAXONOMY_EXCLUDED_FROM_RRG"
+        ]
+      },
+      {
+        "market": "CANADA",
+        "symbol": "RFA",
+        "company_name": "RFA Financial Inc.",
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "TMX_LISTED_COMPANY_DIRECTORY",
+        "classification_confidence": "MEDIUM",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED",
+          "NATIVE_NAICS_SUBSECTOR_MISSING",
+          "OFFICIAL_SUPPORTING_CONTEXT_NOT_NATIVE_TAXONOMY_EXCLUDED_FROM_RRG"
+        ]
+      },
+      {
+        "market": "CANADA",
+        "symbol": "YTY",
+        "company_name": "Wi2Wi Corporation",
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "TMX_LISTED_COMPANY_DIRECTORY",
+        "classification_confidence": "MEDIUM",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED",
+          "NATIVE_NAICS_SUBSECTOR_MISSING",
+          "OFFICIAL_SUPPORTING_CONTEXT_NOT_NATIVE_TAXONOMY_EXCLUDED_FROM_RRG"
+        ]
+      },
+      {
+        "market": "CANADA",
+        "symbol": "ADZ",
+        "company_name": "Adamera Minerals Corp.",
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "TMX_LISTED_COMPANY_DIRECTORY",
+        "classification_confidence": "MEDIUM",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED",
+          "NATIVE_NAICS_SUBSECTOR_MISSING",
+          "OFFICIAL_SUPPORTING_CONTEXT_NOT_NATIVE_TAXONOMY_EXCLUDED_FROM_RRG"
+        ]
+      },
+      {
+        "market": "CANADA",
+        "symbol": "CCMC",
+        "company_name": "Core Critical Metals Corp.",
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "TMX_LISTED_COMPANY_DIRECTORY",
+        "classification_confidence": "MEDIUM",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED",
+          "NATIVE_NAICS_SUBSECTOR_MISSING",
+          "OFFICIAL_SUPPORTING_CONTEXT_NOT_NATIVE_TAXONOMY_EXCLUDED_FROM_RRG"
+        ]
+      },
+      {
+        "market": "CANADA",
+        "symbol": "UVC",
+        "company_name": "Illumisoft Lighting Corp.",
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "TMX_LISTED_COMPANY_DIRECTORY",
+        "classification_confidence": "MEDIUM",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED",
+          "NATIVE_NAICS_SUBSECTOR_MISSING",
+          "OFFICIAL_SUPPORTING_CONTEXT_NOT_NATIVE_TAXONOMY_EXCLUDED_FROM_RRG"
+        ]
+      }
+    ],
+    "low_confidence": []
+  },
+  "excluded_from_industry_theme_rrg": 245,
+  "excluded_from_sector_rrg": 245,
+  "excluded_from_industry_group_rrg": 245,
+  "excluded_from_industry_rrg": 334,
+  "excluded_from_sub_industry_rrg": 334,
+  "excluded_from_theme_rrg": 334,
+  "source_coverage_by_market": {
+    "CANADA": {
+      "TMX_LISTED_COMPANY_DIRECTORY": 334
+    }
+  }
+}

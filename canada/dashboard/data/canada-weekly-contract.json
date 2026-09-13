@@ -1,0 +1,110 @@
+{
+  "market": "CANADA",
+  "week_id": "2026-W37",
+  "weekly_contract_id": "CANADA-2026-W37-2026-09-11",
+  "weekly_list_created_asof": "2026-09-11",
+  "weekly_list_source": "AURORA_WEEKLY_DISCOVERY",
+  "weekly_universe_symbols": [
+    "HMMC",
+    "CEU",
+    "VLE",
+    "MSA",
+    "MATR",
+    "GRZ",
+    "WDO",
+    "TWM",
+    "OBE",
+    "RFA",
+    "FEC"
+  ],
+  "weekly_role_by_symbol": {
+    "HMMC": "DEVELOPING_GROWTH_LEADERS",
+    "CEU": "RS_HIGH_AWAITING_STRUCTURE",
+    "VLE": "RS_HIGH_AWAITING_STRUCTURE",
+    "MSA": "RS_HIGH_AWAITING_STRUCTURE",
+    "MATR": "RS_HIGH_AWAITING_STRUCTURE",
+    "GRZ": "DEVELOPING_GROWTH_LEADERS",
+    "WDO": "DEVELOPING_GROWTH_LEADERS",
+    "TWM": "DEVELOPING_GROWTH_LEADERS",
+    "OBE": "RS_HIGH_AWAITING_STRUCTURE",
+    "RFA": "DEVELOPING_GROWTH_LEADERS",
+    "FEC": "ACTIVE_SETUP_LEADERS"
+  },
+  "weekly_role_balance": {
+    "schema_version": "aurora_weekly_universe_role_balance_v1",
+    "target_min": 11,
+    "target_max": 20,
+    "selected_count": 11,
+    "caps_applied": false,
+    "relaxed_for_minimum_count": 0,
+    "sector_counts": {
+      "COPPER_BASE_METALS": 1,
+      "OIL_GAS_E_P": 4,
+      "UNKNOWN": 4,
+      "GOLD_MINERS": 2
+    },
+    "role_counts": {
+      "DEVELOPING_GROWTH_LEADERS": 5,
+      "RS_HIGH_AWAITING_STRUCTURE": 5,
+      "ACTIVE_SETUP_LEADERS": 1
+    },
+    "warnings": [
+      "ROLE_CONCENTRATION:DEVELOPING_GROWTH_LEADERS:5/11"
+    ],
+    "no_external_candidate_insertion": true,
+    "original_rank_order_preserved": true,
+    "rank_or_score_mutated": false,
+    "final_bucket_mutated": false,
+    "market_permission_mutated": false,
+    "trigger_stop_risk_mutated": false
+  },
+  "carry_forward_count": 11,
+  "daily_status": {
+    "ROB": "REMOVED_BY_HARD_RULE",
+    "HMMC": "CARRY_FORWARD_RECALCULATED",
+    "SOI": "REMOVED_BY_HARD_RULE",
+    "AXO": "REMOVED_BY_HARD_RULE",
+    "EWK": "REMOVED_BY_HARD_RULE",
+    "BVA": "REMOVED_BY_HARD_RULE",
+    "LIB": "REMOVED_BY_HARD_RULE",
+    "CEU": "CARRY_FORWARD_RECALCULATED",
+    "ALT": "REMOVED_BY_HARD_RULE",
+    "EOX": "REMOVED_BY_HARD_RULE",
+    "VLE": "CARRY_FORWARD_RECALCULATED",
+    "MSA": "CARRY_FORWARD_RECALCULATED",
+    "MATR": "CARRY_FORWARD_RECALCULATED",
+    "GRZ": "CARRY_FORWARD_RECALCULATED",
+    "WDO": "CARRY_FORWARD_RECALCULATED",
+    "TWM": "CARRY_FORWARD_RECALCULATED",
+    "PWER": "REMOVED_BY_HARD_RULE",
+    "OBE": "CARRY_FORWARD_RECALCULATED",
+    "RFA": "CARRY_FORWARD_RECALCULATED",
+    "FEC": "CARRY_FORWARD_RECALCULATED"
+  },
+  "removal_flag": {
+    "ROB": true,
+    "SOI": true,
+    "AXO": true,
+    "EWK": true,
+    "BVA": true,
+    "LIB": true,
+    "ALT": true,
+    "EOX": true,
+    "PWER": true
+  },
+  "removal_reason": {
+    "ROB": "HARD_AVOID_FRESH_LONG",
+    "SOI": "HARD_AVOID_FRESH_LONG",
+    "AXO": "HARD_AVOID_FRESH_LONG",
+    "EWK": "HARD_AVOID_FRESH_LONG",
+    "BVA": "HARD_AVOID_FRESH_LONG",
+    "LIB": "STAGE_4_DAMAGED",
+    "ALT": "HARD_AVOID_FRESH_LONG",
+    "EOX": "HARD_AVOID_FRESH_LONG",
+    "PWER": "HARD_AVOID_FRESH_LONG"
+  },
+  "stale_setup_review": {},
+  "stale_remove": {},
+  "generated_at": "2026-09-13T14:07:58.238Z",
+  "last_updated_asof": "2026-09-11"
+}

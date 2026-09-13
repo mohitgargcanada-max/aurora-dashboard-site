@@ -1,0 +1,19 @@
+{
+  "schema_version": "aurora-market-publication-v1",
+  "generated_at": "2026-09-13T14:10:16Z",
+  "surface": "REACT",
+  "status": "PUBLISHED",
+  "completed_session": "2026-09-11",
+  "bare_path": "/aurora-dashboards/canada/",
+  "dashboard_path": "/aurora-dashboards/canada/",
+  "cache_busted_path": "/aurora-dashboards/canada/?aurora_build=36c7a43cba58ac9ee279b039b48d3b9ec040d2b2&completed_session=2026-09-11",
+  "legacy_dashboard_path": "/aurora-dashboards/canada/dashboard.html",
+  "content_sha256": "e2a2b5b8519c00645af1cae21f15dd59ba2d34d66dbe6c1221492f5282ea6cbd",
+  "content_bytes": 1269,
+  "legacy_content_sha256": "10f437912c3f314beadb9f4f6bb89246632780d7171ef6384c0b374e3aa3324e",
+  "market": "canada",
+  "publication_mode": "MARKET_INDEPENDENT_LAST_GOOD",
+  "source_run_id": "34761682027",
+  "source_sha": "36c7a43cba58ac9ee279b039b48d3b9ec040d2b2",
+  "published_at": "2026-09-13T14:10:16Z"
+}
