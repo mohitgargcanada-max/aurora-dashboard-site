@@ -1,7 +1,7 @@
 {
   "schema_version": "aurora_canada_official_quarter_ingestion_v0_1",
   "market": "CANADA",
-  "generated_at": "2026-09-13T14:08:51.089Z",
+  "generated_at": "2026-09-13T14:14:25.818Z",
   "data_as_of": "2026-09-11",
   "source_status": "NOT_AVAILABLE_NO_OFFICIAL_FILES",
   "sedar_source_status": "SEDAR_PLUS_NOT_AVAILABLE_NO_OFFICIAL_FILES",

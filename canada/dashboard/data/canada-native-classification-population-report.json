@@ -31,7 +31,7 @@
   "scanner_gate_authority": false,
   "extra_ohlcv_fetch": false,
   "provider_blending": false,
-  "generated_at": "2026-09-13T14:08:49.308Z",
+  "generated_at": "2026-09-13T14:14:24.032Z",
   "data_as_of": "2026-09-11",
   "source_receipts": [
     {

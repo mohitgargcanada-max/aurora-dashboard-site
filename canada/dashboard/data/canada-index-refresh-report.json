@@ -2,7 +2,7 @@
   "market": "CANADA",
   "status": "INDEX_REFRESH_ATTEMPTED",
   "expected_completed_session": "2026-09-11",
-  "retrieved_at": "2026-09-13T14:06:57.620Z",
+  "retrieved_at": "2026-09-13T14:12:36.589Z",
   "provider_route": [
     "YAHOO_FINANCE",
     "EODHD_FALLBACK"

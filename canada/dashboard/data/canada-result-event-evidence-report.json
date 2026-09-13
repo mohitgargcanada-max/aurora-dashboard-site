@@ -1,7 +1,7 @@
 {
   "schema_version": "aurora_canada_result_event_ingestion_v0_1",
   "market": "CANADA",
-  "generated_at": "2026-09-13T14:08:50.400Z",
+  "generated_at": "2026-09-13T14:14:25.137Z",
   "data_as_of": "2026-09-11",
   "source_status": "NOT_AVAILABLE_NO_OFFICIAL_FILES",
   "official_document_count": 0,

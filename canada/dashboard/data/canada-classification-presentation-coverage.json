@@ -50,10 +50,10 @@
   "trigger_stop_risk_mutated": false,
   "extra_ohlcv_fetch": false,
   "provider_blending": false,
-  "generated_at": "2026-09-13T14:08:53.714Z",
+  "generated_at": "2026-09-13T14:14:28.408Z",
   "data_as_of": "2026-09-11",
   "completed_session": "2026-09-11",
   "source_population_schema": "aurora_canada_naics_population_v0_1",
-  "source_population_generated_at": "2026-09-13T14:08:49.308Z",
+  "source_population_generated_at": "2026-09-13T14:14:24.032Z",
   "supporting_labels_promoted_count": 355
 }
