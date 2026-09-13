@@ -1,0 +1,47 @@
+{
+  "schema_version": "aurora_india_bse_result_event_ingestion_v0_1",
+  "market": "INDIA",
+  "generated_at": "2026-09-13T14:47:06.235Z",
+  "data_as_of": "2026-09-11",
+  "source_status": "NOT_AVAILABLE_NO_OFFICIAL_FILES",
+  "official_document_count": 0,
+  "parsed_row_count": 0,
+  "accepted_adapter_count": 0,
+  "rejected_adapter_count": 0,
+  "bse_record_count": 0,
+  "nse_primary_record_count": 0,
+  "combined_record_count": 0,
+  "runtime_record_count": 0,
+  "parse_failure_count": 0,
+  "parse_failures": [],
+  "source_provider": "BSE_CORPORATE_FILINGS_OFFICIAL",
+  "source_pages": {
+    "financial_results": "https://www.bseindia.com/corporates/comp_results.aspx",
+    "board_meetings": "https://www.bseindia.com/corporates/board_meeting.aspx"
+  },
+  "input_paths": {
+    "financial": [
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/cache/india/raw/events/bse-financial-results.json",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/cache/india/raw/events/bse-financial-results.csv",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/india-bse-financial-results-prefetch.json",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/india-bse-financial-results-prefetch.csv"
+    ],
+    "board": [
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/cache/india/raw/events/bse-board-meetings.json",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/cache/india/raw/events/bse-board-meetings.csv",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/india-bse-board-meetings-prefetch.json",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/india-bse-board-meetings-prefetch.csv"
+    ]
+  },
+  "authority_guards": {
+    "context_only": true,
+    "decision_authority": false,
+    "candidate_membership_mutated": false,
+    "rank_or_score_mutated": false,
+    "final_bucket_mutated": false,
+    "market_permission_mutated": false,
+    "trigger_stop_risk_mutated": false,
+    "extra_ohlcv_fetch": false,
+    "provider_blending": false
+  }
+}

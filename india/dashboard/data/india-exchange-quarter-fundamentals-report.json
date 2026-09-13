@@ -1,0 +1,51 @@
+{
+  "schema_version": "aurora_india_exchange_quarter_ingestion_v0_1",
+  "market": "INDIA",
+  "generated_at": "2026-09-13T14:47:08.312Z",
+  "data_as_of": "2026-09-11",
+  "source_status": "NOT_AVAILABLE_NO_OFFICIAL_FILES",
+  "nse_source_status": "NSE_NOT_AVAILABLE_NO_OFFICIAL_FILES",
+  "bse_source_status": "BSE_NOT_AVAILABLE_NO_OFFICIAL_FILES",
+  "nse_document_count": 0,
+  "bse_document_count": 0,
+  "nse_parsed_row_count": 0,
+  "bse_parsed_row_count": 0,
+  "parse_failure_count": 0,
+  "rejected_adapter_count": 0,
+  "conflict_count": 0,
+  "cross_verified_count": 0,
+  "bse_fallback_count": 0,
+  "source_record_count": 0,
+  "canonical_quarter_count": 0,
+  "conflicts": [],
+  "input_paths": {
+    "nse": [
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/cache/india/raw/fundamentals/nse-quarterly-fundamentals.json",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/cache/india/raw/fundamentals/nse-quarterly-fundamentals.csv",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/india-nse-quarterly-fundamentals-prefetch.json",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/india-nse-quarterly-fundamentals-prefetch.csv"
+    ],
+    "bse": [
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/cache/india/raw/fundamentals/bse-quarterly-fundamentals.json",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/cache/india/raw/fundamentals/bse-quarterly-fundamentals.csv",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/india-bse-quarterly-fundamentals-prefetch.json",
+      "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/india-bse-quarterly-fundamentals-prefetch.csv"
+    ]
+  },
+  "source_providers": [
+    "NSE_FINANCIAL_RESULTS_OFFICIAL",
+    "BSE_FINANCIAL_RESULTS_OFFICIAL"
+  ],
+  "authority_guards": {
+    "context_only": true,
+    "decision_authority": false,
+    "technical_rejection_authority": false,
+    "candidate_membership_mutated": false,
+    "rank_or_score_mutated": false,
+    "final_bucket_mutated": false,
+    "market_permission_mutated": false,
+    "trigger_stop_risk_mutated": false,
+    "extra_ohlcv_fetch": false,
+    "provider_blending": false
+  }
+}

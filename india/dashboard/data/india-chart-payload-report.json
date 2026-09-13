@@ -1,0 +1,4019 @@
+{
+  "schemaVersion": "aurora_chart_payload_publish_report_v1",
+  "market": "INDIA",
+  "publisherVersion": "aurora_chart_compatibility_bridge_v1_0",
+  "generatedAt": "2026-09-13T14:47:17.177Z",
+  "completedSession": "2026-09-11",
+  "visibleSymbols": 500,
+  "publishedSymbols": 500,
+  "missingSymbols": 0,
+  "maximumSymbols": 500,
+  "authority": {
+    "decisionAuthority": false,
+    "extraOhlcvFetch": false,
+    "providerBlending": false
+  },
+  "published": [
+    {
+      "symbol": "ADANIENT",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ADANIENT.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "IDEA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/IDEA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "APOLLO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/APOLLO.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "HSCL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/HSCL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RICOAUTO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RICOAUTO.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "GRASIM",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GRASIM.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "THYROCARE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/THYROCARE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RRKABEL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RRKABEL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "TORNTPHARM",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/TORNTPHARM.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "BALAMINES",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/BALAMINES.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PNB",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PNB.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "HLEGLAS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/HLEGLAS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "LLOYDSENGG",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/LLOYDSENGG.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "NEPHROPLUS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/NEPHROPLUS.json",
+      "dailyBars": 129,
+      "weeklyBars": 27,
+      "monthlyBars": 8
+    },
+    {
+      "symbol": "IRMENERGY",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/IRMENERGY.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "STYLAMIND",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/STYLAMIND.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "GRWRHITECH",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GRWRHITECH.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "JSWINFRA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/JSWINFRA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MINDACORP",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MINDACORP.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "VMART",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/VMART.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "AYE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AYE.json",
+      "dailyBars": 89,
+      "weeklyBars": 18,
+      "monthlyBars": 6
+    },
+    {
+      "symbol": "HIRECT",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/HIRECT.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ANANTRAJ",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ANANTRAJ.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "NAM-INDIA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/NAM-INDIA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "BHEL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/BHEL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PRECWIRE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PRECWIRE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PARAS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PARAS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SOMANYCERA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SOMANYCERA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ENGINERSIN",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ENGINERSIN.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "NORTHARC",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/NORTHARC.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SEDEMAC",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SEDEMAC.json",
+      "dailyBars": 73,
+      "weeklyBars": 15,
+      "monthlyBars": 5
+    },
+    {
+      "symbol": "EFFWA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/EFFWA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "CPPLUS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/CPPLUS.json",
+      "dailyBars": 221,
+      "weeklyBars": 45,
+      "monthlyBars": 12
+    },
+    {
+      "symbol": "CUPID",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/CUPID.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "AJANTPHARM",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AJANTPHARM.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "GAYAPROJ",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GAYAPROJ.json",
+      "dailyBars": 275,
+      "weeklyBars": 47,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "INNOMET",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/INNOMET.json",
+      "dailyBars": 413,
+      "weeklyBars": 80,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ASTRAMICRO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ASTRAMICRO.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MUNJALAU",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MUNJALAU.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "DATAPATTNS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/DATAPATTNS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "NAHARINDUS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/NAHARINDUS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MSTCLTD",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MSTCLTD.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RAJRATAN",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RAJRATAN.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "GROWWDEFNC",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GROWWDEFNC.json",
+      "dailyBars": 422,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RATEGAIN",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RATEGAIN.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SANGINITA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SANGINITA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "JUNIORBEES",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/JUNIORBEES.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PRABHA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PRABHA.json",
+      "dailyBars": 314,
+      "weeklyBars": 64,
+      "monthlyBars": 17
+    },
+    {
+      "symbol": "BIKEWO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/BIKEWO.json",
+      "dailyBars": 411,
+      "weeklyBars": 82,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "TBZ",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/TBZ.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "VIJIFIN",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/VIJIFIN.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ROLLT",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ROLLT.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MODISONLTD",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MODISONLTD.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "TVSMOTOR",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/TVSMOTOR.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "KABRAEXTRU",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/KABRAEXTRU.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "IMPEXFERRO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/IMPEXFERRO.json",
+      "dailyBars": 417,
+      "weeklyBars": 82,
+      "monthlyBars": 21
+    },
+    {
+      "symbol": "UHTL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/UHTL.json",
+      "dailyBars": 404,
+      "weeklyBars": 81,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "BURNPUR",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/BURNPUR.json",
+      "dailyBars": 84,
+      "weeklyBars": 17,
+      "monthlyBars": 4
+    },
+    {
+      "symbol": "MOREPENLAB",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MOREPENLAB.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SUPREMEENG",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SUPREMEENG.json",
+      "dailyBars": 332,
+      "weeklyBars": 60,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "FRESHARA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/FRESHARA.json",
+      "dailyBars": 413,
+      "weeklyBars": 83,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "CYIENTDLM",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/CYIENTDLM.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "INDSWFTLAB",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/INDSWFTLAB.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "BIRLACABLE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/BIRLACABLE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "BAFNAPH",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/BAFNAPH.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "OBSCP",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/OBSCP.json",
+      "dailyBars": 408,
+      "weeklyBars": 81,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "OPTIVALUE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/OPTIVALUE.json",
+      "dailyBars": 195,
+      "weeklyBars": 41,
+      "monthlyBars": 11
+    },
+    {
+      "symbol": "RPEL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RPEL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "BODALCHEM",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/BODALCHEM.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "DIACABS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/DIACABS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "CALSOFT",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/CALSOFT.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "GJL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GJL.json",
+      "dailyBars": 85,
+      "weeklyBars": 18,
+      "monthlyBars": 6
+    },
+    {
+      "symbol": "SBCL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SBCL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "WELCORP",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/WELCORP.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "AKIKO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AKIKO.json",
+      "dailyBars": 414,
+      "weeklyBars": 82,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "AARTISURF",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AARTISURF.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PVP",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PVP.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SUBEXLTD",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SUBEXLTD.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "INDORAMA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/INDORAMA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MRIL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MRIL.json",
+      "dailyBars": 191,
+      "weeklyBars": 39,
+      "monthlyBars": 12
+    },
+    {
+      "symbol": "NRL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/NRL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MANINDS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MANINDS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MENONBE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MENONBE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SMLMAH",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SMLMAH.json",
+      "dailyBars": 156,
+      "weeklyBars": 32,
+      "monthlyBars": 9
+    },
+    {
+      "symbol": "RAYMOND",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RAYMOND.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "KANORICHEM",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/KANORICHEM.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "E2E",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/E2E.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "BHADORA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/BHADORA.json",
+      "dailyBars": 211,
+      "weeklyBars": 44,
+      "monthlyBars": 12
+    },
+    {
+      "symbol": "CNL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/CNL.json",
+      "dailyBars": 134,
+      "weeklyBars": 28,
+      "monthlyBars": 8
+    },
+    {
+      "symbol": "YASHO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/YASHO.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "CORDSCABLE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/CORDSCABLE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SHILPAMED",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SHILPAMED.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "EPWINDIA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/EPWINDIA.json",
+      "dailyBars": 101,
+      "weeklyBars": 23,
+      "monthlyBars": 8
+    },
+    {
+      "symbol": "UTSSAV",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/UTSSAV.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SKYGOLD",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SKYGOLD.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "FCL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/FCL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PAISALO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PAISALO.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ATHERENERG",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ATHERENERG.json",
+      "dailyBars": 286,
+      "weeklyBars": 58,
+      "monthlyBars": 15
+    },
+    {
+      "symbol": "INDOTECH",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/INDOTECH.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SILKFLEX",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SILKFLEX.json",
+      "dailyBars": 337,
+      "weeklyBars": 66,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SUVEN",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SUVEN.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SAKAR",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SAKAR.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "BLUESTONE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/BLUESTONE.json",
+      "dailyBars": 211,
+      "weeklyBars": 44,
+      "monthlyBars": 12
+    },
+    {
+      "symbol": "IOLCP",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/IOLCP.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "AKSHARCHEM",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AKSHARCHEM.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "TSC",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/TSC.json",
+      "dailyBars": 194,
+      "weeklyBars": 42,
+      "monthlyBars": 13
+    },
+    {
+      "symbol": "FORCAS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/FORCAS.json",
+      "dailyBars": 402,
+      "weeklyBars": 77,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "TFCILTD",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/TFCILTD.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MANAKSTEEL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MANAKSTEEL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "FLYSBS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/FLYSBS.json",
+      "dailyBars": 217,
+      "weeklyBars": 45,
+      "monthlyBars": 12
+    },
+    {
+      "symbol": "SSFL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SSFL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SACHEEROME",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SACHEEROME.json",
+      "dailyBars": 255,
+      "weeklyBars": 51,
+      "monthlyBars": 14
+    },
+    {
+      "symbol": "UNIVASTU",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/UNIVASTU.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "APEXECO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/APEXECO.json",
+      "dailyBars": 377,
+      "weeklyBars": 76,
+      "monthlyBars": 20
+    },
+    {
+      "symbol": "MARINE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MARINE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RISHABH",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RISHABH.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "AVALON",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AVALON.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "AIMTRON",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AIMTRON.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "KAPSTON",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/KAPSTON.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MONQ50",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MONQ50.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ACCENTMIC",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ACCENTMIC.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SYRMA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SYRMA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "UNIHEALTH",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/UNIHEALTH.json",
+      "dailyBars": 420,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ESCONET",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ESCONET.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "BHAGERIA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/BHAGERIA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "JINDWORLD",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/JINDWORLD.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "GULFPETRO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GULFPETRO.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PAUSHAKLTD",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PAUSHAKLTD.json",
+      "dailyBars": 141,
+      "weeklyBars": 29,
+      "monthlyBars": 8
+    },
+    {
+      "symbol": "MMP",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MMP.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MACPOWER",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MACPOWER.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "IRISDOREME",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/IRISDOREME.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SPECTRUM",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SPECTRUM.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RUBYMILLS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RUBYMILLS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SUDEEPPHRM",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SUDEEPPHRM.json",
+      "dailyBars": 142,
+      "weeklyBars": 30,
+      "monthlyBars": 9
+    },
+    {
+      "symbol": "ONDOOR",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ONDOOR.json",
+      "dailyBars": 399,
+      "weeklyBars": 79,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SCPL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SCPL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "KMEW",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/KMEW.json",
+      "dailyBars": 398,
+      "weeklyBars": 80,
+      "monthlyBars": 21
+    },
+    {
+      "symbol": "IZMO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/IZMO.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "LAURUSLABS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/LAURUSLABS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SHRIAHIMSA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SHRIAHIMSA.json",
+      "dailyBars": 304,
+      "weeklyBars": 61,
+      "monthlyBars": 16
+    },
+    {
+      "symbol": "SENORES",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SENORES.json",
+      "dailyBars": 369,
+      "weeklyBars": 74,
+      "monthlyBars": 20
+    },
+    {
+      "symbol": "INDOBORAX",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/INDOBORAX.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SUNLITE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SUNLITE.json",
+      "dailyBars": 411,
+      "weeklyBars": 79,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "KWIL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/KWIL.json",
+      "dailyBars": 90,
+      "weeklyBars": 18,
+      "monthlyBars": 6
+    },
+    {
+      "symbol": "M&MFIN",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/M&MFIN.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "LAMOSAIC",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/LAMOSAIC.json",
+      "dailyBars": 384,
+      "weeklyBars": 78,
+      "monthlyBars": 21
+    },
+    {
+      "symbol": "COMSYN",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/COMSYN.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "FILATEX",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/FILATEX.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "KODYTECH",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/KODYTECH.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "AEGISLOG",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AEGISLOG.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RATNAVEER",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RATNAVEER.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "GANDHAR",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GANDHAR.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "OAL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/OAL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SOTL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SOTL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "AARADHYA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AARADHYA.json",
+      "dailyBars": 162,
+      "weeklyBars": 35,
+      "monthlyBars": 12
+    },
+    {
+      "symbol": "ASIANENE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ASIANENE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PANACHE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PANACHE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "VENUSPIPES",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/VENUSPIPES.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "UNIPARTS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/UNIPARTS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "NAMOEWASTE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/NAMOEWASTE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ZIMLAB",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ZIMLAB.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "NEULANDLAB",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/NEULANDLAB.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "EBGNG",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/EBGNG.json",
+      "dailyBars": 224,
+      "weeklyBars": 46,
+      "monthlyBars": 13
+    },
+    {
+      "symbol": "GABRIEL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GABRIEL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "WELINV",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/WELINV.json",
+      "dailyBars": 423,
+      "weeklyBars": 84,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SBC",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SBC.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "UNITEDPOLY",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/UNITEDPOLY.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MAHASTEEL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MAHASTEEL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "GREENLEAF",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GREENLEAF.json",
+      "dailyBars": 174,
+      "weeklyBars": 36,
+      "monthlyBars": 10
+    },
+    {
+      "symbol": "SSWL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SSWL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "UNIMECH",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/UNIMECH.json",
+      "dailyBars": 368,
+      "weeklyBars": 74,
+      "monthlyBars": 20
+    },
+    {
+      "symbol": "QMSMEDI",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/QMSMEDI.json",
+      "dailyBars": 400,
+      "weeklyBars": 80,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "CARTRADE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/CARTRADE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "EMIL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/EMIL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "HAPPYFORGE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/HAPPYFORGE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "INDNIPPON",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/INDNIPPON.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "AZAD",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AZAD.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ARROWGREEN",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ARROWGREEN.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RSL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RSL.json",
+      "dailyBars": 67,
+      "weeklyBars": 14,
+      "monthlyBars": 5
+    },
+    {
+      "symbol": "VALIANTLAB",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/VALIANTLAB.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ARHAM",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ARHAM.json",
+      "dailyBars": 421,
+      "weeklyBars": 86,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SMARTLINK",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SMARTLINK.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "DEEPINDS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/DEEPINDS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "VIESL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/VIESL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SAAKSHI",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SAAKSHI.json",
+      "dailyBars": 425,
+      "weeklyBars": 86,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "APARINDS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/APARINDS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "BLSE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/BLSE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PCCL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PCCL.json",
+      "dailyBars": 425,
+      "weeklyBars": 84,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "LOKESHMACH",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/LOKESHMACH.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SPORTKING",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SPORTKING.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ABSMARINE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ABSMARINE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SEL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SEL.json",
+      "dailyBars": 402,
+      "weeklyBars": 79,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "IKIO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/IKIO.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "UEL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/UEL.json",
+      "dailyBars": 211,
+      "weeklyBars": 30,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PAYTM",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PAYTM.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RML",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RML.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "DIGJAMLMTD",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/DIGJAMLMTD.json",
+      "dailyBars": 401,
+      "weeklyBars": 78,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ORCHPHARMA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ORCHPHARMA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "STYL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/STYL.json",
+      "dailyBars": 182,
+      "weeklyBars": 38,
+      "monthlyBars": 11
+    },
+    {
+      "symbol": "DIVGIITTS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/DIVGIITTS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RAIN",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RAIN.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "GCSL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GCSL.json",
+      "dailyBars": 199,
+      "weeklyBars": 42,
+      "monthlyBars": 11
+    },
+    {
+      "symbol": "AMAGI",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AMAGI.json",
+      "dailyBars": 106,
+      "weeklyBars": 22,
+      "monthlyBars": 7
+    },
+    {
+      "symbol": "CRAFTSMAN",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/CRAFTSMAN.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SHIVAUM",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SHIVAUM.json",
+      "dailyBars": 173,
+      "weeklyBars": 32,
+      "monthlyBars": 19
+    },
+    {
+      "symbol": "MARKSANS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MARKSANS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "NITINSPIN",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/NITINSPIN.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "INOXINDIA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/INOXINDIA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "KRN",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/KRN.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "NEOGEN",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/NEOGEN.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "CHENNPETRO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/CHENNPETRO.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "KOPRAN",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/KOPRAN.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "EXICOM",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/EXICOM.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MAHICKRA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MAHICKRA.json",
+      "dailyBars": 370,
+      "weeklyBars": 77,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "TAKE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/TAKE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "KALYANIFRG",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/KALYANIFRG.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "LANCORHOL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/LANCORHOL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "QUESS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/QUESS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "DOLPHIN",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/DOLPHIN.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MANALIPETC",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MANALIPETC.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "WELSPUNLIV",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/WELSPUNLIV.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "KAMDHENU",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/KAMDHENU.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "AKANKSHA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AKANKSHA.json",
+      "dailyBars": 414,
+      "weeklyBars": 84,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "HPTL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/HPTL.json",
+      "dailyBars": 242,
+      "weeklyBars": 50,
+      "monthlyBars": 18
+    },
+    {
+      "symbol": "VINSYS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/VINSYS.json",
+      "dailyBars": 419,
+      "weeklyBars": 84,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SADHNANIQ",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SADHNANIQ.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "VARROC",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/VARROC.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "WELENT",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/WELENT.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ICIL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ICIL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PLAZACABLE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PLAZACABLE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "WABAG",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/WABAG.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "JGCHEM",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/JGCHEM.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "TALBROAUTO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/TALBROAUTO.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "BETA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/BETA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "KINGFA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/KINGFA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SHALPAINTS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SHALPAINTS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "REDINGTON",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/REDINGTON.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MOLDTECH",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MOLDTECH.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "KONSTELEC",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/KONSTELEC.json",
+      "dailyBars": 414,
+      "weeklyBars": 84,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SHEEL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SHEEL.json",
+      "dailyBars": 168,
+      "weeklyBars": 37,
+      "monthlyBars": 10
+    },
+    {
+      "symbol": "SREEL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SREEL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ADOR",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ADOR.json",
+      "dailyBars": 299,
+      "weeklyBars": 61,
+      "monthlyBars": 16
+    },
+    {
+      "symbol": "KDDL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/KDDL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "VSSL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/VSSL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PANAMAPET",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PANAMAPET.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SHREEPUSHK",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SHREEPUSHK.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "GHCLTEXTIL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GHCLTEXTIL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "TMB",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/TMB.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "OCCLLTD",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/OCCLLTD.json",
+      "dailyBars": 410,
+      "weeklyBars": 82,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "GLAND",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GLAND.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "DIFFNKG",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/DIFFNKG.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SHERA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SHERA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "YATHARTH",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/YATHARTH.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RAMRAT",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RAMRAT.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ANANDRATHI",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ANANDRATHI.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SAILIFE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SAILIFE.json",
+      "dailyBars": 377,
+      "weeklyBars": 76,
+      "monthlyBars": 20
+    },
+    {
+      "symbol": "AVADHSUGAR",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AVADHSUGAR.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SANGHVIMOV",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SANGHVIMOV.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "UNIVPHOTO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/UNIVPHOTO.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "VOLERCAR",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/VOLERCAR.json",
+      "dailyBars": 314,
+      "weeklyBars": 65,
+      "monthlyBars": 18
+    },
+    {
+      "symbol": "NILKAMAL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/NILKAMAL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "KORE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/KORE.json",
+      "dailyBars": 407,
+      "weeklyBars": 79,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "EMAMIPAP",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/EMAMIPAP.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "FROG",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/FROG.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RAMCOSYS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RAMCOSYS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PINELABS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PINELABS.json",
+      "dailyBars": 153,
+      "weeklyBars": 32,
+      "monthlyBars": 9
+    },
+    {
+      "symbol": "AKSHOPTFBR",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AKSHOPTFBR.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "BHARATSE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/BHARATSE.json",
+      "dailyBars": 311,
+      "weeklyBars": 63,
+      "monthlyBars": 17
+    },
+    {
+      "symbol": "AAREYDRUGS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AAREYDRUGS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MARUSHIKA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MARUSHIKA.json",
+      "dailyBars": 66,
+      "weeklyBars": 17,
+      "monthlyBars": 6
+    },
+    {
+      "symbol": "SOLARA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SOLARA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MADHUSUDAN",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MADHUSUDAN.json",
+      "dailyBars": 422,
+      "weeklyBars": 84,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "URBANCO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/URBANCO.json",
+      "dailyBars": 192,
+      "weeklyBars": 40,
+      "monthlyBars": 11
+    },
+    {
+      "symbol": "ABDL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ABDL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "STOVEKRAFT",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/STOVEKRAFT.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "TIRUPATIFL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/TIRUPATIFL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "VIJAYA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/VIJAYA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "WOCKPHARMA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/WOCKPHARMA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ARVIND",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ARVIND.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "FINCABLES",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/FINCABLES.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "AETHER",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AETHER.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SIGACHI",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SIGACHI.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "OMAXE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/OMAXE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PAR",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PAR.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ESAFSFB",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ESAFSFB.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "JTLIND",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/JTLIND.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SAHYADRI",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SAHYADRI.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "AMDIND",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AMDIND.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "NRAIL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/NRAIL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "CYBERMEDIA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/CYBERMEDIA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PNGSREVA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PNGSREVA.json",
+      "dailyBars": 78,
+      "weeklyBars": 16,
+      "monthlyBars": 5
+    },
+    {
+      "symbol": "SHAHALLOYS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SHAHALLOYS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "CAPLIPOINT",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/CAPLIPOINT.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SOLARINDS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SOLARINDS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RADICO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RADICO.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "HONASA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/HONASA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ACMESOLAR",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ACMESOLAR.json",
+      "dailyBars": 400,
+      "weeklyBars": 80,
+      "monthlyBars": 21
+    },
+    {
+      "symbol": "JNKINDIA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/JNKINDIA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "OFSS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/OFSS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MAFANG",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MAFANG.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SHAILY",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SHAILY.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "63MOONS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/63MOONS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "VCL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/VCL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ORBTEXP",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ORBTEXP.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SHANTIGEAR",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SHANTIGEAR.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "EEPL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/EEPL.json",
+      "dailyBars": 249,
+      "weeklyBars": 51,
+      "monthlyBars": 14
+    },
+    {
+      "symbol": "BAHETI",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/BAHETI.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "GNA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GNA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "BIL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/BIL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RACLGEAR",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RACLGEAR.json",
+      "dailyBars": 391,
+      "weeklyBars": 79,
+      "monthlyBars": 21
+    },
+    {
+      "symbol": "MMFL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MMFL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MANORAMA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MANORAMA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "TVSSRICHAK",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/TVSSRICHAK.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "BOSCHLTD",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/BOSCHLTD.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SKFINDUS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SKFINDUS.json",
+      "dailyBars": 137,
+      "weeklyBars": 29,
+      "monthlyBars": 8
+    },
+    {
+      "symbol": "AKUMS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AKUMS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "AGARWALTUF",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AGARWALTUF.json",
+      "dailyBars": 383,
+      "weeklyBars": 78,
+      "monthlyBars": 20
+    },
+    {
+      "symbol": "RSWM",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RSWM.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "GLOBAL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GLOBAL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "CGCL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/CGCL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "WSTCSTPAPR",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/WSTCSTPAPR.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PREMIERPOL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PREMIERPOL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MAWANASUG",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MAWANASUG.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "INNOVACAP",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/INNOVACAP.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "CORONA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/CORONA.json",
+      "dailyBars": 131,
+      "weeklyBars": 27,
+      "monthlyBars": 8
+    },
+    {
+      "symbol": "SHRIPISTON",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SHRIPISTON.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SWANDEF",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SWANDEF.json",
+      "dailyBars": 167,
+      "weeklyBars": 24,
+      "monthlyBars": 19
+    },
+    {
+      "symbol": "KSR",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/KSR.json",
+      "dailyBars": 143,
+      "weeklyBars": 30,
+      "monthlyBars": 9
+    },
+    {
+      "symbol": "PFOCUS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PFOCUS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SEAMECLTD",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SEAMECLTD.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "TBOTEK",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/TBOTEK.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RGL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RGL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SHEKHAWATI",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SHEKHAWATI.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ALPHAGEO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ALPHAGEO.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PRICOLLTD",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PRICOLLTD.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "GANESHBE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GANESHBE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "VIMTALABS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/VIMTALABS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "THEMISMED",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/THEMISMED.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PALREDTEC",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PALREDTEC.json",
+      "dailyBars": 425,
+      "weeklyBars": 84,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "TATVA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/TATVA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "AVTNPL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AVTNPL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SONACOMS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SONACOMS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ENTERO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ENTERO.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "CPS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/CPS.json",
+      "dailyBars": 339,
+      "weeklyBars": 66,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "GUJTHEM",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GUJTHEM.json",
+      "dailyBars": 328,
+      "weeklyBars": 66,
+      "monthlyBars": 18
+    },
+    {
+      "symbol": "HESTERBIO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/HESTERBIO.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "LENSKART",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/LENSKART.json",
+      "dailyBars": 157,
+      "weeklyBars": 32,
+      "monthlyBars": 9
+    },
+    {
+      "symbol": "MUFIN",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MUFIN.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "JINDALSAW",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/JINDALSAW.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "AVL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AVL.json",
+      "dailyBars": 404,
+      "weeklyBars": 81,
+      "monthlyBars": 21
+    },
+    {
+      "symbol": "MCX",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MCX.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "BELRISE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/BELRISE.json",
+      "dailyBars": 270,
+      "weeklyBars": 55,
+      "monthlyBars": 15
+    },
+    {
+      "symbol": "UNICHEMLAB",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/UNICHEMLAB.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "CTE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/CTE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PCJEWELLER",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PCJEWELLER.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "AEGISVOPAK",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AEGISVOPAK.json",
+      "dailyBars": 266,
+      "weeklyBars": 54,
+      "monthlyBars": 14
+    },
+    {
+      "symbol": "ITDC",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ITDC.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "TINNARUBR",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/TINNARUBR.json",
+      "dailyBars": 296,
+      "weeklyBars": 60,
+      "monthlyBars": 16
+    },
+    {
+      "symbol": "ASAHISONG",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ASAHISONG.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "TNPETRO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/TNPETRO.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "VADILALIND",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/VADILALIND.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PTCIL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PTCIL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RBA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RBA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "KRONOX",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/KRONOX.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "NYKAA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/NYKAA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ORIENTBELL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ORIENTBELL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ARTEMISMED",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ARTEMISMED.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RBLBANK",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RBLBANK.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MOTHERSON",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MOTHERSON.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MAHESHWARI",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MAHESHWARI.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "NAVINFLUOR",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/NAVINFLUOR.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "AUSOMENT",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AUSOMENT.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "KTKBANK",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/KTKBANK.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "KHAITANLTD",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/KHAITANLTD.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "GSTL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GSTL.json",
+      "dailyBars": 390,
+      "weeklyBars": 81,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "YUKEN",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/YUKEN.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "TCPLPACK",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/TCPLPACK.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MAL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MAL.json",
+      "dailyBars": 400,
+      "weeklyBars": 79,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "TIJARIA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/TIJARIA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SUNDRMFAST",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SUNDRMFAST.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SICALLOG",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SICALLOG.json",
+      "dailyBars": 355,
+      "weeklyBars": 68,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "INDIQUBE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/INDIQUBE.json",
+      "dailyBars": 224,
+      "weeklyBars": 46,
+      "monthlyBars": 13
+    },
+    {
+      "symbol": "SHAREINDIA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SHAREINDIA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "CHEMBOND",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/CHEMBOND.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "DCMNVL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/DCMNVL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SIGIND",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SIGIND.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "DYCL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/DYCL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MPSLTD",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MPSLTD.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SYNCOMF",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SYNCOMF.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PWL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PWL.json",
+      "dailyBars": 151,
+      "weeklyBars": 31,
+      "monthlyBars": 9
+    },
+    {
+      "symbol": "DIVISLAB",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/DIVISLAB.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "GLOBALPET",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GLOBALPET.json",
+      "dailyBars": 350,
+      "weeklyBars": 74,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "DCG",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/DCG.json",
+      "dailyBars": 420,
+      "weeklyBars": 80,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "STYLEBAAZA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/STYLEBAAZA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "JAYBARMARU",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/JAYBARMARU.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "HALDER",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/HALDER.json",
+      "dailyBars": 107,
+      "weeklyBars": 22,
+      "monthlyBars": 7
+    },
+    {
+      "symbol": "IVP",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/IVP.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SMSPHARMA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SMSPHARMA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MASPTOP50",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MASPTOP50.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "NIRAJISPAT",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/NIRAJISPAT.json",
+      "dailyBars": 259,
+      "weeklyBars": 52,
+      "monthlyBars": 18
+    },
+    {
+      "symbol": "HUHTAMAKI",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/HUHTAMAKI.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "NAZARA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/NAZARA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "WAKEFIT",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/WAKEFIT.json",
+      "dailyBars": 131,
+      "weeklyBars": 27,
+      "monthlyBars": 8
+    },
+    {
+      "symbol": "STEL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/STEL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "CONSOFINVT",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/CONSOFINVT.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ASKAUTOLTD",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ASKAUTOLTD.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "FLUOROCHEM",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/FLUOROCHEM.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SIMPLEXINF",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SIMPLEXINF.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "VISAKAIND",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/VISAKAIND.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "AARNAV",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AARNAV.json",
+      "dailyBars": 82,
+      "weeklyBars": 17,
+      "monthlyBars": 6
+    },
+    {
+      "symbol": "SAMBHV",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SAMBHV.json",
+      "dailyBars": 244,
+      "weeklyBars": 50,
+      "monthlyBars": 13
+    },
+    {
+      "symbol": "ARIES",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ARIES.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "AYMSYNTEX",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AYMSYNTEX.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RITCO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RITCO.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ELGIRUBCO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ELGIRUBCO.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "LUMAXTECH",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/LUMAXTECH.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "IL&FSENGG",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/IL&FSENGG.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PROV",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PROV.json",
+      "dailyBars": 347,
+      "weeklyBars": 65,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SONAMLTD",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SONAMLTD.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ANMOL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ANMOL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "UFLEX",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/UFLEX.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "QUADFUTURE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/QUADFUTURE.json",
+      "dailyBars": 359,
+      "weeklyBars": 72,
+      "monthlyBars": 19
+    },
+    {
+      "symbol": "MAXESTATES",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MAXESTATES.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PITTIENG",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PITTIENG.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MEDISTEP",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MEDISTEP.json",
+      "dailyBars": 171,
+      "weeklyBars": 33,
+      "monthlyBars": 12
+    },
+    {
+      "symbol": "DCBBANK",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/DCBBANK.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "3IINFOLTD",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/3IINFOLTD.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RANEHOLDIN",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RANEHOLDIN.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "CHEMCON",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/CHEMCON.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RAPIDFLEET",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RAPIDFLEET.json",
+      "dailyBars": 175,
+      "weeklyBars": 39,
+      "monthlyBars": 16
+    },
+    {
+      "symbol": "ANTHEM",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ANTHEM.json",
+      "dailyBars": 231,
+      "weeklyBars": 47,
+      "monthlyBars": 13
+    },
+    {
+      "symbol": "VERANDA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/VERANDA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "LUMAXIND",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/LUMAXIND.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "GARUDA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GARUDA.json",
+      "dailyBars": 420,
+      "weeklyBars": 84,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "DYNAMATECH",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/DYNAMATECH.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SUPERSPIN",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SUPERSPIN.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "GMMPFAUDLR",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GMMPFAUDLR.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "OPTIEMUS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/OPTIEMUS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "INFOBEAN",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/INFOBEAN.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SUDARSCHEM",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SUDARSCHEM.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "KROSS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/KROSS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "KANPRPLA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/KANPRPLA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SIKKO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SIKKO.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "BOSCH-HCIL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/BOSCH-HCIL.json",
+      "dailyBars": 124,
+      "weeklyBars": 26,
+      "monthlyBars": 8
+    },
+    {
+      "symbol": "CUB",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/CUB.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MEDANTA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MEDANTA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SMARTWORKS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SMARTWORKS.json",
+      "dailyBars": 233,
+      "weeklyBars": 48,
+      "monthlyBars": 13
+    },
+    {
+      "symbol": "BALPHARMA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/BALPHARMA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "WINDLAS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/WINDLAS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MOTILALOFS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MOTILALOFS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "INTERNET",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/INTERNET.json",
+      "dailyBars": 240,
+      "weeklyBars": 49,
+      "monthlyBars": 13
+    },
+    {
+      "symbol": "GRAPHITE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GRAPHITE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "JUBLCPL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/JUBLCPL.json",
+      "dailyBars": 335,
+      "weeklyBars": 68,
+      "monthlyBars": 18
+    },
+    {
+      "symbol": "FEDERALBNK",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/FEDERALBNK.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ALIVUS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ALIVUS.json",
+      "dailyBars": 354,
+      "weeklyBars": 71,
+      "monthlyBars": 19
+    },
+    {
+      "symbol": "YASHOPTICS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/YASHOPTICS.json",
+      "dailyBars": 418,
+      "weeklyBars": 84,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "GRCL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GRCL.json",
+      "dailyBars": 307,
+      "weeklyBars": 58,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "KALYANKJIL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/KALYANKJIL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "FINKURVE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/FINKURVE.json",
+      "dailyBars": 181,
+      "weeklyBars": 38,
+      "monthlyBars": 10
+    },
+    {
+      "symbol": "NEPHROCARE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/NEPHROCARE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "TARSONS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/TARSONS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RBZJEWEL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RBZJEWEL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "NELCO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/NELCO.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SWARAJ",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SWARAJ.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "COFORGE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/COFORGE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SRIVASAVI",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SRIVASAVI.json",
+      "dailyBars": 408,
+      "weeklyBars": 82,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "UYFINCORP",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/UYFINCORP.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PRUDENT",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PRUDENT.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PPLPHARMA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PPLPHARMA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ADFFOODS",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ADFFOODS.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "VALIANTORG",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/VALIANTORG.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SVLL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SVLL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "GROWWNET",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GROWWNET.json",
+      "dailyBars": 243,
+      "weeklyBars": 50,
+      "monthlyBars": 13
+    },
+    {
+      "symbol": "GUFICBIO",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/GUFICBIO.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "VINCOFE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/VINCOFE.json",
+      "dailyBars": 417,
+      "weeklyBars": 84,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SOUTHBANK",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SOUTHBANK.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MUTHOOTMF",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MUTHOOTMF.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "LALPATHLAB",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/LALPATHLAB.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MONARCH",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MONARCH.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PARAGMILK",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PARAGMILK.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PENTAGON",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PENTAGON.json",
+      "dailyBars": 363,
+      "weeklyBars": 76,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "YATRA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/YATRA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "MUKKA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/MUKKA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "NIACL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/NIACL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "NURECA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/NURECA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RNFI",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RNFI.json",
+      "dailyBars": 423,
+      "weeklyBars": 84,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "TIIL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/TIIL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "SPECIALITY",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SPECIALITY.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "ASHWINI",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/ASHWINI.json",
+      "dailyBars": 122,
+      "weeklyBars": 26,
+      "monthlyBars": 8
+    },
+    {
+      "symbol": "SPAL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/SPAL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "IPHL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/IPHL.json",
+      "dailyBars": 422,
+      "weeklyBars": 83,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "PKTEA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/PKTEA.json",
+      "dailyBars": 425,
+      "weeklyBars": 83,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "BEPL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/BEPL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "IGPL",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/IGPL.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "RPGLIFE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/RPGLIFE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "LTF",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/LTF.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "VISHNU",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/VISHNU.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "LOTUSEYE",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/LOTUSEYE.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "VINEETLAB",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/VINEETLAB.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    },
+    {
+      "symbol": "AUROPHARMA",
+      "exchange": "NSE",
+      "output": "/home/runner/work/aurora-dashboards/aurora-dashboards/markets/india/dashboard/data/charts/AUROPHARMA.json",
+      "dailyBars": 425,
+      "weeklyBars": 85,
+      "monthlyBars": 22
+    }
+  ],
+  "missing": []
+}

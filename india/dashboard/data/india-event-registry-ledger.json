@@ -1,0 +1,39 @@
+{
+  "schema_version": "aurora_p0_6_cross_market_event_runtime_v0_1_ledger",
+  "market": "INDIA",
+  "data_as_of": "2026-09-11",
+  "generated_at": "2026-09-13T14:47:07.776Z",
+  "records": [],
+  "locks": {
+    "eod_only": true,
+    "display_only": true,
+    "context_only": true,
+    "decision_authority": false,
+    "scanner_gate_authority": false,
+    "promotion_authority": false,
+    "candidate_membership_mutated": false,
+    "rank_or_score_mutated": false,
+    "final_bucket_mutated": false,
+    "market_permission_mutated": false,
+    "stop_or_risk_mutated": false,
+    "provider_routing_changed": false,
+    "provider_blending": false,
+    "extra_ohlcv_fetch": false,
+    "formulas_or_thresholds_mutated": false,
+    "external_report_dependency": false,
+    "exact_visible_event_types": [
+      "IPO",
+      "PEAD",
+      "EP",
+      "HVE"
+    ],
+    "exact_lifecycle_labels": [
+      "NEW",
+      "DEVELOPING",
+      "ACTIONABLE",
+      "EXTENDED_NO_CHASE",
+      "FAILED_REPAIR",
+      "ARCHIVED"
+    ]
+  }
+}

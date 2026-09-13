@@ -1,0 +1,273 @@
+{
+  "market": "INDIA",
+  "total_checked": 2971,
+  "counts_by_status": {
+    "MAPPED_OFFICIAL": 0,
+    "MAPPED_PROVIDER_HIGH_CONFIDENCE": 35,
+    "MAPPED_INTERNAL_REVIEWED": 0,
+    "MAPPED_PROXY_LOW_CONFIDENCE": 1625,
+    "UNMAPPED_REVIEW": 1311,
+    "CONFLICT_REVIEW": 0,
+    "NON_COMMON_REFERENCE": 0
+  },
+  "examples": {
+    "conflicts": [],
+    "unmapped": [
+      {
+        "market": "INDIA",
+        "symbol": "BALAMINES",
+        "company_name": "Balaji Amines Limited",
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "NOT_AVAILABLE",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "INDIA",
+        "symbol": "MINDACORP",
+        "company_name": "Minda Corporation Limited",
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "NOT_AVAILABLE",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "INDIA",
+        "symbol": "HLEGLAS",
+        "company_name": "HLE Glascoat Limited",
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "NOT_AVAILABLE",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "INDIA",
+        "symbol": "HIRECT",
+        "company_name": "Hind Rectifiers Limited",
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "NOT_AVAILABLE",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "INDIA",
+        "symbol": "ANANTRAJ",
+        "company_name": "Anant Raj Limited",
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "NOT_AVAILABLE",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "INDIA",
+        "symbol": "PRECWIRE",
+        "company_name": "Precision Wires India Limited",
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "NOT_AVAILABLE",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "INDIA",
+        "symbol": "SOMANYCERA",
+        "company_name": "Somany Ceramics Limited",
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "NOT_AVAILABLE",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "INDIA",
+        "symbol": "SEDEMAC",
+        "company_name": "SEDEMAC Mechatronics Limited",
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "NOT_AVAILABLE",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      }
+    ],
+    "low_confidence": [
+      {
+        "market": "INDIA",
+        "symbol": "STYLAMIND",
+        "company_name": "Stylam Industries Limited",
+        "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
+        "classification_source": "AURORA_NAME_KEYWORD_MAP",
+        "classification_confidence": "MEDIUM",
+        "classification_warnings": [
+          "CLASSIFICATION_LOW_CONFIDENCE_EXCLUDED_FROM_INDUSTRY_THEME_RRG",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "INDIA",
+        "symbol": "GRWRHITECH",
+        "company_name": "Garware Hi-Tech Films Limited",
+        "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
+        "classification_source": "AURORA_NAME_KEYWORD_MAP",
+        "classification_confidence": "MEDIUM",
+        "classification_warnings": [
+          "CLASSIFICATION_LOW_CONFIDENCE_EXCLUDED_FROM_INDUSTRY_THEME_RRG",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "INDIA",
+        "symbol": "JSWINFRA",
+        "company_name": "JSW Infrastructure Limited",
+        "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
+        "classification_source": "AURORA_NAME_KEYWORD_MAP",
+        "classification_confidence": "MEDIUM",
+        "classification_warnings": [
+          "CLASSIFICATION_LOW_CONFIDENCE_EXCLUDED_FROM_INDUSTRY_THEME_RRG",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "INDIA",
+        "symbol": "VMART",
+        "company_name": "V-Mart Retail Limited",
+        "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
+        "classification_source": "AURORA_NAME_KEYWORD_MAP",
+        "classification_confidence": "MEDIUM",
+        "classification_warnings": [
+          "CLASSIFICATION_LOW_CONFIDENCE_EXCLUDED_FROM_INDUSTRY_THEME_RRG",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "INDIA",
+        "symbol": "AYE",
+        "company_name": "Aye Finance Limited",
+        "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
+        "classification_source": "AURORA_NAME_KEYWORD_MAP",
+        "classification_confidence": "MEDIUM",
+        "classification_warnings": [
+          "CLASSIFICATION_LOW_CONFIDENCE_EXCLUDED_FROM_INDUSTRY_THEME_RRG",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "INDIA",
+        "symbol": "NEPHROPLUS",
+        "company_name": "Nephrocare Health Services Limited",
+        "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
+        "classification_source": "AURORA_NAME_KEYWORD_MAP",
+        "classification_confidence": "MEDIUM",
+        "classification_warnings": [
+          "CLASSIFICATION_LOW_CONFIDENCE_EXCLUDED_FROM_INDUSTRY_THEME_RRG",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "INDIA",
+        "symbol": "NAM-INDIA",
+        "company_name": "Nippon Life India Asset Management Limited",
+        "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
+        "classification_source": "AURORA_NAME_KEYWORD_MAP",
+        "classification_confidence": "MEDIUM",
+        "classification_warnings": [
+          "CLASSIFICATION_LOW_CONFIDENCE_EXCLUDED_FROM_INDUSTRY_THEME_RRG",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "INDIA",
+        "symbol": "BHEL",
+        "company_name": "Bharat Heavy Electricals Limited",
+        "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
+        "classification_source": "AURORA_NAME_KEYWORD_MAP",
+        "classification_confidence": "MEDIUM",
+        "classification_warnings": [
+          "CLASSIFICATION_LOW_CONFIDENCE_EXCLUDED_FROM_INDUSTRY_THEME_RRG",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      }
+    ]
+  },
+  "excluded_from_industry_theme_rrg": 2936,
+  "excluded_from_sector_rrg": 2936,
+  "excluded_from_industry_group_rrg": 2936,
+  "excluded_from_industry_rrg": 2971,
+  "excluded_from_sub_industry_rrg": 2971,
+  "excluded_from_theme_rrg": 2936,
+  "source_coverage_by_market": {
+    "INDIA": {
+      "AURORA_NAME_KEYWORD_MAP": 1625,
+      "NOT_AVAILABLE": 1311,
+      "AURORA_EXPLICIT_INDIA_THEME_MAP": 35
+    }
+  }
+}

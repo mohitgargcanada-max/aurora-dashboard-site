@@ -1,0 +1,19 @@
+{
+  "schema_version": "aurora-market-publication-v1",
+  "generated_at": "2026-09-13T14:49:00Z",
+  "surface": "REACT",
+  "status": "PUBLISHED",
+  "completed_session": "2026-09-11",
+  "bare_path": "/aurora-dashboard-site/india/",
+  "dashboard_path": "/aurora-dashboard-site/india/",
+  "cache_busted_path": "/aurora-dashboard-site/india/?aurora_build=9ed2f3e202ba0d7001e974e1b874ae014d70db6d&completed_session=2026-09-11",
+  "legacy_dashboard_path": "/aurora-dashboard-site/india/dashboard.html",
+  "content_sha256": "abd421e554a11634e3d7dbfd9098e6d265930014b46a5af39fbff5a1c657faad",
+  "content_bytes": 1276,
+  "legacy_content_sha256": "af64c70ef794d915e3a8695bab863a5e7afa44382b03149ce8ce5adf71cffad9",
+  "market": "india",
+  "publication_mode": "MARKET_INDEPENDENT_LAST_GOOD",
+  "source_run_id": "34762839704",
+  "source_sha": "9ed2f3e202ba0d7001e974e1b874ae014d70db6d",
+  "published_at": "2026-09-13T14:49:00Z"
+}
