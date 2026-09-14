@@ -1,23 +1,22 @@
 {
-  "status": "UPDATED",
-  "provider": "NSE_OFFICIAL_FETCH",
-  "endpoint": "scripts/fetch-nse-session.sh",
-  "retrieved_at": "2026-09-13T14:45:55.068Z",
+  "status": "ALREADY_CURRENT_OR_UNCHANGED",
+  "provider": "CACHE",
+  "endpoint": "cache/india/ohlcv",
+  "retrieved_at": "2026-09-14T16:28:25.196Z",
   "expected_completed_session": "2026-09-11",
   "latest_data_as_of": "2026-09-11",
   "same_date_cache": true,
+  "previous_report_fresh": true,
   "fallback_label": "OFFICIAL_VERIFIED",
-  "fallback_reason": "OFFICIAL_NSE_FETCH_DAILY_APPEND",
+  "fallback_reason": "CACHE_ALREADY_HAS_EXPECTED_COMPLETED_SESSION",
   "coverage": {
     "total_records": 8287,
     "current_records": 3637,
     "valid_current_records": 3637,
     "current_coverage_pct": 43.89,
-    "required_symbols": 567,
-    "required_fresh_symbols": 549,
-    "required_missing_symbols": [
-      "JAMNAAUTO"
-    ],
+    "required_symbols": 562,
+    "required_fresh_symbols": 545,
+    "required_missing_symbols": [],
     "required_stale_symbols": [
       {
         "symbol": "TATAMOTORS",
@@ -105,40 +104,8 @@
         "expected_session": "2026-09-11"
       }
     ],
-    "required_freshness_coverage_pct": 96.83
+    "required_freshness_coverage_pct": 96.98
   },
-  "attempts": [
-    {
-      "provider": "NSE_OFFICIAL_FETCH",
-      "endpoint": "scripts/fetch-nse-session.sh",
-      "source_files": [
-        {
-          "file": "BhavCopy_NSE_CM_0_0_0_20260911_F_0000.csv.zip",
-          "sha256": "c34af0e74a9c21aad106dfcb31f03685d4baaa24af09da2245b6d007527b43fe",
-          "bytes": 204525,
-          "accepted_rows": 3646
-        },
-        {
-          "file": "EQ_ISINCODE_110926.zip",
-          "sha256": "67a07ead9a1795670803eee8ed1625772de6ba8c59327f106aaa6627952171ae",
-          "bytes": 14287,
-          "accepted_rows": 0,
-          "warning": "INVALID_ZIP_SKIPPED"
-        },
-        {
-          "file": "sec_bhavdata_full_11092026.csv",
-          "sha256": "b87ff28f3b73d59eb3f29cdd3d5b8c42236865317cc5f9dc4772d0f8f23236b0",
-          "bytes": 394927,
-          "accepted_rows": 3485
-        }
-      ],
-      "inserted": 0,
-      "corrected": 3637,
-      "unchanged": 0,
-      "invalid": 0,
-      "rejected_rows": 0,
-      "symbols_touched": 3637
-    }
-  ],
+  "attempts": [],
   "warnings": []
 }

@@ -4,10 +4,10 @@
   "deployment_mode": "MARKET_INDEPENDENT_LAST_GOOD",
   "repository": "mohitgargcanada-max/aurora-dashboard-site",
   "base_path": "/aurora-dashboard-site",
-  "generated_at": "2026-09-14T16:30:06Z",
-  "last_market_deployed": "canada",
-  "last_source_run_id": "34868649123",
-  "last_source_sha": "caf0a0948d5f155c7b375632ffcac2601513d3d6",
+  "generated_at": "2026-09-14T16:31:23Z",
+  "last_market_deployed": "india",
+  "last_source_run_id": "34868763745",
+  "last_source_sha": "4b15c8f2d5c88d496dd1b56586e716cd3c7f1eb5",
   "completed_sessions": {
     "canada": "2026-09-11",
     "india": "2026-09-11"
@@ -23,16 +23,16 @@
       "completed_session": "2026-09-11",
       "bare_path": "/aurora-dashboard-site/india/",
       "dashboard_path": "/aurora-dashboard-site/india/",
-      "cache_busted_path": "/aurora-dashboard-site/india/?aurora_build=9ed2f3e202ba0d7001e974e1b874ae014d70db6d&completed_session=2026-09-11",
+      "cache_busted_path": "/aurora-dashboard-site/india/?aurora_build=4b15c8f2d5c88d496dd1b56586e716cd3c7f1eb5&completed_session=2026-09-11",
       "legacy_dashboard_path": "/aurora-dashboard-site/india/dashboard.html",
-      "content_sha256": "abd421e554a11634e3d7dbfd9098e6d265930014b46a5af39fbff5a1c657faad",
+      "content_sha256": "ef178fc59104a40abc9e0c38b9ab2bf4c5198e4040b4490ef912c9cafa04c0b8",
       "content_bytes": 1276,
-      "legacy_content_sha256": "af64c70ef794d915e3a8695bab863a5e7afa44382b03149ce8ce5adf71cffad9",
+      "legacy_content_sha256": "caba5df806117960a446b8eaf84966c4f2ef693473bc2bc083ae2ee77b0cfe07",
       "market": "india",
       "publication_mode": "MARKET_INDEPENDENT_LAST_GOOD",
-      "source_run_id": "34762839704",
-      "source_sha": "9ed2f3e202ba0d7001e974e1b874ae014d70db6d",
-      "published_at": "2026-09-13T14:49:00Z"
+      "source_run_id": "34868763745",
+      "source_sha": "4b15c8f2d5c88d496dd1b56586e716cd3c7f1eb5",
+      "published_at": "2026-09-14T16:31:23Z"
     },
     "canada": {
       "surface": "REACT",

@@ -43,8 +43,8 @@
     "target_min": 15,
     "target_max": 20,
     "selected_count": 15,
-    "caps_applied": true,
-    "relaxed_for_minimum_count": 2,
+    "caps_applied": false,
+    "relaxed_for_minimum_count": 0,
     "sector_counts": {
       "INDUSTRIALS": 3,
       "COMMUNICATION_SERVICES": 1,
@@ -62,8 +62,7 @@
       "PULLBACK_RETEST_CANDIDATES": 1
     },
     "warnings": [
-      "ROLE_CONCENTRATION:OTHER_RANKED_LEADERS:10/15",
-      "BALANCE_CAP_RELAXED_FOR_MINIMUM:2"
+      "ROLE_CONCENTRATION:OTHER_RANKED_LEADERS:10/15"
     ],
     "no_external_candidate_insertion": true,
     "original_rank_order_preserved": true,
@@ -72,27 +71,28 @@
     "market_permission_mutated": false,
     "trigger_stop_risk_mutated": false
   },
-  "carry_forward_count": 0,
+  "carry_forward_count": 15,
   "daily_status": {
-    "ADANIENT": "FRESH_WEEKLY_REBUILD",
-    "IDEA": "FRESH_WEEKLY_REBUILD",
-    "APOLLO": "FRESH_WEEKLY_REBUILD",
-    "HSCL": "FRESH_WEEKLY_REBUILD",
-    "RICOAUTO": "FRESH_WEEKLY_REBUILD",
-    "GRASIM": "FRESH_WEEKLY_REBUILD",
-    "THYROCARE": "FRESH_WEEKLY_REBUILD",
-    "RRKABEL": "FRESH_WEEKLY_REBUILD",
-    "TORNTPHARM": "FRESH_WEEKLY_REBUILD",
-    "BALAMINES": "FRESH_WEEKLY_REBUILD",
-    "PNB": "FRESH_WEEKLY_REBUILD",
-    "HLEGLAS": "FRESH_WEEKLY_REBUILD",
-    "LLOYDSENGG": "FRESH_WEEKLY_REBUILD",
-    "NEPHROPLUS": "FRESH_WEEKLY_REBUILD",
-    "IRMENERGY": "FRESH_WEEKLY_REBUILD"
+    "ADANIENT": "CARRY_FORWARD_RECALCULATED",
+    "IDEA": "CARRY_FORWARD_RECALCULATED",
+    "APOLLO": "CARRY_FORWARD_RECALCULATED",
+    "HSCL": "CARRY_FORWARD_RECALCULATED",
+    "RICOAUTO": "CARRY_FORWARD_RECALCULATED",
+    "GRASIM": "CARRY_FORWARD_RECALCULATED",
+    "THYROCARE": "CARRY_FORWARD_RECALCULATED",
+    "RRKABEL": "CARRY_FORWARD_RECALCULATED",
+    "TORNTPHARM": "CARRY_FORWARD_RECALCULATED",
+    "BALAMINES": "CARRY_FORWARD_RECALCULATED",
+    "PNB": "CARRY_FORWARD_RECALCULATED",
+    "HLEGLAS": "CARRY_FORWARD_RECALCULATED",
+    "LLOYDSENGG": "CARRY_FORWARD_RECALCULATED",
+    "NEPHROPLUS": "CARRY_FORWARD_RECALCULATED",
+    "IRMENERGY": "CARRY_FORWARD_RECALCULATED"
   },
   "removal_flag": {},
   "removal_reason": {},
   "stale_setup_review": {},
   "stale_remove": {},
-  "generated_at": "2026-09-13T14:46:20.816Z"
+  "generated_at": "2026-09-14T16:28:34.630Z",
+  "last_updated_asof": "2026-09-11"
 }

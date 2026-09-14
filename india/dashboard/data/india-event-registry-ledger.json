@@ -2,7 +2,7 @@
   "schema_version": "aurora_p0_6_cross_market_event_runtime_v0_1_ledger",
   "market": "INDIA",
   "data_as_of": "2026-09-11",
-  "generated_at": "2026-09-13T14:47:07.776Z",
+  "generated_at": "2026-09-14T16:29:24.092Z",
   "records": [],
   "locks": {
     "eod_only": true,
