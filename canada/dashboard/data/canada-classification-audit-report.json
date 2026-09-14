@@ -1,12 +1,12 @@
 {
   "market": "CANADA",
-  "total_checked": 334,
+  "total_checked": 336,
   "counts_by_status": {
     "MAPPED_OFFICIAL": 89,
     "MAPPED_PROVIDER_HIGH_CONFIDENCE": 0,
     "MAPPED_INTERNAL_REVIEWED": 0,
     "MAPPED_PROXY_LOW_CONFIDENCE": 0,
-    "UNMAPPED_REVIEW": 245,
+    "UNMAPPED_REVIEW": 247,
     "CONFLICT_REVIEW": 0,
     "NON_COMMON_REFERENCE": 0
   },
@@ -160,15 +160,15 @@
     ],
     "low_confidence": []
   },
-  "excluded_from_industry_theme_rrg": 245,
-  "excluded_from_sector_rrg": 245,
-  "excluded_from_industry_group_rrg": 245,
-  "excluded_from_industry_rrg": 334,
-  "excluded_from_sub_industry_rrg": 334,
-  "excluded_from_theme_rrg": 334,
+  "excluded_from_industry_theme_rrg": 247,
+  "excluded_from_sector_rrg": 247,
+  "excluded_from_industry_group_rrg": 247,
+  "excluded_from_industry_rrg": 336,
+  "excluded_from_sub_industry_rrg": 336,
+  "excluded_from_theme_rrg": 336,
   "source_coverage_by_market": {
     "CANADA": {
-      "TMX_LISTED_COMPANY_DIRECTORY": 334
+      "TMX_LISTED_COMPANY_DIRECTORY": 336
     }
   }
 }

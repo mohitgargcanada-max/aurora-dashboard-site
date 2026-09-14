@@ -2,7 +2,7 @@
   "market": "CANADA",
   "status": "INDEX_REFRESH_ATTEMPTED",
   "expected_completed_session": "2026-09-11",
-  "retrieved_at": "2026-09-13T14:12:36.589Z",
+  "retrieved_at": "2026-09-14T16:27:13.028Z",
   "provider_route": [
     "YAHOO_FINANCE",
     "EODHD_FALLBACK"
@@ -15,7 +15,17 @@
       "data_as_of": "2026-09-11",
       "reason": "OK",
       "type": "INDEX",
-      "completed_session_trim": null
+      "completed_session_trim": {
+        "applied": true,
+        "expected_completed_session": "2026-09-11",
+        "source_data_as_of": "2026-09-14",
+        "retained_data_as_of": "2026-09-11",
+        "removed_bar_count": 1,
+        "removed_dates": [
+          "2026-09-14"
+        ],
+        "provider_blending": false
+      }
     },
     {
       "symbol": "XIT.TO",
@@ -24,7 +34,17 @@
       "data_as_of": "2026-09-11",
       "reason": "OK",
       "type": "INDEX",
-      "completed_session_trim": null
+      "completed_session_trim": {
+        "applied": true,
+        "expected_completed_session": "2026-09-11",
+        "source_data_as_of": "2026-09-14",
+        "retained_data_as_of": "2026-09-11",
+        "removed_bar_count": 1,
+        "removed_dates": [
+          "2026-09-14"
+        ],
+        "provider_blending": false
+      }
     },
     {
       "symbol": "XIC.TO",
@@ -33,7 +53,17 @@
       "data_as_of": "2026-09-11",
       "reason": "OK",
       "type": "INDEX",
-      "completed_session_trim": null
+      "completed_session_trim": {
+        "applied": true,
+        "expected_completed_session": "2026-09-11",
+        "source_data_as_of": "2026-09-14",
+        "retained_data_as_of": "2026-09-11",
+        "removed_bar_count": 1,
+        "removed_dates": [
+          "2026-09-14"
+        ],
+        "provider_blending": false
+      }
     },
     {
       "symbol": "XIU.TO",
@@ -42,7 +72,17 @@
       "data_as_of": "2026-09-11",
       "reason": "OK",
       "type": "INDEX",
-      "completed_session_trim": null
+      "completed_session_trim": {
+        "applied": true,
+        "expected_completed_session": "2026-09-11",
+        "source_data_as_of": "2026-09-14",
+        "retained_data_as_of": "2026-09-11",
+        "removed_bar_count": 1,
+        "removed_dates": [
+          "2026-09-14"
+        ],
+        "provider_blending": false
+      }
     },
     {
       "symbol": "XEG.TO",
@@ -51,7 +91,17 @@
       "data_as_of": "2026-09-11",
       "reason": "OK",
       "type": "INDEX",
-      "completed_session_trim": null
+      "completed_session_trim": {
+        "applied": true,
+        "expected_completed_session": "2026-09-11",
+        "source_data_as_of": "2026-09-14",
+        "retained_data_as_of": "2026-09-11",
+        "removed_bar_count": 1,
+        "removed_dates": [
+          "2026-09-14"
+        ],
+        "provider_blending": false
+      }
     },
     {
       "symbol": "SHOP.TO",
@@ -60,7 +110,17 @@
       "data_as_of": "2026-09-11",
       "reason": "OK",
       "type": "INDEX",
-      "completed_session_trim": null
+      "completed_session_trim": {
+        "applied": true,
+        "expected_completed_session": "2026-09-11",
+        "source_data_as_of": "2026-09-14",
+        "retained_data_as_of": "2026-09-11",
+        "removed_bar_count": 1,
+        "removed_dates": [
+          "2026-09-14"
+        ],
+        "provider_blending": false
+      }
     },
     {
       "symbol": "XFN.TO",
@@ -69,7 +129,17 @@
       "data_as_of": "2026-09-11",
       "reason": "OK",
       "type": "INDEX",
-      "completed_session_trim": null
+      "completed_session_trim": {
+        "applied": true,
+        "expected_completed_session": "2026-09-11",
+        "source_data_as_of": "2026-09-14",
+        "retained_data_as_of": "2026-09-11",
+        "removed_bar_count": 1,
+        "removed_dates": [
+          "2026-09-14"
+        ],
+        "provider_blending": false
+      }
     },
     {
       "symbol": "XMA.TO",
@@ -78,7 +148,17 @@
       "data_as_of": "2026-09-11",
       "reason": "OK",
       "type": "INDEX",
-      "completed_session_trim": null
+      "completed_session_trim": {
+        "applied": true,
+        "expected_completed_session": "2026-09-11",
+        "source_data_as_of": "2026-09-14",
+        "retained_data_as_of": "2026-09-11",
+        "removed_bar_count": 1,
+        "removed_dates": [
+          "2026-09-14"
+        ],
+        "provider_blending": false
+      }
     },
     {
       "symbol": "ZUT.TO",
@@ -87,7 +167,17 @@
       "data_as_of": "2026-09-11",
       "reason": "OK",
       "type": "INDEX",
-      "completed_session_trim": null
+      "completed_session_trim": {
+        "applied": true,
+        "expected_completed_session": "2026-09-11",
+        "source_data_as_of": "2026-09-14",
+        "retained_data_as_of": "2026-09-11",
+        "removed_bar_count": 1,
+        "removed_dates": [
+          "2026-09-14"
+        ],
+        "provider_blending": false
+      }
     },
     {
       "symbol": "XRE.TO",
@@ -96,7 +186,17 @@
       "data_as_of": "2026-09-11",
       "reason": "OK",
       "type": "INDEX",
-      "completed_session_trim": null
+      "completed_session_trim": {
+        "applied": true,
+        "expected_completed_session": "2026-09-11",
+        "source_data_as_of": "2026-09-14",
+        "retained_data_as_of": "2026-09-11",
+        "removed_bar_count": 1,
+        "removed_dates": [
+          "2026-09-14"
+        ],
+        "provider_blending": false
+      }
     },
     {
       "symbol": "ZIN.TO",

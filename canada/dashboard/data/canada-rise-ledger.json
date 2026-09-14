@@ -2,7 +2,7 @@
   "schema_version": "aurora_rise_runtime_ledger_v0_1",
   "market": "CANADA",
   "data_as_of": "2026-09-11",
-  "generated_at": "2026-09-13T14:13:34.691Z",
+  "generated_at": "2026-09-14T16:28:11.762Z",
   "records": [
     {
       "symbol": "ROB",
@@ -7250,27 +7250,6 @@
       "decision_authority": false
     },
     {
-      "symbol": "NANO",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "UNMAPPED_REVIEW",
-      "rs_rating": 42,
-      "rrg": {
-        "ratio": 106.9,
-        "momentum": 104.31,
-        "quadrant": "LEADING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 2,
-      "final_bucket_observation": "AVOID_FRESH_LONG",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
       "symbol": "EVGN",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -7636,6 +7615,27 @@
       "rrg": {
         "ratio": 140.81,
         "momentum": 121.62,
+        "quadrant": "LEADING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 2,
+      "final_bucket_observation": "AVOID_FRESH_LONG",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
+      "symbol": "NANO",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "UNMAPPED_REVIEW",
+      "rs_rating": 41,
+      "rrg": {
+        "ratio": 106.9,
+        "momentum": 104.31,
         "quadrant": "LEADING"
       },
       "rise_state": null,
@@ -11450,27 +11450,6 @@
       "decision_authority": false
     },
     {
-      "symbol": "ICGH",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "UNMAPPED_REVIEW",
-      "rs_rating": 39,
-      "rrg": {
-        "ratio": 104.98,
-        "momentum": 102.15,
-        "quadrant": "LEADING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 2,
-      "final_bucket_observation": "AVOID_FRESH_LONG",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
       "symbol": "REG",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -11739,6 +11718,27 @@
       "last_seen_date": "2026-09-11",
       "consecutive_state_sessions": 2,
       "consecutive_leading_sessions": 0,
+      "final_bucket_observation": "AVOID_FRESH_LONG",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
+      "symbol": "ICGH",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "UNMAPPED_REVIEW",
+      "rs_rating": 38,
+      "rrg": {
+        "ratio": 104.98,
+        "momentum": 102.15,
+        "quadrant": "LEADING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 2,
       "final_bucket_observation": "AVOID_FRESH_LONG",
       "context_only": true,
       "decision_authority": false
@@ -12185,27 +12185,6 @@
       "decision_authority": false
     },
     {
-      "symbol": "MKR",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "Oil & Gas E&P",
-      "rs_rating": 41,
-      "rrg": {
-        "ratio": 101.1,
-        "momentum": 100.91,
-        "quadrant": "LEADING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 2,
-      "final_bucket_observation": "AVOID_FRESH_LONG",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
       "symbol": "CNR",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -12286,48 +12265,6 @@
       "consecutive_state_sessions": 0,
       "consecutive_leading_sessions": 2,
       "final_bucket_observation": "TRIGGER_READY",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
-      "symbol": "PPL-PF-A",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "Pipelines / Midstream",
-      "rs_rating": 44,
-      "rrg": {
-        "ratio": 100.99,
-        "momentum": 100.44,
-        "quadrant": "LEADING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 2,
-      "final_bucket_observation": "TRIGGER_READY",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
-      "symbol": "GFL",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "UNMAPPED_REVIEW",
-      "rs_rating": 45,
-      "rrg": {
-        "ratio": 102.31,
-        "momentum": 101.03,
-        "quadrant": "LEADING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 2,
-      "final_bucket_observation": "EARLY_ENTRY_WATCH",
       "context_only": true,
       "decision_authority": false
     },
@@ -12584,6 +12521,27 @@
       "decision_authority": false
     },
     {
+      "symbol": "MKR",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "Oil & Gas E&P",
+      "rs_rating": 40,
+      "rrg": {
+        "ratio": 101.1,
+        "momentum": 100.91,
+        "quadrant": "LEADING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 2,
+      "final_bucket_observation": "AVOID_FRESH_LONG",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
       "symbol": "ECOM",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -12668,6 +12626,27 @@
       "decision_authority": false
     },
     {
+      "symbol": "PPL-PF-A",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "Pipelines / Midstream",
+      "rs_rating": 43,
+      "rrg": {
+        "ratio": 100.99,
+        "momentum": 100.44,
+        "quadrant": "LEADING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 2,
+      "final_bucket_observation": "TRIGGER_READY",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
       "symbol": "RAGE",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -12706,6 +12685,27 @@
       "consecutive_state_sessions": 0,
       "consecutive_leading_sessions": 2,
       "final_bucket_observation": "AVOID_FRESH_LONG",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
+      "symbol": "GFL",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "UNMAPPED_REVIEW",
+      "rs_rating": 44,
+      "rrg": {
+        "ratio": 102.31,
+        "momentum": 101.03,
+        "quadrant": "LEADING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 2,
+      "final_bucket_observation": "EARLY_ENTRY_WATCH",
       "context_only": true,
       "decision_authority": false
     },
@@ -13424,27 +13424,6 @@
       "decision_authority": false
     },
     {
-      "symbol": "CSX",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "UNMAPPED_REVIEW",
-      "rs_rating": 35,
-      "rrg": {
-        "ratio": 101.53,
-        "momentum": 101.6,
-        "quadrant": "LEADING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 2,
-      "final_bucket_observation": "AVOID_FRESH_LONG",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
       "symbol": "IMR",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -13684,6 +13663,27 @@
       "rrg": {
         "ratio": 101.06,
         "momentum": 100.2,
+        "quadrant": "LEADING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 2,
+      "final_bucket_observation": "AVOID_FRESH_LONG",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
+      "symbol": "CSX",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "UNMAPPED_REVIEW",
+      "rs_rating": 34,
+      "rrg": {
+        "ratio": 101.53,
+        "momentum": 101.6,
         "quadrant": "LEADING"
       },
       "rise_state": null,
@@ -14621,27 +14621,6 @@
       "decision_authority": false
     },
     {
-      "symbol": "X",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "UNMAPPED_REVIEW",
-      "rs_rating": 43,
-      "rrg": {
-        "ratio": 100.84,
-        "momentum": 100.51,
-        "quadrant": "LEADING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 2,
-      "final_bucket_observation": "EARLY_ENTRY_WATCH",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
       "symbol": "HWO",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -14659,27 +14638,6 @@
       "consecutive_state_sessions": 0,
       "consecutive_leading_sessions": 2,
       "final_bucket_observation": "AVOID_FRESH_LONG",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
-      "symbol": "LAS-A",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "UNMAPPED_REVIEW",
-      "rs_rating": 49,
-      "rrg": {
-        "ratio": 100.52,
-        "momentum": 99.38,
-        "quadrant": "WEAKENING"
-      },
-      "rise_state": "FADING",
-      "rise_evaluation_status": "EVALUATED_LOCKED_LIFECYCLE",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 2,
-      "consecutive_leading_sessions": 0,
-      "final_bucket_observation": "EARLY_ENTRY_WATCH",
       "context_only": true,
       "decision_authority": false
     },
@@ -14936,6 +14894,27 @@
       "decision_authority": false
     },
     {
+      "symbol": "X",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "UNMAPPED_REVIEW",
+      "rs_rating": 42,
+      "rrg": {
+        "ratio": 100.84,
+        "momentum": 100.51,
+        "quadrant": "LEADING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 2,
+      "final_bucket_observation": "EARLY_ENTRY_WATCH",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
       "symbol": "TGX",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -14974,6 +14953,27 @@
       "consecutive_state_sessions": 0,
       "consecutive_leading_sessions": 2,
       "final_bucket_observation": "AVOID_FRESH_LONG",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
+      "symbol": "LAS-A",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "UNMAPPED_REVIEW",
+      "rs_rating": 48,
+      "rrg": {
+        "ratio": 100.52,
+        "momentum": 99.38,
+        "quadrant": "WEAKENING"
+      },
+      "rise_state": "FADING",
+      "rise_evaluation_status": "EVALUATED_LOCKED_LIFECYCLE",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 2,
+      "consecutive_leading_sessions": 0,
+      "final_bucket_observation": "EARLY_ENTRY_WATCH",
       "context_only": true,
       "decision_authority": false
     },
@@ -18611,27 +18611,6 @@
       "decision_authority": false
     },
     {
-      "symbol": "BRW",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "UNMAPPED_REVIEW",
-      "rs_rating": 48,
-      "rrg": {
-        "ratio": 101.06,
-        "momentum": 102.76,
-        "quadrant": "LEADING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 2,
-      "final_bucket_observation": "AVOID_FRESH_LONG",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
       "symbol": "CTZ",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -19048,6 +19027,27 @@
       "consecutive_state_sessions": 0,
       "consecutive_leading_sessions": 2,
       "final_bucket_observation": "REPAIR_WATCH",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
+      "symbol": "BRW",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "UNMAPPED_REVIEW",
+      "rs_rating": 47,
+      "rrg": {
+        "ratio": 101.06,
+        "momentum": 102.76,
+        "quadrant": "LEADING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 2,
+      "final_bucket_observation": "AVOID_FRESH_LONG",
       "context_only": true,
       "decision_authority": false
     },
@@ -20984,27 +20984,6 @@
       "decision_authority": false
     },
     {
-      "symbol": "NGEX",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "UNMAPPED_REVIEW",
-      "rs_rating": 50,
-      "rrg": {
-        "ratio": 97.16,
-        "momentum": 98.4,
-        "quadrant": "LAGGING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 0,
-      "final_bucket_observation": "REPAIR_WATCH",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
       "symbol": "BK",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -21244,6 +21223,27 @@
       "rrg": {
         "ratio": 98.28,
         "momentum": 97.16,
+        "quadrant": "LAGGING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 0,
+      "final_bucket_observation": "REPAIR_WATCH",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
+      "symbol": "NGEX",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "UNMAPPED_REVIEW",
+      "rs_rating": 49,
+      "rrg": {
+        "ratio": 97.16,
+        "momentum": 98.4,
         "quadrant": "LAGGING"
       },
       "rise_state": null,
@@ -21908,27 +21908,6 @@
       "decision_authority": false
     },
     {
-      "symbol": "IVN",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "UNMAPPED_REVIEW",
-      "rs_rating": 47,
-      "rrg": {
-        "ratio": 103.5,
-        "momentum": 99.85,
-        "quadrant": "WEAKENING"
-      },
-      "rise_state": "FADING",
-      "rise_evaluation_status": "EVALUATED_LOCKED_LIFECYCLE",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 2,
-      "consecutive_leading_sessions": 0,
-      "final_bucket_observation": "REPAIR_WATCH",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
       "symbol": "MKA",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -22034,27 +22013,6 @@
       "decision_authority": false
     },
     {
-      "symbol": "PNP",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "UNMAPPED_REVIEW",
-      "rs_rating": 27,
-      "rrg": {
-        "ratio": 99.95,
-        "momentum": 99.75,
-        "quadrant": "LAGGING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 0,
-      "final_bucket_observation": "EARLY_ENTRY_WATCH",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
       "symbol": "TUF",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -22071,27 +22029,6 @@
       "last_seen_date": "2026-09-11",
       "consecutive_state_sessions": 0,
       "consecutive_leading_sessions": 0,
-      "final_bucket_observation": "AVOID_FRESH_LONG",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
-      "symbol": "VRY",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "Oil & Gas E&P",
-      "rs_rating": 32,
-      "rrg": {
-        "ratio": 108.19,
-        "momentum": 104.97,
-        "quadrant": "LEADING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 2,
       "final_bucket_observation": "AVOID_FRESH_LONG",
       "context_only": true,
       "decision_authority": false
@@ -22210,27 +22147,6 @@
       "rrg": {
         "ratio": 101.02,
         "momentum": 100.35,
-        "quadrant": "LEADING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 2,
-      "final_bucket_observation": "AVOID_FRESH_LONG",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
-      "symbol": "TSD",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "Oil & Gas E&P",
-      "rs_rating": 30,
-      "rrg": {
-        "ratio": 125.08,
-        "momentum": 124.97,
         "quadrant": "LEADING"
       },
       "rise_state": null,
@@ -22433,6 +22349,27 @@
       "decision_authority": false
     },
     {
+      "symbol": "IVN",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "UNMAPPED_REVIEW",
+      "rs_rating": 46,
+      "rrg": {
+        "ratio": 103.5,
+        "momentum": 99.85,
+        "quadrant": "WEAKENING"
+      },
+      "rise_state": "FADING",
+      "rise_evaluation_status": "EVALUATED_LOCKED_LIFECYCLE",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 2,
+      "consecutive_leading_sessions": 0,
+      "final_bucket_observation": "REPAIR_WATCH",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
       "symbol": "UIG",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -22471,6 +22408,27 @@
       "consecutive_state_sessions": 0,
       "consecutive_leading_sessions": 2,
       "final_bucket_observation": "AVOID_FRESH_LONG",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
+      "symbol": "PNP",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "UNMAPPED_REVIEW",
+      "rs_rating": 26,
+      "rrg": {
+        "ratio": 99.95,
+        "momentum": 99.75,
+        "quadrant": "LAGGING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 0,
+      "final_bucket_observation": "EARLY_ENTRY_WATCH",
       "context_only": true,
       "decision_authority": false
     },
@@ -22554,6 +22512,48 @@
       "last_seen_date": "2026-09-11",
       "consecutive_state_sessions": 0,
       "consecutive_leading_sessions": 0,
+      "final_bucket_observation": "AVOID_FRESH_LONG",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
+      "symbol": "VRY",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "Oil & Gas E&P",
+      "rs_rating": 31,
+      "rrg": {
+        "ratio": 108.19,
+        "momentum": 104.97,
+        "quadrant": "LEADING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 2,
+      "final_bucket_observation": "AVOID_FRESH_LONG",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
+      "symbol": "TSD",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "Oil & Gas E&P",
+      "rs_rating": 29,
+      "rrg": {
+        "ratio": 125.08,
+        "momentum": 124.97,
+        "quadrant": "LEADING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 2,
       "final_bucket_observation": "AVOID_FRESH_LONG",
       "context_only": true,
       "decision_authority": false
@@ -23609,27 +23609,6 @@
       "decision_authority": false
     },
     {
-      "symbol": "TCS",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "UNMAPPED_REVIEW",
-      "rs_rating": 26,
-      "rrg": {
-        "ratio": 104.13,
-        "momentum": 105.48,
-        "quadrant": "LEADING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 2,
-      "final_bucket_observation": "NO_CHASE",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
       "symbol": "CRI",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -23962,6 +23941,27 @@
       "consecutive_state_sessions": 0,
       "consecutive_leading_sessions": 0,
       "final_bucket_observation": "EARLY_ENTRY_WATCH",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
+      "symbol": "TCS",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "UNMAPPED_REVIEW",
+      "rs_rating": 25,
+      "rrg": {
+        "ratio": 104.13,
+        "momentum": 105.48,
+        "quadrant": "LEADING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 2,
+      "final_bucket_observation": "NO_CHASE",
       "context_only": true,
       "decision_authority": false
     },
@@ -24554,27 +24554,6 @@
       "decision_authority": false
     },
     {
-      "symbol": "ENGH",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "Canadian Technology / Software",
-      "rs_rating": 31,
-      "rrg": {
-        "ratio": 102.5,
-        "momentum": 103.87,
-        "quadrant": "LEADING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 2,
-      "final_bucket_observation": "EARLY_ENTRY_WATCH",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
       "symbol": "KS",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -24949,6 +24928,27 @@
       "consecutive_state_sessions": 0,
       "consecutive_leading_sessions": 2,
       "final_bucket_observation": "AVOID_FRESH_LONG",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
+      "symbol": "ENGH",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "Canadian Technology / Software",
+      "rs_rating": 30,
+      "rrg": {
+        "ratio": 102.5,
+        "momentum": 103.87,
+        "quadrant": "LEADING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 2,
+      "final_bucket_observation": "EARLY_ENTRY_WATCH",
       "context_only": true,
       "decision_authority": false
     },
@@ -26318,27 +26318,6 @@
       "decision_authority": false
     },
     {
-      "symbol": "GMA",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "Oil & Gas E&P",
-      "rs_rating": 24,
-      "rrg": {
-        "ratio": 101.71,
-        "momentum": 101.44,
-        "quadrant": "LEADING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 2,
-      "final_bucket_observation": "AVOID_FRESH_LONG",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
       "symbol": "SLS",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -26628,6 +26607,27 @@
       "last_seen_date": "2026-09-11",
       "consecutive_state_sessions": 0,
       "consecutive_leading_sessions": 0,
+      "final_bucket_observation": "AVOID_FRESH_LONG",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
+      "symbol": "GMA",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "Oil & Gas E&P",
+      "rs_rating": 23,
+      "rrg": {
+        "ratio": 101.71,
+        "momentum": 101.44,
+        "quadrant": "LEADING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 2,
       "final_bucket_observation": "AVOID_FRESH_LONG",
       "context_only": true,
       "decision_authority": false
@@ -28460,27 +28460,6 @@
       "decision_authority": false
     },
     {
-      "symbol": "EW",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "UNMAPPED_REVIEW",
-      "rs_rating": 36,
-      "rrg": {
-        "ratio": 99.09,
-        "momentum": 99.24,
-        "quadrant": "LAGGING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 0,
-      "final_bucket_observation": "AVOID_FRESH_LONG",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
       "symbol": "NL",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -28854,6 +28833,27 @@
       "last_seen_date": "2026-09-11",
       "consecutive_state_sessions": 0,
       "consecutive_leading_sessions": 2,
+      "final_bucket_observation": "AVOID_FRESH_LONG",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
+      "symbol": "EW",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "UNMAPPED_REVIEW",
+      "rs_rating": 35,
+      "rrg": {
+        "ratio": 99.09,
+        "momentum": 99.24,
+        "quadrant": "LAGGING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 0,
       "final_bucket_observation": "AVOID_FRESH_LONG",
       "context_only": true,
       "decision_authority": false
@@ -29930,27 +29930,6 @@
       "decision_authority": false
     },
     {
-      "symbol": "MGG",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "Silver Miners",
-      "rs_rating": 46,
-      "rrg": {
-        "ratio": 94.22,
-        "momentum": 96.17,
-        "quadrant": "LAGGING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 0,
-      "final_bucket_observation": "AVOID_FRESH_LONG",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
       "symbol": "WAVE",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -30240,6 +30219,27 @@
       "last_seen_date": "2026-09-11",
       "consecutive_state_sessions": 0,
       "consecutive_leading_sessions": 2,
+      "final_bucket_observation": "AVOID_FRESH_LONG",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
+      "symbol": "MGG",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "Silver Miners",
+      "rs_rating": 45,
+      "rrg": {
+        "ratio": 94.22,
+        "momentum": 96.17,
+        "quadrant": "LAGGING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 0,
       "final_bucket_observation": "AVOID_FRESH_LONG",
       "context_only": true,
       "decision_authority": false
@@ -31673,27 +31673,6 @@
       "decision_authority": false
     },
     {
-      "symbol": "CPH",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "UNMAPPED_REVIEW",
-      "rs_rating": 25,
-      "rrg": {
-        "ratio": 101.26,
-        "momentum": 101.34,
-        "quadrant": "LEADING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 2,
-      "final_bucket_observation": "EARLY_ENTRY_WATCH",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
       "symbol": "SIA",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -31900,6 +31879,27 @@
       "consecutive_state_sessions": 0,
       "consecutive_leading_sessions": 0,
       "final_bucket_observation": "AVOID_FRESH_LONG",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
+      "symbol": "CPH",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "UNMAPPED_REVIEW",
+      "rs_rating": 24,
+      "rrg": {
+        "ratio": 101.26,
+        "momentum": 101.34,
+        "quadrant": "LEADING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 2,
+      "final_bucket_observation": "EARLY_ENTRY_WATCH",
       "context_only": true,
       "decision_authority": false
     },
@@ -32303,27 +32303,6 @@
       "decision_authority": false
     },
     {
-      "symbol": "DM",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "UNMAPPED_REVIEW",
-      "rs_rating": 22,
-      "rrg": {
-        "ratio": 120.53,
-        "momentum": 106.64,
-        "quadrant": "LEADING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 2,
-      "final_bucket_observation": "AVOID_FRESH_LONG",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
       "symbol": "REKO",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -32555,27 +32534,6 @@
       "decision_authority": false
     },
     {
-      "symbol": "WCN",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "UNMAPPED_REVIEW",
-      "rs_rating": 33,
-      "rrg": {
-        "ratio": 99.29,
-        "momentum": 100,
-        "quadrant": "LAGGING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 0,
-      "final_bucket_observation": "PULLBACK_WATCH",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
       "symbol": "NPR",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -32677,6 +32635,27 @@
       "consecutive_state_sessions": 0,
       "consecutive_leading_sessions": 0,
       "final_bucket_observation": "AVOID_FRESH_LONG",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
+      "symbol": "WCN",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "UNMAPPED_REVIEW",
+      "rs_rating": 32,
+      "rrg": {
+        "ratio": 99.29,
+        "momentum": 100,
+        "quadrant": "LAGGING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 0,
+      "final_bucket_observation": "PULLBACK_WATCH",
       "context_only": true,
       "decision_authority": false
     },
@@ -33143,27 +33122,6 @@
       "decision_authority": false
     },
     {
-      "symbol": "GSVR",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "Silver Miners",
-      "rs_rating": 34,
-      "rrg": {
-        "ratio": 94.86,
-        "momentum": 99.36,
-        "quadrant": "LAGGING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 0,
-      "final_bucket_observation": "AVOID_FRESH_LONG",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
       "symbol": "JDN",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -33395,21 +33353,21 @@
       "decision_authority": false
     },
     {
-      "symbol": "DTEA",
+      "symbol": "GSVR",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
-      "group_key": "UNMAPPED_REVIEW",
-      "rs_rating": 40,
+      "group_key": "Silver Miners",
+      "rs_rating": 33,
       "rrg": {
-        "ratio": 100.28,
-        "momentum": 97.71,
-        "quadrant": "WEAKENING"
+        "ratio": 94.86,
+        "momentum": 99.36,
+        "quadrant": "LAGGING"
       },
-      "rise_state": "FADING",
-      "rise_evaluation_status": "EVALUATED_LOCKED_LIFECYCLE",
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
       "first_seen_date": "2026-09-11",
       "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 2,
+      "consecutive_state_sessions": 0,
       "consecutive_leading_sessions": 0,
       "final_bucket_observation": "AVOID_FRESH_LONG",
       "context_only": true,
@@ -33578,6 +33536,27 @@
       "first_seen_date": "2026-09-11",
       "last_seen_date": "2026-09-11",
       "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 0,
+      "final_bucket_observation": "AVOID_FRESH_LONG",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
+      "symbol": "DTEA",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "UNMAPPED_REVIEW",
+      "rs_rating": 39,
+      "rrg": {
+        "ratio": 100.28,
+        "momentum": 97.71,
+        "quadrant": "WEAKENING"
+      },
+      "rise_state": "FADING",
+      "rise_evaluation_status": "EVALUATED_LOCKED_LIFECYCLE",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 2,
       "consecutive_leading_sessions": 0,
       "final_bucket_observation": "AVOID_FRESH_LONG",
       "context_only": true,
@@ -34109,27 +34088,6 @@
       "decision_authority": false
     },
     {
-      "symbol": "LSL",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "UNMAPPED_REVIEW",
-      "rs_rating": 29,
-      "rrg": {
-        "ratio": 97.12,
-        "momentum": 98.75,
-        "quadrant": "LAGGING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 0,
-      "final_bucket_observation": "AVOID_FRESH_LONG",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
       "symbol": "GAU",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -34277,6 +34235,27 @@
       "decision_authority": false
     },
     {
+      "symbol": "LSL",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "UNMAPPED_REVIEW",
+      "rs_rating": 28,
+      "rrg": {
+        "ratio": 97.12,
+        "momentum": 98.75,
+        "quadrant": "LAGGING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 0,
+      "final_bucket_observation": "AVOID_FRESH_LONG",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
       "symbol": "PCRX",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -34349,27 +34328,6 @@
         "ratio": 97.25,
         "momentum": 97.04,
         "quadrant": "LAGGING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 0,
-      "final_bucket_observation": "AVOID_FRESH_LONG",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
-      "symbol": "TPX-B",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "UNMAPPED_REVIEW",
-      "rs_rating": 28,
-      "rrg": {
-        "ratio": 98.95,
-        "momentum": 100.11,
-        "quadrant": "IMPROVING"
       },
       "rise_state": null,
       "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
@@ -34579,6 +34537,27 @@
       "rrg": {
         "ratio": 99.2,
         "momentum": 100.45,
+        "quadrant": "IMPROVING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 0,
+      "final_bucket_observation": "AVOID_FRESH_LONG",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
+      "symbol": "TPX-B",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "UNMAPPED_REVIEW",
+      "rs_rating": 27,
+      "rrg": {
+        "ratio": 98.95,
+        "momentum": 100.11,
         "quadrant": "IMPROVING"
       },
       "rise_state": null,
@@ -37343,27 +37322,6 @@
       "decision_authority": false
     },
     {
-      "symbol": "BN",
-      "market": "CANADA",
-      "data_as_of": "2026-09-11",
-      "group_key": "UNMAPPED_REVIEW",
-      "rs_rating": 23,
-      "rrg": {
-        "ratio": 97.77,
-        "momentum": 100.23,
-        "quadrant": "IMPROVING"
-      },
-      "rise_state": null,
-      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "consecutive_state_sessions": 0,
-      "consecutive_leading_sessions": 0,
-      "final_bucket_observation": "AVOID_FRESH_LONG",
-      "context_only": true,
-      "decision_authority": false
-    },
-    {
       "symbol": "SOMA",
       "market": "CANADA",
       "data_as_of": "2026-09-11",
@@ -37541,6 +37499,27 @@
         "ratio": 97.86,
         "momentum": 99.41,
         "quadrant": "LAGGING"
+      },
+      "rise_state": null,
+      "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "consecutive_state_sessions": 0,
+      "consecutive_leading_sessions": 0,
+      "final_bucket_observation": "AVOID_FRESH_LONG",
+      "context_only": true,
+      "decision_authority": false
+    },
+    {
+      "symbol": "BN",
+      "market": "CANADA",
+      "data_as_of": "2026-09-11",
+      "group_key": "UNMAPPED_REVIEW",
+      "rs_rating": 22,
+      "rrg": {
+        "ratio": 97.77,
+        "momentum": 100.23,
+        "quadrant": "IMPROVING"
       },
       "rise_state": null,
       "rise_evaluation_status": "NO_LOCKED_LIFECYCLE_MATCH",
@@ -41386,13 +41365,13 @@
         "KRI",
         "CLZ",
         "MKA",
-        "VRY",
         "ARN",
         "SWA",
-        "TSD",
         "SVB",
         "SIEN",
         "TRP",
+        "VRY",
+        "TSD",
         "GR",
         "CRD",
         "XL",
@@ -41420,9 +41399,9 @@
         "TRAN",
         "PHNM",
         "CSG",
-        "GMA",
         "SLS",
         "WLF",
+        "GMA",
         "GNG",
         "ISO",
         "LAM",
@@ -41658,8 +41637,8 @@
       "current_fire_count": 0,
       "previous_fire_count": 0,
       "confirmed_fire_count": 0,
-      "no_chase_count": 955,
-      "distribution_count": 1203,
+      "no_chase_count": 954,
+      "distribution_count": 1202,
       "peer_fire_trend": null,
       "symbols": [
         "AXO",
@@ -41847,7 +41826,6 @@
         "VCI",
         "EBCD-P",
         "GRF",
-        "NANO",
         "EVGN",
         "ATR-P",
         "ECCF-P",
@@ -41860,6 +41838,7 @@
         "QURI",
         "FRU",
         "MAN-P",
+        "NANO",
         "CES-P",
         "SRR",
         "CXI",
@@ -41970,7 +41949,6 @@
         "DII-A",
         "BN-PF-F",
         "PLXX-P",
-        "ICGH",
         "NFI",
         "ROOT",
         "OML",
@@ -41978,6 +41956,7 @@
         "CCMI",
         "MEED-P",
         "DBM",
+        "ICGH",
         "KEEL",
         "GBML",
         "DIV",
@@ -41993,7 +41972,6 @@
         "DRFD",
         "LEM",
         "BN-PF-J",
-        "GFL",
         "ORV",
         "YES",
         "ACD",
@@ -42005,6 +41983,7 @@
         "QBR-B",
         "AAAJ-P",
         "BN-PF-D",
+        "GFL",
         "MNLX",
         "PURO",
         "BILD",
@@ -42024,7 +42003,6 @@
         "SAG",
         "SCD",
         "CCRE",
-        "CSX",
         "ENA",
         "FAR",
         "NILI",
@@ -42034,6 +42012,7 @@
         "ICRS",
         "PCQ",
         "RMO",
+        "CSX",
         "CUIG",
         "PBY",
         "SSSS-P",
@@ -42059,15 +42038,15 @@
         "NOA",
         "PEX",
         "HSTR",
-        "X",
-        "LAS-A",
         "TGO",
         "FYL",
         "BEK-B",
         "TSU",
         "DLCG",
         "ADEN",
+        "X",
         "EMPR",
+        "LAS-A",
         "OTMC",
         "TNX",
         "MG",
@@ -42175,7 +42154,6 @@
         "ALYA",
         "MOO",
         "GSPR",
-        "BRW",
         "CTZ",
         "HC",
         "AVII-P",
@@ -42191,6 +42169,7 @@
         "VCT",
         "SPN",
         "MAL",
+        "BRW",
         "KNE",
         "LABS",
         "GBT",
@@ -42245,7 +42224,6 @@
         "TRV-P",
         "QTWO",
         "DPM",
-        "NGEX",
         "BK",
         "SMN",
         "HWX",
@@ -42253,6 +42231,7 @@
         "KLDC",
         "DR",
         "BCT",
+        "NGEX",
         "SALT",
         "VMXX",
         "AC",
@@ -42272,11 +42251,9 @@
         "GEO",
         "COO",
         "OSM",
-        "IVN",
         "IDL",
         "NUAG",
         "HEVI",
-        "PNP",
         "HBM",
         "AISX",
         "FRAS-P",
@@ -42286,8 +42263,10 @@
         "LNF",
         "MRU",
         "TA",
+        "IVN",
         "UIG",
         "NEXE",
+        "PNP",
         "QMC",
         "TC",
         "BRED",
@@ -42319,7 +42298,6 @@
         "MRE",
         "DCM",
         "BOL",
-        "TCS",
         "FEX",
         "RUSH",
         "QNC",
@@ -42329,6 +42307,7 @@
         "LVX",
         "NXG",
         "BCF",
+        "TCS",
         "GPH",
         "BIRD",
         "GPM",
@@ -42462,7 +42441,6 @@
         "LIO",
         "BDI",
         "DEFN",
-        "EW",
         "CNC",
         "FHYD",
         "ABI",
@@ -42475,6 +42453,7 @@
         "MAP",
         "FSV",
         "KXS",
+        "EW",
         "AGF-B",
         "PRN",
         "MCM-A",
@@ -42559,7 +42538,6 @@
         "QYOU",
         "DRX",
         "HAR",
-        "CPH",
         "SIA",
         "LIF",
         "TT",
@@ -42567,6 +42545,7 @@
         "GEC",
         "EKG",
         "WEX",
+        "CPH",
         "EDDY",
         "HEM",
         "CAD",
@@ -42577,7 +42556,6 @@
         "FREQ",
         "EML",
         "LITT",
-        "DM",
         "REKO",
         "CAE",
         "ASTL",
@@ -42585,9 +42563,9 @@
         "MIM",
         "BBB",
         "DFY",
-        "WCN",
         "ATOM",
         "CCA",
+        "WCN",
         "RSM",
         "DHB",
         "VLD",
@@ -42608,12 +42586,12 @@
         "DSY",
         "NMC",
         "PBH",
-        "DTEA",
         "NSCI",
         "BITK",
         "HLF",
         "RVX",
         "LI",
+        "DTEA",
         "CTM",
         "SPB",
         "INX",
@@ -42630,21 +42608,21 @@
         "BIPC",
         "MKP",
         "WED",
-        "LSL",
         "PNG",
         "OTEX",
         "DRM",
         "IFC",
+        "LSL",
         "PCRX",
         "CMIL",
         "AEG",
         "BMV",
-        "TPX-B",
         "FTJ",
         "GX",
         "BHC",
         "ELVA",
         "SJ",
+        "TPX-B",
         "ADCO",
         "HDRO",
         "ABZ",
@@ -42735,10 +42713,10 @@
         "BARK",
         "INEO",
         "PNC-A",
-        "BN",
         "TRI",
         "POOL",
         "IMPT",
+        "BN",
         "HPQ",
         "MMX",
         "EXCL",
@@ -43200,8 +43178,8 @@
         "SWLF",
         "KTN",
         "TSLV",
-        "GSVR",
         "DEF",
+        "GSVR",
         "PNTR",
         "VIPR",
         "AAG",
@@ -43241,8 +43219,8 @@
         "YFI",
         "WPRT",
         "CMI",
-        "ENGH",
         "BWLK",
+        "ENGH",
         "GRID",
         "CHS",
         "LPS",
@@ -43288,20 +43266,6 @@
       ]
     },
     {
-      "group_key": "Pipelines / Midstream",
-      "data_as_of": "2026-09-11",
-      "current_fire_count": 0,
-      "previous_fire_count": 0,
-      "confirmed_fire_count": 0,
-      "no_chase_count": 0,
-      "distribution_count": 2,
-      "peer_fire_trend": null,
-      "symbols": [
-        "PPL-PF-A",
-        "PPL"
-      ]
-    },
-    {
       "group_key": "E-commerce / Digital Platforms",
       "data_as_of": "2026-09-11",
       "current_fire_count": 0,
@@ -43313,6 +43277,20 @@
       "symbols": [
         "ECOM",
         "LSPD"
+      ]
+    },
+    {
+      "group_key": "Pipelines / Midstream",
+      "data_as_of": "2026-09-11",
+      "current_fire_count": 0,
+      "previous_fire_count": 0,
+      "confirmed_fire_count": 0,
+      "no_chase_count": 0,
+      "distribution_count": 2,
+      "peer_fire_trend": null,
+      "symbols": [
+        "PPL-PF-A",
+        "PPL"
       ]
     },
     {

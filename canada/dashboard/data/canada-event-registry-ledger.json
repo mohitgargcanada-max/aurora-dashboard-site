@@ -2,7 +2,7 @@
   "schema_version": "aurora_p0_6_cross_market_event_runtime_v0_1_ledger",
   "market": "CANADA",
   "data_as_of": "2026-09-11",
-  "generated_at": "2026-09-13T14:14:25.562Z",
+  "generated_at": "2026-09-14T16:29:02.214Z",
   "records": [],
   "locks": {
     "eod_only": true,

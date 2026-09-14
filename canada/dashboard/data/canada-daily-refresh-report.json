@@ -5,7 +5,7 @@
   "run_mode_reason": "CLI_MODE_EXPLICIT",
   "data_as_of": "2026-09-11",
   "completed_session": "2026-09-11",
-  "generated_at": "2026-09-13T14:13:34.691Z",
+  "generated_at": "2026-09-14T16:28:11.762Z",
   "weekly_contract_id": "CANADA-2026-W37-2026-09-11",
   "weekly_contract_created_asof": "2026-09-11",
   "weekly_role_balance_schema": "aurora_weekly_universe_role_balance_v1",
@@ -23,11 +23,11 @@
     "NEW_EXCEPTION_CANDIDATES",
     "ACTIVE_CATALYST_EVENT_NAMES"
   ],
-  "expected_symbols": 2095,
-  "loaded_symbols": 2088,
-  "valid_latest_symbols": 2069,
-  "calculated_symbols": 1961,
-  "coverage_pct": 93.6,
+  "expected_symbols": 2096,
+  "loaded_symbols": 2087,
+  "valid_latest_symbols": 2068,
+  "calculated_symbols": 1960,
+  "coverage_pct": 93.51,
   "stale_dashboard_flag": false,
   "warnings": [
     "ROLE_CONCENTRATION:DEVELOPING_GROWTH_LEADERS:5/11",
@@ -14379,20 +14379,6 @@
         "provider_symbol": "DLTA.V"
       },
       {
-        "symbol": "DM",
-        "tmx_symbol": "DM",
-        "name": "Datametrex AI Limited",
-        "instrument_name": "Datametrex AI Limited",
-        "exchange": "TSXV",
-        "security_type": "COMMON_STOCK",
-        "aurora_layer": "CANADA_COMPREHENSIVE_COMMON_STOCK",
-        "source": "TMX_LISTED_COMPANY_DIRECTORY",
-        "source_url": "https://www.tsx.com/en/listings/listing-with-us/listed-company-directory",
-        "filter_version": "aurora_canada_common_stock_filter_v0_1",
-        "canonical_symbol": "DM",
-        "provider_symbol": "DM.V"
-      },
-      {
         "symbol": "DMCU",
         "tmx_symbol": "DMCU",
         "name": "Domestic Metals Corp.",
@@ -23745,6 +23731,20 @@
         "provider_symbol": "QNC.V"
       },
       {
+        "symbol": "QNTA",
+        "tmx_symbol": "QNTA",
+        "name": "Datametrex AI Limited",
+        "instrument_name": "Quanta AI Inc.",
+        "exchange": "TSXV",
+        "security_type": "COMMON_STOCK",
+        "aurora_layer": "CANADA_COMPREHENSIVE_COMMON_STOCK",
+        "source": "TMX_LISTED_COMPANY_DIRECTORY",
+        "source_url": "https://www.tsx.com/en/listings/listing-with-us/listed-company-directory",
+        "filter_version": "aurora_canada_common_stock_filter_v0_1",
+        "canonical_symbol": "QNTA",
+        "provider_symbol": "QNTA.V"
+      },
+      {
         "symbol": "QPT",
         "tmx_symbol": "QPT",
         "name": "Quest PharmaTech Inc.",
@@ -29371,18 +29371,32 @@
         "filter_version": "aurora_canada_common_stock_filter_v0_1",
         "canonical_symbol": "ZONE",
         "provider_symbol": "ZONE.V"
+      },
+      {
+        "symbol": "ZYUS",
+        "tmx_symbol": "ZYUS",
+        "name": "ZYUS Life Sciences Corporation",
+        "instrument_name": "ZYUS Life Sciences Corporation",
+        "exchange": "TSXV",
+        "security_type": "COMMON_STOCK",
+        "aurora_layer": "CANADA_COMPREHENSIVE_COMMON_STOCK",
+        "source": "TMX_LISTED_COMPANY_DIRECTORY",
+        "source_url": "https://www.tsx.com/en/listings/listing-with-us/listed-company-directory",
+        "filter_version": "aurora_canada_common_stock_filter_v0_1",
+        "canonical_symbol": "ZYUS",
+        "provider_symbol": "ZYUS.V"
       }
     ]
   },
   "coverage": {
     "status": "COVERAGE_OK",
-    "expected_symbols": 2095,
-    "loaded_symbols": 2088,
-    "missing_cache_symbols": 7,
-    "loaded_coverage_pct": 99.67,
-    "current_symbols": 2069,
-    "valid_history_symbols": 1961,
-    "coverage_pct": 98.76,
+    "expected_symbols": 2096,
+    "loaded_symbols": 2087,
+    "missing_cache_symbols": 9,
+    "loaded_coverage_pct": 99.57,
+    "current_symbols": 2068,
+    "valid_history_symbols": 1960,
+    "coverage_pct": 98.66,
     "expected_session": "2026-09-11",
     "confirmed_no_trade_symbols": [],
     "confirmed_no_trade_symbol_count": 0,
@@ -29390,13 +29404,13 @@
   },
   "index_context_status": "INDEX_CONTEXT_OK",
   "optional_stale_symbols": [],
-  "feature_matrix_count": 1961,
-  "scanned_candidates": 1961,
-  "rejected_count": 134,
+  "feature_matrix_count": 1960,
+  "scanned_candidates": 1960,
+  "rejected_count": 136,
   "soft_rs_recovered_count": 0,
   "rejection_reason_counts": {
     "INSUFFICIENT_HISTORY": 127,
-    "MISSING_CACHE": 7
+    "MISSING_CACHE": 9
   },
   "provider_route": [
     "OFFICIAL_CANADA_LISTINGS",

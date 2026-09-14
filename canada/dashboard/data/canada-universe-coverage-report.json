@@ -1,8 +1,8 @@
 {
   "schema_version": "aurora_canada_universe_coverage_v0_1",
-  "generated_at": "2026-09-13T14:12:29.041Z",
+  "generated_at": "2026-09-14T16:27:00.851Z",
   "status": "COMPREHENSIVE_UNIVERSE_BUILT",
-  "universe_hash": "352aea9e2d193e0dbf750c00774c4b8716f078ff92c22cdfc7ffa7bf4730b936",
+  "universe_hash": "5934e871d4f2378207c0eacbf28c95885f414d782a191b7720e51b91cbe80499",
   "filter_version": "aurora_canada_common_stock_filter_v0_1",
   "source": {
     "directory_page": "https://www.tsx.com/en/listings/listing-with-us/listed-company-directory",
@@ -57,35 +57,35 @@
     ],
     "request_count": 72,
     "last_updated_epoch_by_exchange": {
-      "TSX": 1789116924,
-      "TSXV": 1789116940
+      "TSX": 1789376107,
+      "TSXV": 1789376141
     }
   },
   "counts": {
-    "discovered_instruments": 4478,
-    "included_common_stocks": 2095,
-    "excluded_non_common": 2383,
-    "duplicate_discoveries": 3332,
+    "discovered_instruments": 4481,
+    "included_common_stocks": 2096,
+    "excluded_non_common": 2385,
+    "duplicate_discoveries": 3335,
     "by_exchange": {
       "TSX": {
-        "discovered": 3008,
+        "discovered": 3010,
         "included_common_stocks": 681,
-        "excluded": 2327
+        "excluded": 2329
       },
       "TSXV": {
-        "discovered": 1470,
-        "included_common_stocks": 1414,
+        "discovered": 1471,
+        "included_common_stocks": 1415,
         "excluded": 56
       }
     },
     "exclusions_by_reason": {
       "CANADIAN_DEPOSITARY_RECEIPT": 133,
-      "EXCHANGE_TRADED_FUND": 1232,
+      "EXCHANGE_TRADED_FUND": 1233,
       "DEBT_SECURITY": 331,
       "FUND_OR_TRUST_ISSUER": 227,
       "CONTINGENT_VALUE_RIGHT": 1,
       "WARRANT": 53,
-      "PREFERRED_SECURITY": 281,
+      "PREFERRED_SECURITY": 282,
       "REAL_ESTATE_INVESTMENT_TRUST": 43,
       "UNIT_SECURITY": 18,
       "INVESTMENT_FUND": 61,
@@ -17127,6 +17127,16 @@
       "security_type": "PREFERRED"
     },
     {
+      "issuer_name": "Brompton Split Corp. Preferred Share ETF",
+      "instrument_name": "Bromptn SpltCpPR USF",
+      "tmx_symbol": "SPLT.U",
+      "exchange": "TSX",
+      "source_exchange_key": "tsx",
+      "include": false,
+      "reason": "PREFERRED_SECURITY",
+      "security_type": "PREFERRED"
+    },
+    {
       "issuer_name": "Sprott Physical Platinum and Palladium Trust",
       "instrument_name": "Sprott PhyPlat CA Un",
       "tmx_symbol": "SPPP",
@@ -19070,6 +19080,16 @@
       "issuer_name": "Global X Enhanced S&P 500 Covered Call ETF",
       "instrument_name": "GblX EnhnSP500 CvCal",
       "tmx_symbol": "USCL",
+      "exchange": "TSX",
+      "source_exchange_key": "tsx",
+      "include": false,
+      "reason": "EXCHANGE_TRADED_FUND",
+      "security_type": "ETF"
+    },
+    {
+      "issuer_name": "Ninepoint Enhanced U.S. Equity HighShares ETF",
+      "instrument_name": "Ninepoint Enh USEqHS",
+      "tmx_symbol": "USHI",
       "exchange": "TSX",
       "source_exchange_key": "tsx",
       "include": false,

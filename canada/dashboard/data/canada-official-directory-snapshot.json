@@ -1,6 +1,6 @@
 {
   "schema_version": "aurora_canada_official_directory_snapshot_v0_1",
-  "generated_at": "2026-09-13T14:12:29.041Z",
+  "generated_at": "2026-09-14T16:27:00.851Z",
   "source": {
     "directory_page": "https://www.tsx.com/en/listings/listing-with-us/listed-company-directory",
     "endpoint_template": "https://www.tsx.com/json/company-directory/search/{exchange}/{query}",
@@ -54,13 +54,13 @@
     ],
     "request_count": 72,
     "last_updated_epoch_by_exchange": {
-      "TSX": 1789116924,
-      "TSXV": 1789116940
+      "TSX": 1789376107,
+      "TSXV": 1789376141
     }
   },
   "discovery": {
-    "unique_instruments": 4478,
-    "duplicate_discoveries": 3332
+    "unique_instruments": 4481,
+    "duplicate_discoveries": 3335
   },
   "instruments": [
     {
@@ -3581,6 +3581,13 @@
       "issuer_name": "Brompton Split Corp. Preferred Share ETF",
       "instrument_name": "Brompton SpltPref Un",
       "tmx_symbol": "SPLT",
+      "exchange": "TSX",
+      "source_exchange_key": "tsx"
+    },
+    {
+      "issuer_name": "Brompton Split Corp. Preferred Share ETF",
+      "instrument_name": "Bromptn SpltCpPR USF",
+      "tmx_symbol": "SPLT.U",
       "exchange": "TSX",
       "source_exchange_key": "tsx"
     },
@@ -16493,6 +16500,13 @@
       "source_exchange_key": "tsx"
     },
     {
+      "issuer_name": "Ninepoint Enhanced U.S. Equity HighShares ETF",
+      "instrument_name": "Ninepoint Enh USEqHS",
+      "tmx_symbol": "USHI",
+      "exchange": "TSX",
+      "source_exchange_key": "tsx"
+    },
+    {
       "issuer_name": "Ninepoint Mining Evolution Fund",
       "instrument_name": "Ninepnt Mining EvFnd",
       "tmx_symbol": "NMNG",
@@ -23711,8 +23725,8 @@
     },
     {
       "issuer_name": "Datametrex AI Limited",
-      "instrument_name": "Datametrex AI Limited",
-      "tmx_symbol": "DM",
+      "instrument_name": "Quanta AI Inc.",
+      "tmx_symbol": "QNTA",
       "exchange": "TSXV",
       "source_exchange_key": "tsxv"
     },
@@ -31406,6 +31420,13 @@
       "issuer_name": "Zoomd Technologies Ltd.",
       "instrument_name": "Zoomd Technologies Ltd.",
       "tmx_symbol": "ZOMD",
+      "exchange": "TSXV",
+      "source_exchange_key": "tsxv"
+    },
+    {
+      "issuer_name": "ZYUS Life Sciences Corporation",
+      "instrument_name": "ZYUS Life Sciences Corporation",
+      "tmx_symbol": "ZYUS",
       "exchange": "TSXV",
       "source_exchange_key": "tsxv"
     }
