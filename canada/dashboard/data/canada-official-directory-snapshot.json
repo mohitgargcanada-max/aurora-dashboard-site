@@ -1,6 +1,6 @@
 {
   "schema_version": "aurora_canada_official_directory_snapshot_v0_1",
-  "generated_at": "2026-09-14T16:27:00.851Z",
+  "generated_at": "2026-09-14T18:18:33.789Z",
   "source": {
     "directory_page": "https://www.tsx.com/en/listings/listing-with-us/listed-company-directory",
     "endpoint_template": "https://www.tsx.com/json/company-directory/search/{exchange}/{query}",

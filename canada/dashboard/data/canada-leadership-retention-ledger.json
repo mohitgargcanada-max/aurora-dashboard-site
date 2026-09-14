@@ -2,7 +2,7 @@
   "schema_version": "aurora_leadership_retention_runtime_ledger_v0_1",
   "market": "CANADA",
   "data_as_of": "2026-09-11",
-  "generated_at": "2026-09-14T16:28:11.762Z",
+  "generated_at": "2026-09-14T18:19:38.488Z",
   "retention_horizon_sessions": 60,
   "records": [
     {

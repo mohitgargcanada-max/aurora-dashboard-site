@@ -1,7 +1,7 @@
 {
   "schema_version": "aurora_mmb_v1_2_market_ledger_v0_1",
   "market": "CANADA",
-  "generated_at": "2026-09-14T16:29:04.130Z",
+  "generated_at": "2026-09-14T18:20:28.197Z",
   "records": [
     {
       "schema_version": "aurora_mmb_v1_2_pure_context_engine_v1_2",
