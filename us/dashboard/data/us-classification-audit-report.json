@@ -1,0 +1,272 @@
+{
+  "market": "US",
+  "total_checked": 6014,
+  "counts_by_status": {
+    "MAPPED_OFFICIAL": 0,
+    "MAPPED_PROVIDER_HIGH_CONFIDENCE": 0,
+    "MAPPED_INTERNAL_REVIEWED": 0,
+    "MAPPED_PROXY_LOW_CONFIDENCE": 5213,
+    "UNMAPPED_REVIEW": 801,
+    "CONFLICT_REVIEW": 0,
+    "NON_COMMON_REFERENCE": 0
+  },
+  "examples": {
+    "conflicts": [],
+    "unmapped": [
+      {
+        "market": "US",
+        "symbol": "CNL",
+        "company_name": null,
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "UNMAPPED_REVIEW",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "US",
+        "symbol": "GRAF",
+        "company_name": null,
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "UNMAPPED_REVIEW",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "US",
+        "symbol": "IPB",
+        "company_name": null,
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "UNMAPPED_REVIEW",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "US",
+        "symbol": "PMNT",
+        "company_name": null,
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "UNMAPPED_REVIEW",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "US",
+        "symbol": "REED",
+        "company_name": null,
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "UNMAPPED_REVIEW",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "US",
+        "symbol": "ABVEF",
+        "company_name": null,
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "UNMAPPED_REVIEW",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "US",
+        "symbol": "ABXL",
+        "company_name": null,
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "UNMAPPED_REVIEW",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "US",
+        "symbol": "ACOG",
+        "company_name": null,
+        "classification_status": "UNMAPPED_REVIEW",
+        "classification_source": "UNMAPPED_REVIEW",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SECTOR_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_GROUP_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      }
+    ],
+    "low_confidence": [
+      {
+        "market": "US",
+        "symbol": "ACCS",
+        "company_name": null,
+        "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
+        "classification_source": "MISSING_SOURCE_REVIEW",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_LOW_CONFIDENCE_EXCLUDED_FROM_INDUSTRY_THEME_RRG",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SOURCE_REQUIRED_FOR_RRG"
+        ]
+      },
+      {
+        "market": "US",
+        "symbol": "ACU",
+        "company_name": null,
+        "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
+        "classification_source": "MISSING_SOURCE_REVIEW",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_LOW_CONFIDENCE_EXCLUDED_FROM_INDUSTRY_THEME_RRG",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SOURCE_REQUIRED_FOR_RRG"
+        ]
+      },
+      {
+        "market": "US",
+        "symbol": "AEF",
+        "company_name": null,
+        "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
+        "classification_source": "MISSING_SOURCE_REVIEW",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_LOW_CONFIDENCE_EXCLUDED_FROM_INDUSTRY_THEME_RRG",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SOURCE_REQUIRED_FOR_RRG"
+        ]
+      },
+      {
+        "market": "US",
+        "symbol": "AEON",
+        "company_name": null,
+        "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
+        "classification_source": "MISSING_SOURCE_REVIEW",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_LOW_CONFIDENCE_EXCLUDED_FROM_INDUSTRY_THEME_RRG",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SOURCE_REQUIRED_FOR_RRG"
+        ]
+      },
+      {
+        "market": "US",
+        "symbol": "AGIG",
+        "company_name": null,
+        "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
+        "classification_source": "MISSING_SOURCE_REVIEW",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_LOW_CONFIDENCE_EXCLUDED_FROM_INDUSTRY_THEME_RRG",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SOURCE_REQUIRED_FOR_RRG"
+        ]
+      },
+      {
+        "market": "US",
+        "symbol": "AIM",
+        "company_name": null,
+        "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
+        "classification_source": "MISSING_SOURCE_REVIEW",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_LOW_CONFIDENCE_EXCLUDED_FROM_INDUSTRY_THEME_RRG",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SOURCE_REQUIRED_FOR_RRG"
+        ]
+      },
+      {
+        "market": "US",
+        "symbol": "AIRI",
+        "company_name": null,
+        "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
+        "classification_source": "MISSING_SOURCE_REVIEW",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_LOW_CONFIDENCE_EXCLUDED_FROM_INDUSTRY_THEME_RRG",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SOURCE_REQUIRED_FOR_RRG"
+        ]
+      },
+      {
+        "market": "US",
+        "symbol": "AMBO",
+        "company_name": null,
+        "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
+        "classification_source": "MISSING_SOURCE_REVIEW",
+        "classification_confidence": "LOW",
+        "classification_warnings": [
+          "CLASSIFICATION_LOW_CONFIDENCE_EXCLUDED_FROM_INDUSTRY_THEME_RRG",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SOURCE_REQUIRED_FOR_RRG"
+        ]
+      }
+    ]
+  },
+  "excluded_from_industry_theme_rrg": 6014,
+  "excluded_from_sector_rrg": 6014,
+  "excluded_from_industry_group_rrg": 6014,
+  "excluded_from_industry_rrg": 6014,
+  "excluded_from_sub_industry_rrg": 6014,
+  "excluded_from_theme_rrg": 6014,
+  "source_coverage_by_market": {
+    "US": {
+      "MISSING_SOURCE_REVIEW": 5213,
+      "UNMAPPED_REVIEW": 801
+    }
+  }
+}

@@ -1,0 +1,2897 @@
+{
+  "status": "UPDATED",
+  "route_order": [
+    "YAHOO_FINANCE",
+    "STOOQ",
+    "EODHD"
+  ],
+  "retrieved_at": "2026-09-14T18:36:00.436Z",
+  "from": "2021-09-11",
+  "expected_completed_session": "2026-09-11",
+  "latest_data_as_of": "2026-09-11",
+  "retain_bars": 1300,
+  "symbols_requested": 11952,
+  "refreshed": 9764,
+  "skipped_current": 67,
+  "ipo_short_history": 1065,
+  "unchanged_cache_better_than_provider": 25,
+  "failed": 1031,
+  "provider_counts": {
+    "YAHOO_FINANCE": 10780,
+    "EODHD": 49
+  },
+  "fallback_label": "EODHD_FALLBACK",
+  "warnings": [
+    {
+      "symbol": "AACB",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 8
+    },
+    {
+      "symbol": "AACB",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AACB",
+      "provider": "EODHD",
+      "warning": "STALE_AFTER_REPAIR",
+      "rows": 350
+    },
+    {
+      "symbol": "AACBR",
+      "provider": "YAHOO_FINANCE",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AACBR",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AACBR",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AACI",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 116
+    },
+    {
+      "symbol": "AACI",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AACIU",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 143
+    },
+    {
+      "symbol": "AACIU",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AACIU",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AACIW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AACIW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AACIW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AACO",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 105
+    },
+    {
+      "symbol": "AACO",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AACO",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 106
+    },
+    {
+      "symbol": "AACOU",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 142
+    },
+    {
+      "symbol": "AACOU",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AACOU",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AACOW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AACOW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AACOW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AACPU",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 110
+    },
+    {
+      "symbol": "AACPU",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AACPU",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AAEQ",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 187
+    },
+    {
+      "symbol": "AAEQ",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AAEQ",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 189
+    },
+    {
+      "symbol": "AAOG",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 85
+    },
+    {
+      "symbol": "AAOG",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AAOG",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 85
+    },
+    {
+      "symbol": "AAOX",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 119
+    },
+    {
+      "symbol": "AAOX",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AAOX",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 119
+    },
+    {
+      "symbol": "AAUA",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 122
+    },
+    {
+      "symbol": "AAUA",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AAUA",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 122
+    },
+    {
+      "symbol": "ABLVW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 1
+    },
+    {
+      "symbol": "ABLVW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ABLVW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ABNG",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 4
+    },
+    {
+      "symbol": "ABNG",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ABNG",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 176
+    },
+    {
+      "symbol": "ABNY",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 4
+    },
+    {
+      "symbol": "ABNY",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ABNY",
+      "provider": "EODHD",
+      "warning": "STALE_AFTER_REPAIR",
+      "rows": 498
+    },
+    {
+      "symbol": "ABR-D",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ABR-D",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ABR-D",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ABR-E",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ABR-E",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ABR-E",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ABR-F",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ABR-F",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ABR-F",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ABUF",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 113
+    },
+    {
+      "symbol": "ABUF",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ABUF",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 111
+    },
+    {
+      "symbol": "ABVWF",
+      "provider": "YAHOO_FINANCE",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ABVWF",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ABVWF",
+      "provider": "EODHD",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ACAA",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 107
+    },
+    {
+      "symbol": "ACAA",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ACAA",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 107
+    },
+    {
+      "symbol": "ACAAU",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 142
+    },
+    {
+      "symbol": "ACAAU",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ACAAU",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ACCL",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 226
+    },
+    {
+      "symbol": "ACCL",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ACCL",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 226
+    },
+    {
+      "symbol": "ACEI",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 242
+    },
+    {
+      "symbol": "ACEI",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ACEI",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 242
+    },
+    {
+      "symbol": "ACEP",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 200
+    },
+    {
+      "symbol": "ACEP",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ACEP",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 201
+    },
+    {
+      "symbol": "ACGCU",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 110
+    },
+    {
+      "symbol": "ACGCU",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ACGCU",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ACHR-WS",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ACHR-WS",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ACHR-WS",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ACII",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 242
+    },
+    {
+      "symbol": "ACII",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ACII",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 242
+    },
+    {
+      "symbol": "ACONW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 1
+    },
+    {
+      "symbol": "ACONW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ACONW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ACP-A",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ACP-A",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ACP-A",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ACR-C",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ACR-C",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ACR-C",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ACR-D",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ACR-D",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ACR-D",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ACTS",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 122
+    },
+    {
+      "symbol": "ACTS",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ACTS",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 122
+    },
+    {
+      "symbol": "ACYN",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 138
+    },
+    {
+      "symbol": "ACYN",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ACYN",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 138
+    },
+    {
+      "symbol": "ACYS",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 98
+    },
+    {
+      "symbol": "ACYS",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ACYS",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 98
+    },
+    {
+      "symbol": "ADAC",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 149
+    },
+    {
+      "symbol": "ADAC",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ADAC",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 149
+    },
+    {
+      "symbol": "ADACU",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 183
+    },
+    {
+      "symbol": "ADACU",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ADACU",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ADACW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ADACW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ADACW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ADAMO",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 166
+    },
+    {
+      "symbol": "ADAMO",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ADAMO",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 166
+    },
+    {
+      "symbol": "ADBU",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 118
+    },
+    {
+      "symbol": "ADBU",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ADBU",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ADC-A",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ADC-A",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ADC-A",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ADFI",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 8
+    },
+    {
+      "symbol": "ADFI",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ADFI",
+      "provider": "EODHD",
+      "warning": "STALE_AFTER_REPAIR",
+      "rows": 1225
+    },
+    {
+      "symbol": "ADSEW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 1
+    },
+    {
+      "symbol": "ADSEW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ADSEW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AEAQ",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 159
+    },
+    {
+      "symbol": "AEAQ",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AEAQ",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 159
+    },
+    {
+      "symbol": "AEAQU",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 193
+    },
+    {
+      "symbol": "AEAQU",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AEAQU",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AEAQW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AEAQW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AEAQW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AENTW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 1
+    },
+    {
+      "symbol": "AENTW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AENTW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AERO",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 212
+    },
+    {
+      "symbol": "AERO",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AERO",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 212
+    },
+    {
+      "symbol": "AERTW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 1
+    },
+    {
+      "symbol": "AERTW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AERTW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AEXA",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 241
+    },
+    {
+      "symbol": "AEXA",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AEXA",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 241
+    },
+    {
+      "symbol": "AFBI",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 7
+    },
+    {
+      "symbol": "AFBI",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AFBI",
+      "provider": "EODHD",
+      "warning": "STALE_AFTER_REPAIR",
+      "rows": 1214
+    },
+    {
+      "symbol": "AFJKR",
+      "provider": "YAHOO_FINANCE",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AFJKR",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AFJKR",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AFRIW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 1
+    },
+    {
+      "symbol": "AFRIW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AFRIW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AGBK",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 147
+    },
+    {
+      "symbol": "AGBK",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AGBK",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 147
+    },
+    {
+      "symbol": "AGCC",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 223
+    },
+    {
+      "symbol": "AGCC",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AGCC",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 223
+    },
+    {
+      "symbol": "AGM-D",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "AGM-D",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AGM-D",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AGM-E",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "AGM-E",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AGM-E",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AGM-F",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "AGM-F",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AGM-F",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AGM-G",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "AGM-G",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AGM-G",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AGM-I",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "AGM-I",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AGM-I",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AGMB",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 150
+    },
+    {
+      "symbol": "AGMB",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AGMB",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 151
+    },
+    {
+      "symbol": "AGRH",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 11
+    },
+    {
+      "symbol": "AGRH",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AGRH",
+      "provider": "EODHD",
+      "warning": "STALE_AFTER_REPAIR",
+      "rows": 1040
+    },
+    {
+      "symbol": "AGRZ",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 238
+    },
+    {
+      "symbol": "AGRZ",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AGRZ",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 238
+    },
+    {
+      "symbol": "AHL-D",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "AHL-D",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AHL-D",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AHL-E",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "AHL-E",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AHL-E",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AHL-F",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "AHL-F",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AHL-F",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AHMA",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 224
+    },
+    {
+      "symbol": "AHMA",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AHMA",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 224
+    },
+    {
+      "symbol": "AHT-D",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "AHT-D",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AHT-D",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AHT-F",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "AHT-F",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AHT-F",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AHT-G",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "AHT-G",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AHT-G",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AHT-H",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "AHT-H",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AHT-H",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AHT-I",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "AHT-I",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AHT-I",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AIAI",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 83
+    },
+    {
+      "symbol": "AIAI",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AIAI",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 83
+    },
+    {
+      "symbol": "AIB",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 124
+    },
+    {
+      "symbol": "AIB",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AIB",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 124
+    },
+    {
+      "symbol": "AIBZ",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 66
+    },
+    {
+      "symbol": "AIBZ",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AIBZ",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 67
+    },
+    {
+      "symbol": "AIDX",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 142
+    },
+    {
+      "symbol": "AIDX",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AIDX",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 142
+    },
+    {
+      "symbol": "AIHS",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 7
+    },
+    {
+      "symbol": "AIHS",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AIHS",
+      "provider": "EODHD",
+      "warning": "STALE_AFTER_REPAIR",
+      "rows": 1246
+    },
+    {
+      "symbol": "AIIA",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 200
+    },
+    {
+      "symbol": "AIIA",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AIIA",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 200
+    },
+    {
+      "symbol": "AIIOW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 1
+    },
+    {
+      "symbol": "AIIOW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AIIOW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AIMS",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 148
+    },
+    {
+      "symbol": "AIMS",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AIMS",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 148
+    },
+    {
+      "symbol": "AINT",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 150
+    },
+    {
+      "symbol": "AINT",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AINT",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 150
+    },
+    {
+      "symbol": "AIRJW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 1
+    },
+    {
+      "symbol": "AIRJW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AIRJW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AISPW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 1
+    },
+    {
+      "symbol": "AISPW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AISPW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AIUP",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 150
+    },
+    {
+      "symbol": "AIUP",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AIUP",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 150
+    },
+    {
+      "symbol": "AKRE",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 220
+    },
+    {
+      "symbol": "AKRE",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AKRE",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 220
+    },
+    {
+      "symbol": "AKTS",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 169
+    },
+    {
+      "symbol": "AKTS",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AKTS",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 169
+    },
+    {
+      "symbol": "ALB-A",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ALB-A",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALB-A",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ALBG",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 167
+    },
+    {
+      "symbol": "ALBG",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALBG",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 168
+    },
+    {
+      "symbol": "ALBT",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 8
+    },
+    {
+      "symbol": "ALBT",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALBT",
+      "provider": "EODHD",
+      "warning": "STALE_AFTER_REPAIR",
+      "rows": 1218
+    },
+    {
+      "symbol": "ALCY",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ALCY",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALCY",
+      "provider": "EODHD",
+      "warning": "STALE_AFTER_REPAIR",
+      "rows": 759
+    },
+    {
+      "symbol": "ALCYW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ALCYW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALCYW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ALDB",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 84
+    },
+    {
+      "symbol": "ALDB",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALDB",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 84
+    },
+    {
+      "symbol": "ALDFW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 1
+    },
+    {
+      "symbol": "ALDFW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALDFW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ALFUW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 1
+    },
+    {
+      "symbol": "ALFUW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALFUW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ALH",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 232
+    },
+    {
+      "symbol": "ALH",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALH",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 232
+    },
+    {
+      "symbol": "ALIS",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 203
+    },
+    {
+      "symbol": "ALIS",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALIS",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 203
+    },
+    {
+      "symbol": "ALISR",
+      "provider": "YAHOO_FINANCE",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALISR",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALISR",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ALISU",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 223
+    },
+    {
+      "symbol": "ALISU",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALISU",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ALL-B",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ALL-B",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALL-B",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ALL-H",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ALL-H",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALL-H",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ALL-I",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ALL-I",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALL-I",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ALL-J",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ALL-J",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALL-J",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ALMR",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 102
+    },
+    {
+      "symbol": "ALMR",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALMR",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ALOT",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 5
+    },
+    {
+      "symbol": "ALOT",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALOT",
+      "provider": "EODHD",
+      "warning": "STALE_AFTER_REPAIR",
+      "rows": 1246
+    },
+    {
+      "symbol": "ALOVU",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 162
+    },
+    {
+      "symbol": "ALOVU",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALOVU",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ALOVW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALOVW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALOVW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ALPS",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 216
+    },
+    {
+      "symbol": "ALPS",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALPS",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 216
+    },
+    {
+      "symbol": "ALTG-A",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ALTG-A",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALTG-A",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ALUB",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 172
+    },
+    {
+      "symbol": "ALUB",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALUB",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 172
+    },
+    {
+      "symbol": "ALVOW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 1
+    },
+    {
+      "symbol": "ALVOW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ALVOW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AMA",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 92
+    },
+    {
+      "symbol": "AMA",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AMA",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 93
+    },
+    {
+      "symbol": "AMAN",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 80
+    },
+    {
+      "symbol": "AMAN",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AMAN",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 80
+    },
+    {
+      "symbol": "AMAU",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 84
+    },
+    {
+      "symbol": "AMAU",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AMAU",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AMH-G",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "AMH-G",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AMH-G",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AMH-H",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "AMH-H",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AMH-H",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AMKL",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 90
+    },
+    {
+      "symbol": "AMKL",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AMKL",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 90
+    },
+    {
+      "symbol": "AMODW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 1
+    },
+    {
+      "symbol": "AMODW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AMODW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AMPGR",
+      "provider": "YAHOO_FINANCE",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AMPGR",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AMPGR",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AMPGZ",
+      "provider": "YAHOO_FINANCE",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AMPGZ",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AMPGZ",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 140
+    },
+    {
+      "symbol": "AMPU",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 89
+    },
+    {
+      "symbol": "AMPU",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AMPU",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AMPX-WS",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "AMPX-WS",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AMPX-WS",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AMSS",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 79
+    },
+    {
+      "symbol": "AMSS",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AMSS",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 79
+    },
+    {
+      "symbol": "AMUN",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 224
+    },
+    {
+      "symbol": "AMUN",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AMUN",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 225
+    },
+    {
+      "symbol": "AMYY",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 249
+    },
+    {
+      "symbol": "AMYY",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AMYY",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 249
+    },
+    {
+      "symbol": "AMZO",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 119
+    },
+    {
+      "symbol": "AMZO",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AMZO",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 119
+    },
+    {
+      "symbol": "ANDG",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 184
+    },
+    {
+      "symbol": "ANDG",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ANDG",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 185
+    },
+    {
+      "symbol": "ANG-D",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ANG-D",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ANG-D",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ANGHW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 1
+    },
+    {
+      "symbol": "ANGHW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ANGHW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ANNAW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 1
+    },
+    {
+      "symbol": "ANNAW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ANNAW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ANSC",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 13
+    },
+    {
+      "symbol": "ANSC",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ANSC",
+      "provider": "EODHD",
+      "warning": "STALE_AFTER_REPAIR",
+      "rows": 659
+    },
+    {
+      "symbol": "ANSCW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 1
+    },
+    {
+      "symbol": "ANSCW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ANSCW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ANV",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 152
+    },
+    {
+      "symbol": "ANV",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ANV",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 153
+    },
+    {
+      "symbol": "AOTS",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 13
+    },
+    {
+      "symbol": "AOTS",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AOTS",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 164
+    },
+    {
+      "symbol": "APAC",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 201
+    },
+    {
+      "symbol": "APAC",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "APAC",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 201
+    },
+    {
+      "symbol": "APACU",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 239
+    },
+    {
+      "symbol": "APACU",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "APACU",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "APADR",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "APADR",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "APADR",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "APADU",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "APADU",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "APADU",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "APC",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 146
+    },
+    {
+      "symbol": "APC",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "APC",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 146
+    },
+    {
+      "symbol": "APGE",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 1
+    },
+    {
+      "symbol": "APGE",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "APGE",
+      "provider": "EODHD",
+      "warning": "STALE_AFTER_REPAIR",
+      "rows": 790
+    },
+    {
+      "symbol": "APHU",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 143
+    },
+    {
+      "symbol": "APHU",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "APHU",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "APLZ",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 161
+    },
+    {
+      "symbol": "APLZ",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "APLZ",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 161
+    },
+    {
+      "symbol": "APM",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 7
+    },
+    {
+      "symbol": "APM",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "APM",
+      "provider": "EODHD",
+      "warning": "STALE_AFTER_REPAIR",
+      "rows": 1222
+    },
+    {
+      "symbol": "APO-A",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "APO-A",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "APO-A",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "APRB",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 229
+    },
+    {
+      "symbol": "APRB",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "APRB",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 229
+    },
+    {
+      "symbol": "APXT",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 205
+    },
+    {
+      "symbol": "APXT",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "APXT",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 205
+    },
+    {
+      "symbol": "APXTU",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 219
+    },
+    {
+      "symbol": "APXTU",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "APXTU",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "APXTW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 1
+    },
+    {
+      "symbol": "APXTW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "APXTW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ARBEW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 1
+    },
+    {
+      "symbol": "ARBEW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ARBEW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ARCI",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 125
+    },
+    {
+      "symbol": "ARCI",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ARCI",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 125
+    },
+    {
+      "symbol": "ARCIU",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 160
+    },
+    {
+      "symbol": "ARCIU",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ARCIU",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ARCIW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ARCIW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ARCIW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ARCLU",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 93
+    },
+    {
+      "symbol": "ARCLU",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ARCLU",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "AREN",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 15
+    },
+    {
+      "symbol": "AREN",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ARES-B",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ARES-B",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ARES-B",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ARKD",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 174
+    },
+    {
+      "symbol": "ARKD",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ARKD",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 174
+    },
+    {
+      "symbol": "ARLI",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 113
+    },
+    {
+      "symbol": "ARLI",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ARLI",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 113
+    },
+    {
+      "symbol": "ARMY",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 242
+    },
+    {
+      "symbol": "ARMY",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ARMY",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 139
+    },
+    {
+      "symbol": "ARQQW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 1
+    },
+    {
+      "symbol": "ARQQW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ARQQW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ARR-C",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ARR-C",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ARR-C",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ARTC",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 136
+    },
+    {
+      "symbol": "ARTC",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ARTC",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 136
+    },
+    {
+      "symbol": "ARTCU",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 172
+    },
+    {
+      "symbol": "ARTCU",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ARTCU",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ARTCW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ARTCW",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ARTCW",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ARWG",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 176
+    },
+    {
+      "symbol": "ARWG",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ARWG",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 176
+    },
+    {
+      "symbol": "ARXS",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 103
+    },
+    {
+      "symbol": "ARXS",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ARXS",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 103
+    },
+    {
+      "symbol": "ASB-E",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ASB-E",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ASB-E",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ASB-F",
+      "provider": "YAHOO_FINANCE",
+      "warning": "HTTP_404"
+    },
+    {
+      "symbol": "ASB-F",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ASB-F",
+      "provider": "EODHD",
+      "warning": "EODHD_SYMBOL_UNMAPPED"
+    },
+    {
+      "symbol": "ASBPW",
+      "provider": "YAHOO_FINANCE",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 1
+    }
+  ]
+}

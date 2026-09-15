@@ -1,21 +1,35 @@
 {
   "schema_version": "aurora-pages-deployment-v2-independent",
-  "status": "PARTIAL_MARKETS_PUBLISHED",
+  "status": "ALL_MARKETS_PUBLISHED",
   "deployment_mode": "MARKET_INDEPENDENT_LAST_GOOD",
   "repository": "mohitgargcanada-max/aurora-dashboard-site",
   "base_path": "/aurora-dashboard-site",
-  "generated_at": "2026-09-14T18:21:33Z",
-  "last_market_deployed": "canada",
-  "last_source_run_id": "34879976613",
-  "last_source_sha": "7140198e289d59e9745b82fda68d2ef9ea43a0bb",
+  "generated_at": "2026-09-15T00:35:07Z",
+  "last_market_deployed": "us",
+  "last_source_run_id": "34913686330",
+  "last_source_sha": "27ca9791877b98c2fc2928b87b8217bf67192fef",
   "completed_sessions": {
     "canada": "2026-09-11",
-    "india": "2026-09-11"
+    "india": "2026-09-11",
+    "us": "2026-09-11"
   },
   "markets": {
     "us": {
-      "status": "BOOTSTRAP_ROUTE",
-      "completed_session": null
+      "surface": "REACT",
+      "status": "PUBLISHED",
+      "completed_session": "2026-09-11",
+      "bare_path": "/aurora-dashboard-site/us/",
+      "dashboard_path": "/aurora-dashboard-site/us/",
+      "cache_busted_path": "/aurora-dashboard-site/us/?aurora_build=27ca9791877b98c2fc2928b87b8217bf67192fef&completed_session=2026-09-11",
+      "legacy_dashboard_path": "/aurora-dashboard-site/us/dashboard.html",
+      "content_sha256": "2dc4162129855897bd3c617313adfcd5829b189b805da50aa70492cd68d47592",
+      "content_bytes": 1273,
+      "legacy_content_sha256": "749aee4ea9f925fb69a00e3d4089b0fd8074b5275066906627cbfd88cf5ebeaa",
+      "market": "us",
+      "publication_mode": "MARKET_INDEPENDENT_LAST_GOOD",
+      "source_run_id": "34913686330",
+      "source_sha": "27ca9791877b98c2fc2928b87b8217bf67192fef",
+      "published_at": "2026-09-15T00:35:07Z"
     },
     "india": {
       "surface": "REACT",
