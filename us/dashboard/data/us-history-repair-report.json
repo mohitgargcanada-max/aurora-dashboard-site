@@ -5,20 +5,20 @@
     "STOOQ",
     "EODHD"
   ],
-  "retrieved_at": "2026-09-14T18:36:00.436Z",
-  "from": "2021-09-11",
-  "expected_completed_session": "2026-09-11",
-  "latest_data_as_of": "2026-09-11",
+  "retrieved_at": "2026-09-15T17:43:28.037Z",
+  "from": "2021-09-14",
+  "expected_completed_session": "2026-09-14",
+  "latest_data_as_of": "2026-09-14",
   "retain_bars": 1300,
   "symbols_requested": 11952,
-  "refreshed": 9764,
-  "skipped_current": 67,
-  "ipo_short_history": 1065,
-  "unchanged_cache_better_than_provider": 25,
-  "failed": 1031,
+  "refreshed": 9839,
+  "skipped_current": 0,
+  "ipo_short_history": 1055,
+  "unchanged_cache_better_than_provider": 22,
+  "failed": 1036,
   "provider_counts": {
-    "YAHOO_FINANCE": 10780,
-    "EODHD": 49
+    "YAHOO_FINANCE": 10822,
+    "EODHD": 72
   },
   "fallback_label": "EODHD_FALLBACK",
   "warnings": [
@@ -61,7 +61,7 @@
       "symbol": "AACI",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 116
+      "rows": 117
     },
     {
       "symbol": "AACI",
@@ -73,7 +73,7 @@
       "symbol": "AACIU",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 143
+      "rows": 144
     },
     {
       "symbol": "AACIU",
@@ -106,26 +106,26 @@
     {
       "symbol": "AACO",
       "provider": "YAHOO_FINANCE",
-      "warning": "IPO_SHORT_HISTORY",
-      "rows": 105
-    },
-    {
-      "symbol": "AACO",
-      "provider": "STOOQ",
-      "warning": "INSUFFICIENT_HISTORY",
-      "rows": 0
-    },
-    {
-      "symbol": "AACO",
-      "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
       "rows": 106
     },
     {
+      "symbol": "AACO",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AACO",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 107
+    },
+    {
       "symbol": "AACOU",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 142
+      "rows": 143
     },
     {
       "symbol": "AACOU",
@@ -159,7 +159,7 @@
       "symbol": "AACPU",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 110
+      "rows": 111
     },
     {
       "symbol": "AACPU",
@@ -176,7 +176,7 @@
       "symbol": "AAEQ",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 187
+      "rows": 188
     },
     {
       "symbol": "AAEQ",
@@ -188,13 +188,13 @@
       "symbol": "AAEQ",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 189
+      "rows": 190
     },
     {
       "symbol": "AAOG",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 85
+      "rows": 86
     },
     {
       "symbol": "AAOG",
@@ -206,13 +206,13 @@
       "symbol": "AAOG",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 85
+      "rows": 86
     },
     {
       "symbol": "AAOX",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 119
+      "rows": 120
     },
     {
       "symbol": "AAOX",
@@ -224,13 +224,13 @@
       "symbol": "AAOX",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 119
+      "rows": 120
     },
     {
       "symbol": "AAUA",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 122
+      "rows": 123
     },
     {
       "symbol": "AAUA",
@@ -242,7 +242,7 @@
       "symbol": "AAUA",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 122
+      "rows": 123
     },
     {
       "symbol": "ABLVW",
@@ -349,7 +349,7 @@
       "symbol": "ABUF",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 113
+      "rows": 114
     },
     {
       "symbol": "ABUF",
@@ -361,7 +361,7 @@
       "symbol": "ABUF",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 111
+      "rows": 112
     },
     {
       "symbol": "ABVWF",
@@ -384,7 +384,7 @@
       "symbol": "ACAA",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 107
+      "rows": 108
     },
     {
       "symbol": "ACAA",
@@ -396,13 +396,13 @@
       "symbol": "ACAA",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 107
+      "rows": 108
     },
     {
       "symbol": "ACAAU",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 142
+      "rows": 143
     },
     {
       "symbol": "ACAAU",
@@ -419,7 +419,7 @@
       "symbol": "ACCL",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 226
+      "rows": 227
     },
     {
       "symbol": "ACCL",
@@ -431,13 +431,13 @@
       "symbol": "ACCL",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 226
+      "rows": 227
     },
     {
       "symbol": "ACEI",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 242
+      "rows": 243
     },
     {
       "symbol": "ACEI",
@@ -449,31 +449,31 @@
       "symbol": "ACEI",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 242
+      "rows": 243
     },
     {
       "symbol": "ACEP",
       "provider": "YAHOO_FINANCE",
-      "warning": "IPO_SHORT_HISTORY",
-      "rows": 200
-    },
-    {
-      "symbol": "ACEP",
-      "provider": "STOOQ",
-      "warning": "INSUFFICIENT_HISTORY",
-      "rows": 0
-    },
-    {
-      "symbol": "ACEP",
-      "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
       "rows": 201
     },
     {
+      "symbol": "ACEP",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ACEP",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 202
+    },
+    {
       "symbol": "ACGCU",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 110
+      "rows": 111
     },
     {
       "symbol": "ACGCU",
@@ -506,7 +506,7 @@
       "symbol": "ACII",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 242
+      "rows": 243
     },
     {
       "symbol": "ACII",
@@ -518,7 +518,7 @@
       "symbol": "ACII",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 242
+      "rows": 243
     },
     {
       "symbol": "ACONW",
@@ -589,7 +589,7 @@
       "symbol": "ACTS",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 122
+      "rows": 123
     },
     {
       "symbol": "ACTS",
@@ -601,13 +601,13 @@
       "symbol": "ACTS",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 122
+      "rows": 123
     },
     {
       "symbol": "ACYN",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 138
+      "rows": 139
     },
     {
       "symbol": "ACYN",
@@ -619,13 +619,13 @@
       "symbol": "ACYN",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 138
+      "rows": 139
     },
     {
       "symbol": "ACYS",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 98
+      "rows": 99
     },
     {
       "symbol": "ACYS",
@@ -637,13 +637,13 @@
       "symbol": "ACYS",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 98
+      "rows": 99
     },
     {
       "symbol": "ADAC",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 149
+      "rows": 150
     },
     {
       "symbol": "ADAC",
@@ -655,13 +655,13 @@
       "symbol": "ADAC",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 149
+      "rows": 150
     },
     {
       "symbol": "ADACU",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 183
+      "rows": 184
     },
     {
       "symbol": "ADACU",
@@ -695,7 +695,7 @@
       "symbol": "ADAMO",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 166
+      "rows": 167
     },
     {
       "symbol": "ADAMO",
@@ -707,13 +707,13 @@
       "symbol": "ADAMO",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 166
+      "rows": 167
     },
     {
       "symbol": "ADBU",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 118
+      "rows": 119
     },
     {
       "symbol": "ADBU",
@@ -758,7 +758,7 @@
       "symbol": "ADFI",
       "provider": "EODHD",
       "warning": "STALE_AFTER_REPAIR",
-      "rows": 1225
+      "rows": 1224
     },
     {
       "symbol": "ADSEW",
@@ -781,7 +781,7 @@
       "symbol": "AEAQ",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 159
+      "rows": 160
     },
     {
       "symbol": "AEAQ",
@@ -793,13 +793,13 @@
       "symbol": "AEAQ",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 159
+      "rows": 160
     },
     {
       "symbol": "AEAQU",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 193
+      "rows": 194
     },
     {
       "symbol": "AEAQU",
@@ -850,7 +850,7 @@
       "symbol": "AERO",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 212
+      "rows": 213
     },
     {
       "symbol": "AERO",
@@ -862,7 +862,7 @@
       "symbol": "AERO",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 212
+      "rows": 213
     },
     {
       "symbol": "AERTW",
@@ -885,7 +885,7 @@
       "symbol": "AEXA",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 241
+      "rows": 242
     },
     {
       "symbol": "AEXA",
@@ -897,7 +897,7 @@
       "symbol": "AEXA",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 241
+      "rows": 242
     },
     {
       "symbol": "AFBI",
@@ -915,7 +915,7 @@
       "symbol": "AFBI",
       "provider": "EODHD",
       "warning": "STALE_AFTER_REPAIR",
-      "rows": 1214
+      "rows": 1213
     },
     {
       "symbol": "AFJKR",
@@ -955,7 +955,7 @@
       "symbol": "AGBK",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 147
+      "rows": 148
     },
     {
       "symbol": "AGBK",
@@ -967,13 +967,13 @@
       "symbol": "AGBK",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 147
+      "rows": 148
     },
     {
       "symbol": "AGCC",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 223
+      "rows": 224
     },
     {
       "symbol": "AGCC",
@@ -985,7 +985,7 @@
       "symbol": "AGCC",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 223
+      "rows": 224
     },
     {
       "symbol": "AGM-D",
@@ -1070,26 +1070,26 @@
     {
       "symbol": "AGMB",
       "provider": "YAHOO_FINANCE",
-      "warning": "IPO_SHORT_HISTORY",
-      "rows": 150
-    },
-    {
-      "symbol": "AGMB",
-      "provider": "STOOQ",
-      "warning": "INSUFFICIENT_HISTORY",
-      "rows": 0
-    },
-    {
-      "symbol": "AGMB",
-      "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
       "rows": 151
+    },
+    {
+      "symbol": "AGMB",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AGMB",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 152
     },
     {
       "symbol": "AGRH",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 11
+      "rows": 12
     },
     {
       "symbol": "AGRH",
@@ -1107,7 +1107,7 @@
       "symbol": "AGRZ",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 238
+      "rows": 239
     },
     {
       "symbol": "AGRZ",
@@ -1119,7 +1119,7 @@
       "symbol": "AGRZ",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 238
+      "rows": 239
     },
     {
       "symbol": "AHL-D",
@@ -1173,7 +1173,7 @@
       "symbol": "AHMA",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 224
+      "rows": 225
     },
     {
       "symbol": "AHMA",
@@ -1185,7 +1185,7 @@
       "symbol": "AHMA",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 224
+      "rows": 225
     },
     {
       "symbol": "AHT-D",
@@ -1271,7 +1271,7 @@
       "symbol": "AIAI",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 83
+      "rows": 84
     },
     {
       "symbol": "AIAI",
@@ -1283,13 +1283,13 @@
       "symbol": "AIAI",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 83
+      "rows": 84
     },
     {
       "symbol": "AIB",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 124
+      "rows": 125
     },
     {
       "symbol": "AIB",
@@ -1301,31 +1301,31 @@
       "symbol": "AIB",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 124
+      "rows": 125
     },
     {
       "symbol": "AIBZ",
       "provider": "YAHOO_FINANCE",
-      "warning": "IPO_SHORT_HISTORY",
-      "rows": 66
-    },
-    {
-      "symbol": "AIBZ",
-      "provider": "STOOQ",
-      "warning": "INSUFFICIENT_HISTORY",
-      "rows": 0
-    },
-    {
-      "symbol": "AIBZ",
-      "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
       "rows": 67
     },
     {
+      "symbol": "AIBZ",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AIBZ",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 68
+    },
+    {
       "symbol": "AIDX",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 142
+      "rows": 143
     },
     {
       "symbol": "AIDX",
@@ -1337,7 +1337,7 @@
       "symbol": "AIDX",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 142
+      "rows": 143
     },
     {
       "symbol": "AIHS",
@@ -1355,13 +1355,13 @@
       "symbol": "AIHS",
       "provider": "EODHD",
       "warning": "STALE_AFTER_REPAIR",
-      "rows": 1246
+      "rows": 1245
     },
     {
       "symbol": "AIIA",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 200
+      "rows": 201
     },
     {
       "symbol": "AIIA",
@@ -1373,7 +1373,7 @@
       "symbol": "AIIA",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 200
+      "rows": 201
     },
     {
       "symbol": "AIIOW",
@@ -1396,7 +1396,7 @@
       "symbol": "AIMS",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 148
+      "rows": 149
     },
     {
       "symbol": "AIMS",
@@ -1408,13 +1408,13 @@
       "symbol": "AIMS",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 148
+      "rows": 149
     },
     {
       "symbol": "AINT",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 150
+      "rows": 151
     },
     {
       "symbol": "AINT",
@@ -1426,7 +1426,7 @@
       "symbol": "AINT",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 150
+      "rows": 151
     },
     {
       "symbol": "AIRJW",
@@ -1466,7 +1466,7 @@
       "symbol": "AIUP",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 150
+      "rows": 151
     },
     {
       "symbol": "AIUP",
@@ -1478,13 +1478,13 @@
       "symbol": "AIUP",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 150
+      "rows": 151
     },
     {
       "symbol": "AKRE",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 220
+      "rows": 221
     },
     {
       "symbol": "AKRE",
@@ -1496,13 +1496,13 @@
       "symbol": "AKRE",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 220
+      "rows": 221
     },
     {
       "symbol": "AKTS",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 169
+      "rows": 170
     },
     {
       "symbol": "AKTS",
@@ -1514,7 +1514,7 @@
       "symbol": "AKTS",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 169
+      "rows": 170
     },
     {
       "symbol": "ALB-A",
@@ -1536,7 +1536,7 @@
       "symbol": "ALBG",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 167
+      "rows": 168
     },
     {
       "symbol": "ALBG",
@@ -1548,7 +1548,7 @@
       "symbol": "ALBG",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 168
+      "rows": 169
     },
     {
       "symbol": "ALBT",
@@ -1566,7 +1566,7 @@
       "symbol": "ALBT",
       "provider": "EODHD",
       "warning": "STALE_AFTER_REPAIR",
-      "rows": 1218
+      "rows": 1217
     },
     {
       "symbol": "ALCY",
@@ -1605,7 +1605,7 @@
       "symbol": "ALDB",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 84
+      "rows": 85
     },
     {
       "symbol": "ALDB",
@@ -1617,7 +1617,7 @@
       "symbol": "ALDB",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 84
+      "rows": 85
     },
     {
       "symbol": "ALDFW",
@@ -1657,7 +1657,7 @@
       "symbol": "ALH",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 232
+      "rows": 233
     },
     {
       "symbol": "ALH",
@@ -1669,13 +1669,13 @@
       "symbol": "ALH",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 232
+      "rows": 233
     },
     {
       "symbol": "ALIS",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 203
+      "rows": 204
     },
     {
       "symbol": "ALIS",
@@ -1687,7 +1687,7 @@
       "symbol": "ALIS",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 203
+      "rows": 204
     },
     {
       "symbol": "ALISR",
@@ -1710,7 +1710,7 @@
       "symbol": "ALISU",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 223
+      "rows": 224
     },
     {
       "symbol": "ALISU",
@@ -1791,7 +1791,7 @@
       "symbol": "ALMR",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 102
+      "rows": 103
     },
     {
       "symbol": "ALMR",
@@ -1820,13 +1820,13 @@
       "symbol": "ALOT",
       "provider": "EODHD",
       "warning": "STALE_AFTER_REPAIR",
-      "rows": 1246
+      "rows": 1245
     },
     {
       "symbol": "ALOVU",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 162
+      "rows": 163
     },
     {
       "symbol": "ALOVU",
@@ -1860,7 +1860,7 @@
       "symbol": "ALPS",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 216
+      "rows": 217
     },
     {
       "symbol": "ALPS",
@@ -1872,7 +1872,7 @@
       "symbol": "ALPS",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 216
+      "rows": 217
     },
     {
       "symbol": "ALTG-A",
@@ -1894,7 +1894,7 @@
       "symbol": "ALUB",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 172
+      "rows": 173
     },
     {
       "symbol": "ALUB",
@@ -1906,7 +1906,7 @@
       "symbol": "ALUB",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 172
+      "rows": 173
     },
     {
       "symbol": "ALVOW",
@@ -1928,26 +1928,26 @@
     {
       "symbol": "AMA",
       "provider": "YAHOO_FINANCE",
-      "warning": "IPO_SHORT_HISTORY",
-      "rows": 92
-    },
-    {
-      "symbol": "AMA",
-      "provider": "STOOQ",
-      "warning": "INSUFFICIENT_HISTORY",
-      "rows": 0
-    },
-    {
-      "symbol": "AMA",
-      "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
       "rows": 93
     },
     {
+      "symbol": "AMA",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AMA",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 94
+    },
+    {
       "symbol": "AMAN",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 80
+      "rows": 81
     },
     {
       "symbol": "AMAN",
@@ -1959,13 +1959,13 @@
       "symbol": "AMAN",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 80
+      "rows": 81
     },
     {
       "symbol": "AMAU",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 84
+      "rows": 85
     },
     {
       "symbol": "AMAU",
@@ -2014,7 +2014,7 @@
       "symbol": "AMKL",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 90
+      "rows": 91
     },
     {
       "symbol": "AMKL",
@@ -2026,7 +2026,7 @@
       "symbol": "AMKL",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 90
+      "rows": 91
     },
     {
       "symbol": "AMODW",
@@ -2078,13 +2078,13 @@
       "symbol": "AMPGZ",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 140
+      "rows": 141
     },
     {
       "symbol": "AMPU",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 89
+      "rows": 90
     },
     {
       "symbol": "AMPU",
@@ -2117,7 +2117,7 @@
       "symbol": "AMSS",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 79
+      "rows": 80
     },
     {
       "symbol": "AMSS",
@@ -2129,31 +2129,31 @@
       "symbol": "AMSS",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 79
+      "rows": 80
     },
     {
       "symbol": "AMUN",
       "provider": "YAHOO_FINANCE",
-      "warning": "IPO_SHORT_HISTORY",
-      "rows": 224
-    },
-    {
-      "symbol": "AMUN",
-      "provider": "STOOQ",
-      "warning": "INSUFFICIENT_HISTORY",
-      "rows": 0
-    },
-    {
-      "symbol": "AMUN",
-      "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
       "rows": 225
     },
     {
+      "symbol": "AMUN",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "AMUN",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 226
+    },
+    {
       "symbol": "AMYY",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 249
+      "rows": 250
     },
     {
       "symbol": "AMYY",
@@ -2165,13 +2165,13 @@
       "symbol": "AMYY",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 249
+      "rows": 250
     },
     {
       "symbol": "AMZO",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 119
+      "rows": 120
     },
     {
       "symbol": "AMZO",
@@ -2183,25 +2183,25 @@
       "symbol": "AMZO",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 119
+      "rows": 120
     },
     {
       "symbol": "ANDG",
       "provider": "YAHOO_FINANCE",
-      "warning": "IPO_SHORT_HISTORY",
-      "rows": 184
-    },
-    {
-      "symbol": "ANDG",
-      "provider": "STOOQ",
-      "warning": "INSUFFICIENT_HISTORY",
-      "rows": 0
-    },
-    {
-      "symbol": "ANDG",
-      "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
       "rows": 185
+    },
+    {
+      "symbol": "ANDG",
+      "provider": "STOOQ",
+      "warning": "INSUFFICIENT_HISTORY",
+      "rows": 0
+    },
+    {
+      "symbol": "ANDG",
+      "provider": "EODHD",
+      "warning": "IPO_SHORT_HISTORY",
+      "rows": 186
     },
     {
       "symbol": "ANG-D",
@@ -2257,7 +2257,7 @@
       "symbol": "ANSC",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 13
+      "rows": 14
     },
     {
       "symbol": "ANSC",
@@ -2292,7 +2292,7 @@
       "symbol": "ANV",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 152
+      "rows": 153
     },
     {
       "symbol": "ANV",
@@ -2304,7 +2304,7 @@
       "symbol": "ANV",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 153
+      "rows": 154
     },
     {
       "symbol": "AOTS",
@@ -2328,7 +2328,7 @@
       "symbol": "APAC",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 201
+      "rows": 202
     },
     {
       "symbol": "APAC",
@@ -2340,13 +2340,13 @@
       "symbol": "APAC",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 201
+      "rows": 202
     },
     {
       "symbol": "APACU",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 239
+      "rows": 240
     },
     {
       "symbol": "APACU",
@@ -2395,7 +2395,7 @@
       "symbol": "APC",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 146
+      "rows": 147
     },
     {
       "symbol": "APC",
@@ -2407,7 +2407,7 @@
       "symbol": "APC",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 146
+      "rows": 147
     },
     {
       "symbol": "APGE",
@@ -2431,7 +2431,7 @@
       "symbol": "APHU",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 143
+      "rows": 144
     },
     {
       "symbol": "APHU",
@@ -2448,7 +2448,7 @@
       "symbol": "APLZ",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 161
+      "rows": 162
     },
     {
       "symbol": "APLZ",
@@ -2460,7 +2460,7 @@
       "symbol": "APLZ",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 161
+      "rows": 162
     },
     {
       "symbol": "APM",
@@ -2478,7 +2478,7 @@
       "symbol": "APM",
       "provider": "EODHD",
       "warning": "STALE_AFTER_REPAIR",
-      "rows": 1222
+      "rows": 1221
     },
     {
       "symbol": "APO-A",
@@ -2500,7 +2500,7 @@
       "symbol": "APRB",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 229
+      "rows": 230
     },
     {
       "symbol": "APRB",
@@ -2512,13 +2512,13 @@
       "symbol": "APRB",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 229
+      "rows": 230
     },
     {
       "symbol": "APXT",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 205
+      "rows": 206
     },
     {
       "symbol": "APXT",
@@ -2530,13 +2530,13 @@
       "symbol": "APXT",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 205
+      "rows": 206
     },
     {
       "symbol": "APXTU",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 219
+      "rows": 220
     },
     {
       "symbol": "APXTU",
@@ -2587,7 +2587,7 @@
       "symbol": "ARCI",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 125
+      "rows": 126
     },
     {
       "symbol": "ARCI",
@@ -2599,13 +2599,13 @@
       "symbol": "ARCI",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 125
+      "rows": 126
     },
     {
       "symbol": "ARCIU",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 160
+      "rows": 161
     },
     {
       "symbol": "ARCIU",
@@ -2639,7 +2639,7 @@
       "symbol": "ARCLU",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 93
+      "rows": 94
     },
     {
       "symbol": "ARCLU",
@@ -2665,6 +2665,12 @@
       "rows": 0
     },
     {
+      "symbol": "AREN",
+      "provider": "EODHD",
+      "warning": "STALE_AFTER_REPAIR",
+      "rows": 1254
+    },
+    {
       "symbol": "ARES-B",
       "provider": "YAHOO_FINANCE",
       "warning": "HTTP_404"
@@ -2684,7 +2690,7 @@
       "symbol": "ARKD",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 174
+      "rows": 175
     },
     {
       "symbol": "ARKD",
@@ -2696,13 +2702,13 @@
       "symbol": "ARKD",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 174
+      "rows": 175
     },
     {
       "symbol": "ARLI",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 113
+      "rows": 114
     },
     {
       "symbol": "ARLI",
@@ -2714,13 +2720,13 @@
       "symbol": "ARLI",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 113
+      "rows": 114
     },
     {
       "symbol": "ARMY",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 242
+      "rows": 243
     },
     {
       "symbol": "ARMY",
@@ -2732,7 +2738,7 @@
       "symbol": "ARMY",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 139
+      "rows": 140
     },
     {
       "symbol": "ARQQW",
@@ -2771,7 +2777,7 @@
       "symbol": "ARTC",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 136
+      "rows": 137
     },
     {
       "symbol": "ARTC",
@@ -2783,13 +2789,13 @@
       "symbol": "ARTC",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 136
+      "rows": 137
     },
     {
       "symbol": "ARTCU",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 172
+      "rows": 173
     },
     {
       "symbol": "ARTCU",
@@ -2823,7 +2829,7 @@
       "symbol": "ARWG",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 176
+      "rows": 177
     },
     {
       "symbol": "ARWG",
@@ -2835,13 +2841,13 @@
       "symbol": "ARWG",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 176
+      "rows": 177
     },
     {
       "symbol": "ARXS",
       "provider": "YAHOO_FINANCE",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 103
+      "rows": 104
     },
     {
       "symbol": "ARXS",
@@ -2853,7 +2859,7 @@
       "symbol": "ARXS",
       "provider": "EODHD",
       "warning": "IPO_SHORT_HISTORY",
-      "rows": 103
+      "rows": 104
     },
     {
       "symbol": "ASB-E",
@@ -2886,12 +2892,6 @@
       "symbol": "ASB-F",
       "provider": "EODHD",
       "warning": "EODHD_SYMBOL_UNMAPPED"
-    },
-    {
-      "symbol": "ASBPW",
-      "provider": "YAHOO_FINANCE",
-      "warning": "IPO_SHORT_HISTORY",
-      "rows": 1
     }
   ]
 }

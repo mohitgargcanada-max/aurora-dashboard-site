@@ -9,7 +9,6 @@
     "SLAB",
     "NVS",
     "AMGN",
-    "CNP",
     "FRT",
     "PNW",
     "RY",
@@ -24,13 +23,13 @@
     "COLB",
     "ROIV"
   ],
-  "carry_forward_count": 18,
+  "carry_forward_count": 17,
   "daily_status": {
     "AIZ": "CARRY_FORWARD_RECALCULATED",
     "SLAB": "CARRY_FORWARD_RECALCULATED",
     "NVS": "CARRY_FORWARD_RECALCULATED",
     "AMGN": "CARRY_FORWARD_RECALCULATED",
-    "CNP": "CARRY_FORWARD_RECALCULATED",
+    "CNP": "REMOVED_BY_HARD_RULE",
     "FRT": "CARRY_FORWARD_RECALCULATED",
     "PNW": "CARRY_FORWARD_RECALCULATED",
     "RY": "CARRY_FORWARD_RECALCULATED",
@@ -49,22 +48,23 @@
   },
   "removal_flag": {
     "BTI": true,
-    "NI": true
+    "NI": true,
+    "CNP": true
   },
   "removal_reason": {
     "BTI": "STAGE_4_DAMAGED",
-    "NI": "STAGE_4_DAMAGED"
+    "NI": "STAGE_4_DAMAGED",
+    "CNP": "STAGE_4_DAMAGED"
   },
   "stale_setup_review": {},
   "stale_remove": {},
-  "generated_at": "2026-09-14T18:37:13.116Z",
-  "last_updated_asof": "2026-09-11",
+  "generated_at": "2026-09-15T17:44:40.740Z",
+  "last_updated_asof": "2026-09-14",
   "weekly_role_by_symbol": {
     "AIZ": "DEFENSIVE_ROTATION_LEADERS",
     "SLAB": "DEVELOPING_GROWTH_LEADERS",
     "NVS": "OTHER_RANKED_LEADERS",
     "AMGN": "OTHER_RANKED_LEADERS",
-    "CNP": "DEFENSIVE_ROTATION_LEADERS",
     "FRT": "DEFENSIVE_ROTATION_LEADERS",
     "PNW": "DEFENSIVE_ROTATION_LEADERS",
     "RY": "DEFENSIVE_ROTATION_LEADERS",
@@ -83,24 +83,25 @@
     "schema_version": "aurora_weekly_universe_role_balance_v1",
     "target_min": 15,
     "target_max": 20,
-    "selected_count": 18,
+    "selected_count": 17,
     "caps_applied": false,
     "relaxed_for_minimum_count": 0,
     "sector_counts": {
       "FINANCIALS": 7,
       "TECHNOLOGY": 1,
       "HEALTH_CARE": 3,
-      "UTILITIES": 6,
-      "REAL_ESTATE": 1
+      "REAL_ESTATE": 1,
+      "UTILITIES": 5
     },
     "role_counts": {
-      "DEFENSIVE_ROTATION_LEADERS": 13,
+      "DEFENSIVE_ROTATION_LEADERS": 12,
       "DEVELOPING_GROWTH_LEADERS": 2,
       "OTHER_RANKED_LEADERS": 2,
       "PULLBACK_RETEST_CANDIDATES": 1
     },
     "warnings": [
-      "ROLE_CONCENTRATION:DEFENSIVE_ROTATION_LEADERS:13/18"
+      "SECTOR_CONCENTRATION:FINANCIALS:7/17",
+      "ROLE_CONCENTRATION:DEFENSIVE_ROTATION_LEADERS:12/17"
     ],
     "no_external_candidate_insertion": true,
     "original_rank_order_preserved": true,
