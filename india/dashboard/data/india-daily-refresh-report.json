@@ -2,7 +2,7 @@
   "status": "ALREADY_CURRENT_OR_UNCHANGED",
   "provider": "CACHE",
   "endpoint": "cache/india/ohlcv",
-  "retrieved_at": "2026-09-14T16:28:25.196Z",
+  "retrieved_at": "2026-09-15T08:55:30.276Z",
   "expected_completed_session": "2026-09-11",
   "latest_data_as_of": "2026-09-11",
   "same_date_cache": true,
