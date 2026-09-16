@@ -58,8 +58,8 @@
   },
   "stale_setup_review": {},
   "stale_remove": {},
-  "generated_at": "2026-09-15T17:44:40.740Z",
-  "last_updated_asof": "2026-09-14",
+  "generated_at": "2026-09-16T17:40:32.596Z",
+  "last_updated_asof": "2026-09-15",
   "weekly_role_by_symbol": {
     "AIZ": "DEFENSIVE_ROTATION_LEADERS",
     "SLAB": "DEVELOPING_GROWTH_LEADERS",
@@ -68,7 +68,7 @@
     "FRT": "DEFENSIVE_ROTATION_LEADERS",
     "PNW": "DEFENSIVE_ROTATION_LEADERS",
     "RY": "DEFENSIVE_ROTATION_LEADERS",
-    "TD": "PULLBACK_RETEST_CANDIDATES",
+    "TD": "DEFENSIVE_ROTATION_LEADERS",
     "EVRG": "DEFENSIVE_ROTATION_LEADERS",
     "EIX": "DEFENSIVE_ROTATION_LEADERS",
     "D": "DEFENSIVE_ROTATION_LEADERS",
@@ -77,7 +77,7 @@
     "MTB": "DEFENSIVE_ROTATION_LEADERS",
     "RF": "DEFENSIVE_ROTATION_LEADERS",
     "COLB": "DEFENSIVE_ROTATION_LEADERS",
-    "ROIV": "DEVELOPING_GROWTH_LEADERS"
+    "ROIV": "PULLBACK_RETEST_CANDIDATES"
   },
   "weekly_role_balance": {
     "schema_version": "aurora_weekly_universe_role_balance_v1",
@@ -94,14 +94,14 @@
       "UTILITIES": 5
     },
     "role_counts": {
-      "DEFENSIVE_ROTATION_LEADERS": 12,
-      "DEVELOPING_GROWTH_LEADERS": 2,
+      "DEFENSIVE_ROTATION_LEADERS": 13,
+      "DEVELOPING_GROWTH_LEADERS": 1,
       "OTHER_RANKED_LEADERS": 2,
       "PULLBACK_RETEST_CANDIDATES": 1
     },
     "warnings": [
       "SECTOR_CONCENTRATION:FINANCIALS:7/17",
-      "ROLE_CONCENTRATION:DEFENSIVE_ROTATION_LEADERS:12/17"
+      "ROLE_CONCENTRATION:DEFENSIVE_ROTATION_LEADERS:13/17"
     ],
     "no_external_candidate_insertion": true,
     "original_rank_order_preserved": true,

@@ -1,19 +1,19 @@
 {
   "schema_version": "aurora-market-publication-v1",
-  "generated_at": "2026-09-15T17:48:53Z",
+  "generated_at": "2026-09-16T17:44:41Z",
   "surface": "REACT",
   "status": "PUBLISHED",
-  "completed_session": "2026-09-14",
+  "completed_session": "2026-09-15",
   "bare_path": "/aurora-dashboard-site/us/",
   "dashboard_path": "/aurora-dashboard-site/us/",
-  "cache_busted_path": "/aurora-dashboard-site/us/?aurora_build=362c7c8850bdd35271040bafad4682aac1321ba2&completed_session=2026-09-14",
+  "cache_busted_path": "/aurora-dashboard-site/us/?aurora_build=8dac8430e0f927c2cb82539d18aaa269f835bbee&completed_session=2026-09-15",
   "legacy_dashboard_path": "/aurora-dashboard-site/us/dashboard.html",
-  "content_sha256": "a635c95ff8915e10479c00ba2149d497ae38c2b89b483b822d0ee7155aa0c87e",
+  "content_sha256": "98dbdbb22737d9c57ca0038272a388be515ebdfcaa7dd8d8dae5777e333d090e",
   "content_bytes": 1273,
-  "legacy_content_sha256": "257851cbf97d1cae30d34dca4bc3b2554a353d7d59c4fcf4f95473df64d686f7",
+  "legacy_content_sha256": "a22208453d7bb7d2ddc2c9de8db2293a5149fa3a4b6a052407eb34a8a50a0c26",
   "market": "us",
   "publication_mode": "MARKET_INDEPENDENT_LAST_GOOD",
-  "source_run_id": "35001311945",
-  "source_sha": "362c7c8850bdd35271040bafad4682aac1321ba2",
-  "published_at": "2026-09-15T17:48:53Z"
+  "source_run_id": "35128148662",
+  "source_sha": "8dac8430e0f927c2cb82539d18aaa269f835bbee",
+  "published_at": "2026-09-16T17:44:41Z"
 }

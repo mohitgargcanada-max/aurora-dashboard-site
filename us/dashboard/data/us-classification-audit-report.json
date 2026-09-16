@@ -1,12 +1,12 @@
 {
   "market": "US",
-  "total_checked": 6020,
+  "total_checked": 6021,
   "counts_by_status": {
     "MAPPED_OFFICIAL": 0,
     "MAPPED_PROVIDER_HIGH_CONFIDENCE": 0,
     "MAPPED_INTERNAL_REVIEWED": 0,
-    "MAPPED_PROXY_LOW_CONFIDENCE": 5215,
-    "UNMAPPED_REVIEW": 805,
+    "MAPPED_PROXY_LOW_CONFIDENCE": 5213,
+    "UNMAPPED_REVIEW": 808,
     "CONFLICT_REVIEW": 0,
     "NON_COMMON_REFERENCE": 0
   },
@@ -257,16 +257,16 @@
       }
     ]
   },
-  "excluded_from_industry_theme_rrg": 6020,
-  "excluded_from_sector_rrg": 6020,
-  "excluded_from_industry_group_rrg": 6020,
-  "excluded_from_industry_rrg": 6020,
-  "excluded_from_sub_industry_rrg": 6020,
-  "excluded_from_theme_rrg": 6020,
+  "excluded_from_industry_theme_rrg": 6021,
+  "excluded_from_sector_rrg": 6021,
+  "excluded_from_industry_group_rrg": 6021,
+  "excluded_from_industry_rrg": 6021,
+  "excluded_from_sub_industry_rrg": 6021,
+  "excluded_from_theme_rrg": 6021,
   "source_coverage_by_market": {
     "US": {
-      "MISSING_SOURCE_REVIEW": 5215,
-      "UNMAPPED_REVIEW": 805
+      "MISSING_SOURCE_REVIEW": 5213,
+      "UNMAPPED_REVIEW": 808
     }
   }
 }
