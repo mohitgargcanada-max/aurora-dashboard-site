@@ -22,20 +22,20 @@
     "IRMENERGY"
   ],
   "weekly_role_by_symbol": {
-    "ADANIENT": "ACTIVE_SETUP_LEADERS",
+    "ADANIENT": "RS_HIGH_AWAITING_STRUCTURE",
     "IDEA": "OTHER_RANKED_LEADERS",
     "APOLLO": "OTHER_RANKED_LEADERS",
     "HSCL": "OTHER_RANKED_LEADERS",
     "RICOAUTO": "OTHER_RANKED_LEADERS",
-    "GRASIM": "OTHER_RANKED_LEADERS",
+    "GRASIM": "RS_HIGH_AWAITING_STRUCTURE",
     "THYROCARE": "OTHER_RANKED_LEADERS",
     "RRKABEL": "OTHER_RANKED_LEADERS",
     "TORNTPHARM": "OTHER_RANKED_LEADERS",
     "BALAMINES": "OTHER_RANKED_LEADERS",
     "PNB": "DEFENSIVE_ROTATION_LEADERS",
-    "HLEGLAS": "OTHER_RANKED_LEADERS",
-    "LLOYDSENGG": "PULLBACK_RETEST_CANDIDATES",
-    "NEPHROPLUS": "ACTIVE_SETUP_LEADERS",
+    "HLEGLAS": "RS_HIGH_AWAITING_STRUCTURE",
+    "LLOYDSENGG": "RS_HIGH_AWAITING_STRUCTURE",
+    "NEPHROPLUS": "RS_HIGH_AWAITING_STRUCTURE",
     "IRMENERGY": "DEFENSIVE_ROTATION_LEADERS"
   },
   "weekly_role_balance": {
@@ -56,13 +56,12 @@
       "UTILITIES": 1
     },
     "role_counts": {
-      "ACTIVE_SETUP_LEADERS": 2,
-      "OTHER_RANKED_LEADERS": 10,
-      "DEFENSIVE_ROTATION_LEADERS": 2,
-      "PULLBACK_RETEST_CANDIDATES": 1
+      "RS_HIGH_AWAITING_STRUCTURE": 5,
+      "OTHER_RANKED_LEADERS": 8,
+      "DEFENSIVE_ROTATION_LEADERS": 2
     },
     "warnings": [
-      "ROLE_CONCENTRATION:OTHER_RANKED_LEADERS:10/15"
+      "ROLE_CONCENTRATION:OTHER_RANKED_LEADERS:8/15"
     ],
     "no_external_candidate_insertion": true,
     "original_rank_order_preserved": true,
@@ -93,6 +92,6 @@
   "removal_reason": {},
   "stale_setup_review": {},
   "stale_remove": {},
-  "generated_at": "2026-09-15T08:55:36.896Z",
-  "last_updated_asof": "2026-09-11"
+  "generated_at": "2026-09-16T08:48:58.873Z",
+  "last_updated_asof": "2026-09-15"
 }

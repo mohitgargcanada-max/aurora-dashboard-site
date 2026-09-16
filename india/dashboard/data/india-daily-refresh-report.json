@@ -1,19 +1,18 @@
 {
-  "status": "ALREADY_CURRENT_OR_UNCHANGED",
-  "provider": "CACHE",
-  "endpoint": "cache/india/ohlcv",
-  "retrieved_at": "2026-09-15T08:55:30.276Z",
-  "expected_completed_session": "2026-09-11",
-  "latest_data_as_of": "2026-09-11",
+  "status": "UPDATED",
+  "provider": "NSE_OFFICIAL_FETCH",
+  "endpoint": "scripts/fetch-nse-session.sh",
+  "retrieved_at": "2026-09-16T08:48:40.176Z",
+  "expected_completed_session": "2026-09-15",
+  "latest_data_as_of": "2026-09-15",
   "same_date_cache": true,
-  "previous_report_fresh": true,
   "fallback_label": "OFFICIAL_VERIFIED",
-  "fallback_reason": "CACHE_ALREADY_HAS_EXPECTED_COMPLETED_SESSION",
+  "fallback_reason": "OFFICIAL_NSE_FETCH_DAILY_APPEND",
   "coverage": {
-    "total_records": 8287,
-    "current_records": 3637,
-    "valid_current_records": 3637,
-    "current_coverage_pct": 43.89,
+    "total_records": 8320,
+    "current_records": 3688,
+    "valid_current_records": 3688,
+    "current_coverage_pct": 44.33,
     "required_symbols": 562,
     "required_fresh_symbols": 545,
     "required_missing_symbols": [],
@@ -21,91 +20,123 @@
       {
         "symbol": "TATAMOTORS",
         "latest_data_as_of": "2025-10-23",
-        "expected_session": "2026-09-11"
+        "expected_session": "2026-09-15"
       },
       {
         "symbol": "HBLPOWER",
         "latest_data_as_of": "2024-12-20",
-        "expected_session": "2026-09-11"
+        "expected_session": "2026-09-15"
       },
       {
         "symbol": "SWANENERGY",
         "latest_data_as_of": "2025-09-03",
-        "expected_session": "2026-09-11"
+        "expected_session": "2026-09-15"
       },
       {
         "symbol": "CENTURYTEX",
         "latest_data_as_of": "2024-10-09",
-        "expected_session": "2026-09-11"
+        "expected_session": "2026-09-15"
       },
       {
         "symbol": "GUJGASLTD",
         "latest_data_as_of": "2026-06-30",
-        "expected_session": "2026-09-11"
+        "expected_session": "2026-09-15"
       },
       {
         "symbol": "GEPIL",
         "latest_data_as_of": "2025-08-26",
-        "expected_session": "2026-09-11"
+        "expected_session": "2026-09-15"
       },
       {
         "symbol": "SUVENPHAR",
         "latest_data_as_of": "2025-05-16",
-        "expected_session": "2026-09-11"
+        "expected_session": "2026-09-15"
       },
       {
         "symbol": "IIFLSEC",
         "latest_data_as_of": "2024-12-02",
-        "expected_session": "2026-09-11"
+        "expected_session": "2026-09-15"
       },
       {
         "symbol": "ARISINFRA",
         "latest_data_as_of": "2026-02-06",
-        "expected_session": "2026-09-11"
+        "expected_session": "2026-09-15"
       },
       {
         "symbol": "SATINDLTD",
         "latest_data_as_of": "2025-06-24",
-        "expected_session": "2026-09-11"
+        "expected_session": "2026-09-15"
       },
       {
         "symbol": "AMIRCHAND",
         "latest_data_as_of": "2026-07-10",
-        "expected_session": "2026-09-11"
+        "expected_session": "2026-09-15"
       },
       {
         "symbol": "GLS",
         "latest_data_as_of": "2025-01-17",
-        "expected_session": "2026-09-11"
+        "expected_session": "2026-09-15"
       },
       {
         "symbol": "ASHIKA",
         "latest_data_as_of": "2026-07-10",
-        "expected_session": "2026-09-11"
+        "expected_session": "2026-09-15"
       },
       {
         "symbol": "KBCGLOBAL",
         "latest_data_as_of": "2025-06-25",
-        "expected_session": "2026-09-11"
+        "expected_session": "2026-09-15"
       },
       {
         "symbol": "JDCABLES",
         "latest_data_as_of": "2026-06-22",
-        "expected_session": "2026-09-11"
+        "expected_session": "2026-09-15"
       },
       {
         "symbol": "SHREYAS",
         "latest_data_as_of": "2024-10-22",
-        "expected_session": "2026-09-11"
+        "expected_session": "2026-09-15"
       },
       {
         "symbol": "HINDMOTORS",
         "latest_data_as_of": "2026-06-22",
-        "expected_session": "2026-09-11"
+        "expected_session": "2026-09-15"
       }
     ],
     "required_freshness_coverage_pct": 96.98
   },
-  "attempts": [],
+  "attempts": [
+    {
+      "provider": "NSE_OFFICIAL_FETCH",
+      "endpoint": "scripts/fetch-nse-session.sh",
+      "source_files": [
+        {
+          "file": "BhavCopy_NSE_CM_0_0_0_20260915_F_0000.csv.zip",
+          "sha256": "1838e677dc64454862d7aef4e802a624d964796446e7ed474f562a04167078ca",
+          "bytes": 206785,
+          "accepted_rows": 3692
+        },
+        {
+          "file": "EQ_ISINCODE_150926.zip",
+          "sha256": "72fbc074899ca8d1cb5800e523af5b0df770d86751a29e183cdc2b54624c15d7",
+          "bytes": 14287,
+          "accepted_rows": 0,
+          "warning": "INVALID_ZIP_SKIPPED"
+        },
+        {
+          "file": "sec_bhavdata_full_15092026.csv",
+          "sha256": "6d1517bb90a7cc291ef118ed1a90a13762ddae612ea2a8ac09b9d3d9a0981354",
+          "bytes": 399202,
+          "accepted_rows": 3519
+        }
+      ],
+      "inserted": 3688,
+      "corrected": 0,
+      "unchanged": 0,
+      "invalid": 0,
+      "rejected_rows": 0,
+      "symbols_touched": 3688
+    }
+  ],
   "warnings": []
 }
