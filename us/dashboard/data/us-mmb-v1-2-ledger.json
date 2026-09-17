@@ -1,7 +1,7 @@
 {
   "schema_version": "aurora_mmb_v1_2_market_ledger_v0_1",
   "market": "US",
-  "generated_at": "2026-09-16T17:41:56.339Z",
+  "generated_at": "2026-09-17T17:39:30.483Z",
   "records": [
     {
       "schema_version": "aurora_mmb_v1_2_pure_context_engine_v1_2",
@@ -134,12 +134,78 @@
         "trigger_stop_risk_mutated": false,
         "extra_ohlcv_fetch": false
       }
+    },
+    {
+      "schema_version": "aurora_mmb_v1_2_pure_context_engine_v1_2",
+      "market": "US",
+      "completed_session": "2026-09-16",
+      "universe_hash": "fnv1a32:741638a5",
+      "universe_count": 6930,
+      "provider_route": "FETCH_ONCE_CACHED_COMPLETED_SESSION_HISTORIES",
+      "adjustment_status": "YAHOO_ADJUSTED_CLOSE,EODHD_ADJUSTED_CLOSE,STOOQ_ADJUSTED_OHLC",
+      "calculation_status": "DATA_REPAIR",
+      "calibration_status": "US_ESTABLISHED_4PCT_BASELINE",
+      "tactical_state": "TACTICAL_DATA_REPAIR",
+      "strategic_state": "STRATEGIC_DATA_REPAIR",
+      "structural_state": "STRUCTURAL_DATA_REPAIR",
+      "final_verdict": "MMB_DATA_REPAIR",
+      "confidence": "DATA_REPAIR",
+      "verdict_start_date": "2026-09-14",
+      "verdict_age_sessions": 3,
+      "same_session_refresh": false,
+      "transition_from": null,
+      "transition_to": null,
+      "transition_reason_codes": [],
+      "cold_start_state": "HAS_PRIOR_VERDICT",
+      "metric_snapshot": {
+        "ratio_5d_raw": 0.6312,
+        "ratio_5d_smoothed": 0.6314,
+        "ratio_10d_raw": 0.7496,
+        "ratio_10d_smoothed": 0.7497,
+        "up_1d": 200,
+        "down_1d": 324,
+        "up_5d": 1097,
+        "down_5d": 1738,
+        "up_10d": 2146,
+        "down_10d": 2863,
+        "primary_up": 1421,
+        "primary_down": 1912,
+        "high_low_spread": -366,
+        "above_21ema_pct": 25.3234,
+        "above_50sma_pct": 34.0967
+      },
+      "coverage_snapshot": {
+        "mmb_coverage_pct": 94.7717,
+        "expected_symbols": 7096,
+        "valid_current_symbols": 6725,
+        "valid_10d_symbols": 6725,
+        "valid_21d_symbols": 6725,
+        "valid_34d_symbols": 6725,
+        "valid_63d_symbols": 6725,
+        "valid_252d_symbols": 6022
+      },
+      "warnings": [
+        "MMB_REASON_CONTEXT_ONLY_NO_DECISION_AUTHORITY"
+      ],
+      "authority_locks": {
+        "decision_authority": "NONE_CONTEXT_ONLY",
+        "score_delta": 0,
+        "strictness_delta": 0,
+        "score_mutated": false,
+        "technical_strength_mutated": false,
+        "final_bucket_mutated": false,
+        "market_permission_mutated": false,
+        "candidate_membership_mutated": false,
+        "ranking_mutated": false,
+        "trigger_stop_risk_mutated": false,
+        "extra_ohlcv_fetch": false
+      }
     }
   ],
   "current": {
     "schema_version": "aurora_mmb_v1_2_pure_context_engine_v1_2",
     "market": "US",
-    "completed_session": "2026-09-15",
+    "completed_session": "2026-09-16",
     "universe_hash": "fnv1a32:741638a5",
     "universe_count": 6930,
     "provider_route": "FETCH_ONCE_CACHED_COMPLETED_SESSION_HISTORIES",
@@ -152,28 +218,28 @@
     "final_verdict": "MMB_DATA_REPAIR",
     "confidence": "DATA_REPAIR",
     "verdict_start_date": "2026-09-14",
-    "verdict_age_sessions": 2,
+    "verdict_age_sessions": 3,
     "same_session_refresh": false,
     "transition_from": null,
     "transition_to": null,
     "transition_reason_codes": [],
     "cold_start_state": "HAS_PRIOR_VERDICT",
     "metric_snapshot": {
-      "ratio_5d_raw": 0.5726,
-      "ratio_5d_smoothed": 0.5729,
-      "ratio_10d_raw": 0.8615,
-      "ratio_10d_smoothed": 0.8616,
-      "up_1d": 166,
-      "down_1d": 437,
-      "up_5d": 1021,
-      "down_5d": 1783,
-      "up_10d": 2302,
-      "down_10d": 2672,
-      "primary_up": 1485,
-      "primary_down": 1880,
-      "high_low_spread": -440,
-      "above_21ema_pct": 28.8773,
-      "above_50sma_pct": 37.0167
+      "ratio_5d_raw": 0.6312,
+      "ratio_5d_smoothed": 0.6314,
+      "ratio_10d_raw": 0.7496,
+      "ratio_10d_smoothed": 0.7497,
+      "up_1d": 200,
+      "down_1d": 324,
+      "up_5d": 1097,
+      "down_5d": 1738,
+      "up_10d": 2146,
+      "down_10d": 2863,
+      "primary_up": 1421,
+      "primary_down": 1912,
+      "high_low_spread": -366,
+      "above_21ema_pct": 25.3234,
+      "above_50sma_pct": 34.0967
     },
     "coverage_snapshot": {
       "mmb_coverage_pct": 94.7717,
@@ -182,8 +248,8 @@
       "valid_10d_symbols": 6725,
       "valid_21d_symbols": 6725,
       "valid_34d_symbols": 6725,
-      "valid_63d_symbols": 6724,
-      "valid_252d_symbols": 6018
+      "valid_63d_symbols": 6725,
+      "valid_252d_symbols": 6022
     },
     "warnings": [
       "MMB_REASON_CONTEXT_ONLY_NO_DECISION_AUTHORITY"
