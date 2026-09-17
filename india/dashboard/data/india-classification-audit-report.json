@@ -1,12 +1,12 @@
 {
   "market": "INDIA",
-  "total_checked": 2992,
+  "total_checked": 2971,
   "counts_by_status": {
     "MAPPED_OFFICIAL": 0,
     "MAPPED_PROVIDER_HIGH_CONFIDENCE": 35,
     "MAPPED_INTERNAL_REVIEWED": 0,
-    "MAPPED_PROXY_LOW_CONFIDENCE": 1630,
-    "UNMAPPED_REVIEW": 1327,
+    "MAPPED_PROXY_LOW_CONFIDENCE": 1617,
+    "UNMAPPED_REVIEW": 1319,
     "CONFLICT_REVIEW": 0,
     "NON_COMMON_REFERENCE": 0
   },
@@ -15,8 +15,8 @@
     "unmapped": [
       {
         "market": "INDIA",
-        "symbol": "SEDEMAC",
-        "company_name": "SEDEMAC Mechatronics Limited",
+        "symbol": "EXCELLENT",
+        "company_name": "Excellent Wires and Packaging Limited",
         "classification_status": "UNMAPPED_REVIEW",
         "classification_source": "NOT_AVAILABLE",
         "classification_confidence": "LOW",
@@ -31,8 +31,8 @@
       },
       {
         "market": "INDIA",
-        "symbol": "CUPID",
-        "company_name": "Cupid Limited",
+        "symbol": "SJS",
+        "company_name": "S.J.S. Enterprises Limited",
         "classification_status": "UNMAPPED_REVIEW",
         "classification_source": "NOT_AVAILABLE",
         "classification_confidence": "LOW",
@@ -47,8 +47,8 @@
       },
       {
         "market": "INDIA",
-        "symbol": "HFCL",
-        "company_name": "HFCL Limited",
+        "symbol": "MSTCLTD",
+        "company_name": "Mstc Limited",
         "classification_status": "UNMAPPED_REVIEW",
         "classification_source": "NOT_AVAILABLE",
         "classification_confidence": "LOW",
@@ -63,8 +63,8 @@
       },
       {
         "market": "INDIA",
-        "symbol": "ABDL",
-        "company_name": "Allied Blenders and Distillers Limited",
+        "symbol": "AKSHOPTFBR",
+        "company_name": "Aksh Optifibre Limited",
         "classification_status": "UNMAPPED_REVIEW",
         "classification_source": "NOT_AVAILABLE",
         "classification_confidence": "LOW",
@@ -79,8 +79,8 @@
       },
       {
         "market": "INDIA",
-        "symbol": "GAYAPROJ",
-        "company_name": "Gayatri Projects Limited",
+        "symbol": "GANESHBE",
+        "company_name": "Ganesh Benzoplast Limited",
         "classification_status": "UNMAPPED_REVIEW",
         "classification_source": "NOT_AVAILABLE",
         "classification_confidence": "LOW",
@@ -95,8 +95,8 @@
       },
       {
         "market": "INDIA",
-        "symbol": "HOLMARC",
-        "company_name": "Holmarc Opto-Mechatronics Limited",
+        "symbol": "GSPCROP",
+        "company_name": "GSP Crop Science Limited",
         "classification_status": "UNMAPPED_REVIEW",
         "classification_source": "NOT_AVAILABLE",
         "classification_confidence": "LOW",
@@ -111,8 +111,8 @@
       },
       {
         "market": "INDIA",
-        "symbol": "RAJRATAN",
-        "company_name": "Rajratan Global Wire Limited",
+        "symbol": "NELCO",
+        "company_name": "NELCO Limited",
         "classification_status": "UNMAPPED_REVIEW",
         "classification_source": "NOT_AVAILABLE",
         "classification_confidence": "LOW",
@@ -127,8 +127,8 @@
       },
       {
         "market": "INDIA",
-        "symbol": "SECMARK",
-        "company_name": "SecMark Consultancy Limited",
+        "symbol": "VMSTMT",
+        "company_name": "VMS TMT Limited",
         "classification_status": "UNMAPPED_REVIEW",
         "classification_source": "NOT_AVAILABLE",
         "classification_confidence": "LOW",
@@ -145,8 +145,8 @@
     "low_confidence": [
       {
         "market": "INDIA",
-        "symbol": "CAPLIPOINT",
-        "company_name": "Caplin Point Laboratories Limited",
+        "symbol": "APARINDS",
+        "company_name": "Apar Industries Limited",
         "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
         "classification_source": "AURORA_NAME_KEYWORD_MAP",
         "classification_confidence": "MEDIUM",
@@ -159,8 +159,36 @@
       },
       {
         "market": "INDIA",
-        "symbol": "CHEMCON",
-        "company_name": "Chemcon Speciality Chemicals Limited",
+        "symbol": "VIJAYA",
+        "company_name": "Vijaya Diagnostic Centre Limited",
+        "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
+        "classification_source": "AURORA_NAME_KEYWORD_MAP",
+        "classification_confidence": "MEDIUM",
+        "classification_warnings": [
+          "CLASSIFICATION_LOW_CONFIDENCE_EXCLUDED_FROM_INDUSTRY_THEME_RRG",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "INDIA",
+        "symbol": "APCOTEXIND",
+        "company_name": "Apcotex Industries Limited",
+        "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
+        "classification_source": "AURORA_NAME_KEYWORD_MAP",
+        "classification_confidence": "MEDIUM",
+        "classification_warnings": [
+          "CLASSIFICATION_LOW_CONFIDENCE_EXCLUDED_FROM_INDUSTRY_THEME_RRG",
+          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
+          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
+        ]
+      },
+      {
+        "market": "INDIA",
+        "symbol": "POLYMED",
+        "company_name": "Poly Medicure Limited",
         "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
         "classification_source": "AURORA_NAME_KEYWORD_MAP",
         "classification_confidence": "MEDIUM",
@@ -187,8 +215,8 @@
       },
       {
         "market": "INDIA",
-        "symbol": "AJANTPHARM",
-        "company_name": "Ajanta Pharma Limited",
+        "symbol": "POLICYBZR",
+        "company_name": "PB Fintech Limited",
         "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
         "classification_source": "AURORA_NAME_KEYWORD_MAP",
         "classification_confidence": "MEDIUM",
@@ -201,8 +229,8 @@
       },
       {
         "market": "INDIA",
-        "symbol": "GLOBALPET",
-        "company_name": "Global Pet Industries Limited",
+        "symbol": "BAJAJ-AUTO",
+        "company_name": "Bajaj Auto Limited",
         "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
         "classification_source": "AURORA_NAME_KEYWORD_MAP",
         "classification_confidence": "MEDIUM",
@@ -215,36 +243,8 @@
       },
       {
         "market": "INDIA",
-        "symbol": "ENGINERSIN",
-        "company_name": "Engineers India Limited",
-        "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
-        "classification_source": "AURORA_NAME_KEYWORD_MAP",
-        "classification_confidence": "MEDIUM",
-        "classification_warnings": [
-          "CLASSIFICATION_LOW_CONFIDENCE_EXCLUDED_FROM_INDUSTRY_THEME_RRG",
-          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
-          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
-          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
-        ]
-      },
-      {
-        "market": "INDIA",
-        "symbol": "AEROFLEX",
-        "company_name": "Aeroflex Industries Limited",
-        "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
-        "classification_source": "AURORA_NAME_KEYWORD_MAP",
-        "classification_confidence": "MEDIUM",
-        "classification_warnings": [
-          "CLASSIFICATION_LOW_CONFIDENCE_EXCLUDED_FROM_INDUSTRY_THEME_RRG",
-          "CLASSIFICATION_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
-          "CLASSIFICATION_SUB_INDUSTRY_UNMAPPED_REVIEW_REQUIRED",
-          "CLASSIFICATION_THEME_UNMAPPED_REVIEW_REQUIRED"
-        ]
-      },
-      {
-        "market": "INDIA",
-        "symbol": "RBLBANK",
-        "company_name": "RBL Bank Limited",
+        "symbol": "CHEMCON",
+        "company_name": "Chemcon Speciality Chemicals Limited",
         "classification_status": "MAPPED_PROXY_LOW_CONFIDENCE",
         "classification_source": "AURORA_NAME_KEYWORD_MAP",
         "classification_confidence": "MEDIUM",
@@ -257,17 +257,17 @@
       }
     ]
   },
-  "excluded_from_industry_theme_rrg": 2957,
-  "excluded_from_sector_rrg": 2957,
-  "excluded_from_industry_group_rrg": 2957,
-  "excluded_from_industry_rrg": 2992,
-  "excluded_from_sub_industry_rrg": 2992,
-  "excluded_from_theme_rrg": 2957,
+  "excluded_from_industry_theme_rrg": 2936,
+  "excluded_from_sector_rrg": 2936,
+  "excluded_from_industry_group_rrg": 2936,
+  "excluded_from_industry_rrg": 2971,
+  "excluded_from_sub_industry_rrg": 2971,
+  "excluded_from_theme_rrg": 2936,
   "source_coverage_by_market": {
     "INDIA": {
-      "NOT_AVAILABLE": 1327,
-      "AURORA_NAME_KEYWORD_MAP": 1630,
-      "AURORA_EXPLICIT_INDIA_THEME_MAP": 35
+      "AURORA_EXPLICIT_INDIA_THEME_MAP": 35,
+      "AURORA_NAME_KEYWORD_MAP": 1617,
+      "NOT_AVAILABLE": 1319
     }
   }
 }
