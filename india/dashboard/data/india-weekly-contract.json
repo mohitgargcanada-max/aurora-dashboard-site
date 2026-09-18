@@ -5,7 +5,6 @@
   "weekly_list_created_asof": "2026-09-11",
   "weekly_list_source": "AURORA_WEEKLY_DISCOVERY",
   "weekly_universe_symbols": [
-    "ADANIENT",
     "IDEA",
     "APOLLO",
     "HSCL",
@@ -21,46 +20,45 @@
     "IRMENERGY"
   ],
   "weekly_role_by_symbol": {
-    "ADANIENT": "RS_HIGH_AWAITING_STRUCTURE",
     "IDEA": "OTHER_RANKED_LEADERS",
     "APOLLO": "OTHER_RANKED_LEADERS",
     "HSCL": "OTHER_RANKED_LEADERS",
     "RICOAUTO": "PULLBACK_RETEST_CANDIDATES",
-    "GRASIM": "OTHER_RANKED_LEADERS",
-    "THYROCARE": "OTHER_RANKED_LEADERS",
+    "GRASIM": "RS_HIGH_AWAITING_STRUCTURE",
+    "THYROCARE": "RS_HIGH_AWAITING_STRUCTURE",
     "RRKABEL": "OTHER_RANKED_LEADERS",
     "TORNTPHARM": "OTHER_RANKED_LEADERS",
-    "BALAMINES": "PULLBACK_RETEST_CANDIDATES",
+    "BALAMINES": "OTHER_RANKED_LEADERS",
     "PNB": "DEFENSIVE_ROTATION_LEADERS",
-    "LLOYDSENGG": "RS_HIGH_AWAITING_STRUCTURE",
+    "LLOYDSENGG": "PULLBACK_RETEST_CANDIDATES",
     "NEPHROPLUS": "OTHER_RANKED_LEADERS",
     "IRMENERGY": "DEFENSIVE_ROTATION_LEADERS"
   },
   "weekly_role_balance": {
     "schema_version": "aurora_weekly_universe_role_balance_v1",
-    "target_min": 14,
+    "target_min": 13,
     "target_max": 20,
-    "selected_count": 14,
+    "selected_count": 13,
     "caps_applied": false,
     "relaxed_for_minimum_count": 0,
     "sector_counts": {
-      "INDUSTRIALS": 3,
       "COMMUNICATION_SERVICES": 1,
       "MATERIALS": 2,
       "CONSUMER_DISCRETIONARY": 1,
+      "INDUSTRIALS": 2,
       "HEALTH_CARE": 3,
       "UNKNOWN": 2,
       "FINANCIALS": 1,
       "UTILITIES": 1
     },
     "role_counts": {
-      "RS_HIGH_AWAITING_STRUCTURE": 2,
-      "OTHER_RANKED_LEADERS": 8,
+      "OTHER_RANKED_LEADERS": 7,
       "PULLBACK_RETEST_CANDIDATES": 2,
+      "RS_HIGH_AWAITING_STRUCTURE": 2,
       "DEFENSIVE_ROTATION_LEADERS": 2
     },
     "warnings": [
-      "ROLE_CONCENTRATION:OTHER_RANKED_LEADERS:8/14"
+      "ROLE_CONCENTRATION:OTHER_RANKED_LEADERS:7/13"
     ],
     "no_external_candidate_insertion": true,
     "original_rank_order_preserved": true,
@@ -69,9 +67,9 @@
     "market_permission_mutated": false,
     "trigger_stop_risk_mutated": false
   },
-  "carry_forward_count": 14,
+  "carry_forward_count": 13,
   "daily_status": {
-    "ADANIENT": "CARRY_FORWARD_RECALCULATED",
+    "ADANIENT": "REMOVED_BY_HARD_RULE",
     "IDEA": "CARRY_FORWARD_RECALCULATED",
     "APOLLO": "CARRY_FORWARD_RECALCULATED",
     "HSCL": "CARRY_FORWARD_RECALCULATED",
@@ -88,13 +86,15 @@
     "IRMENERGY": "CARRY_FORWARD_RECALCULATED"
   },
   "removal_flag": {
-    "HLEGLAS": true
+    "HLEGLAS": true,
+    "ADANIENT": true
   },
   "removal_reason": {
-    "HLEGLAS": "MISSING_FROM_CURRENT_MATRIX"
+    "HLEGLAS": "MISSING_FROM_CURRENT_MATRIX",
+    "ADANIENT": "MISSING_FROM_CURRENT_MATRIX"
   },
   "stale_setup_review": {},
   "stale_remove": {},
-  "generated_at": "2026-09-17T08:52:38.669Z",
-  "last_updated_asof": "2026-09-16"
+  "generated_at": "2026-09-18T08:27:58.807Z",
+  "last_updated_asof": "2026-09-17"
 }
