@@ -23,10 +23,10 @@
     "IDEA": "OTHER_RANKED_LEADERS",
     "APOLLO": "OTHER_RANKED_LEADERS",
     "HSCL": "OTHER_RANKED_LEADERS",
-    "RICOAUTO": "PULLBACK_RETEST_CANDIDATES",
-    "GRASIM": "RS_HIGH_AWAITING_STRUCTURE",
-    "THYROCARE": "RS_HIGH_AWAITING_STRUCTURE",
-    "RRKABEL": "OTHER_RANKED_LEADERS",
+    "RICOAUTO": "OTHER_RANKED_LEADERS",
+    "GRASIM": "OTHER_RANKED_LEADERS",
+    "THYROCARE": "OTHER_RANKED_LEADERS",
+    "RRKABEL": "RS_HIGH_AWAITING_STRUCTURE",
     "TORNTPHARM": "OTHER_RANKED_LEADERS",
     "BALAMINES": "OTHER_RANKED_LEADERS",
     "PNB": "DEFENSIVE_ROTATION_LEADERS",
@@ -52,13 +52,13 @@
       "UTILITIES": 1
     },
     "role_counts": {
-      "OTHER_RANKED_LEADERS": 7,
-      "PULLBACK_RETEST_CANDIDATES": 2,
-      "RS_HIGH_AWAITING_STRUCTURE": 2,
-      "DEFENSIVE_ROTATION_LEADERS": 2
+      "OTHER_RANKED_LEADERS": 9,
+      "RS_HIGH_AWAITING_STRUCTURE": 1,
+      "DEFENSIVE_ROTATION_LEADERS": 2,
+      "PULLBACK_RETEST_CANDIDATES": 1
     },
     "warnings": [
-      "ROLE_CONCENTRATION:OTHER_RANKED_LEADERS:7/13"
+      "ROLE_CONCENTRATION:OTHER_RANKED_LEADERS:9/13"
     ],
     "no_external_candidate_insertion": true,
     "original_rank_order_preserved": true,
@@ -95,6 +95,6 @@
   },
   "stale_setup_review": {},
   "stale_remove": {},
-  "generated_at": "2026-09-18T08:27:58.807Z",
-  "last_updated_asof": "2026-09-17"
+  "generated_at": "2026-09-21T09:15:42.492Z",
+  "last_updated_asof": "2026-09-18"
 }

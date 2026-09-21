@@ -1,8 +1,8 @@
 {
   "schema_version": "aurora_india_exchange_quarter_ingestion_v0_1",
   "market": "INDIA",
-  "generated_at": "2026-09-18T08:28:47.817Z",
-  "data_as_of": "2026-09-17",
+  "generated_at": "2026-09-21T09:16:34.728Z",
+  "data_as_of": "2026-09-18",
   "source_status": "NOT_AVAILABLE_NO_OFFICIAL_FILES",
   "nse_source_status": "NSE_NOT_AVAILABLE_NO_OFFICIAL_FILES",
   "bse_source_status": "BSE_NOT_AVAILABLE_NO_OFFICIAL_FILES",
